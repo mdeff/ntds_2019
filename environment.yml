@@ -1,0 +1,6 @@
+name: ntds_2019
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - todo
