@@ -96,34 +96,32 @@ For a local installation, you will need [git], [Python], and packages from the [
 If you don't know how to install those on your platform, we recommend to install [Miniconda] or [Anaconda], a distribution of the [conda] package and environment manager.
 Follow the below instructions to install it and create an environment for the course.
 
-1. Download the Python 3.x installer for Windows, macOS, or Linux from
-   <https://conda.io/miniconda.html> and install with default settings. Skip
-   this step if you have conda already installed (from [Miniconda] or
-   [Anaconda]). Linux users may prefer to use their package manager.
-   * Windows: Double-click on `Miniconda3-latest-Windows-x86_64.exe`.
-   * macOS: Run `bash Miniconda3-latest-MacOSX-x86_64.sh` in your terminal.
-   * Linux: Run `bash Miniconda3-latest-Linux-x86_64.sh` in your terminal.
-1. Open a terminal. Windows: open the Anaconda Prompt from the Start menu.
+1. Download the Python 3.x installer for Windows, macOS, or Linux from <https://conda.io/miniconda.html> and install with default settings.
+   Skip this step if you have conda already installed (from [Miniconda] or [Anaconda]).
+   * Windows: double-click on `Miniconda3-latest-Windows-x86_64.exe`.
+   * macOS: double-click on `Miniconda3-latest-MacOSX-x86_64.pkg` or run `bash Miniconda3-latest-MacOSX-x86_64.sh` in a terminal.
+   * Linux: run `bash Miniconda3-latest-Linux-x86_64.sh` in a terminal or use your package manager.
+1. Open a terminal.
+   Windows: open the Anaconda Prompt from the Start menu.
 1. Install git with `conda install git`.
-1. Navigate to the folder where you want to store the course material with `cd path/to/ntds`.
-   Windows users may need `\` instead of `/` as the path separator.
+1. Navigate to the folder where you want to store the course material with `cd path/to/folder`.
 1. Download this repository with `git clone https://github.com/mdeff/ntds_2019`.
 1. Enter the repository with `cd ntds_2019`.
-1. Create an environment with the packages required for the course with
-   `conda env create -f environment.yml`.
-1. If everything went fine, you should be able to run the [`test_install.ipynb`][test_install] notebook after following the above steps.
+1. Create an environment with the packages required for the course with `conda env create -f environment.yml`.
+1. If everything went fine, you should be able to run the [`test_install.ipynb`][test_install] notebook, after following the steps below to start Jupyter.
 
 [test_install]: https://nbviewer.jupyter.org/github/mdeff/ntds_2019/blob/outputs/test_install.ipynb
 
 Every time you want to work, do the following:
 
-1. Open a terminal. Windows: open the Anaconda Prompt from the Start menu.
-1. Activate the environment with `conda activate ntds_2019`
-   (or `activate ntds_2019`, or `source activate ntds_2019`).
-1. Navigate to the folder where you stored the course material with `cd path/to/ntds_2019`.
-1. Start Jupyter with `jupyter notebook` or `jupyter lab`. The command should
-   open a new tab in your web browser.
+1. Open a terminal.
+   Windows: open the Anaconda Prompt from the Start menu.
+1. Activate the environment with `conda activate ntds_2019`.
+1. Navigate to the folder where you stored the course material with `cd path/to/folder/ntds_2019`.
+1. Start Jupyter with `jupyter lab`.
+   The command should open a new tab in your web browser.
 1. Edit and run the notebooks from your browser.
+1. Once done, you can run `conda deactivate` to leave the `ntds_2019` environment.
 
 [git]: https://git-scm.com
 [python]: https://www.python.org
