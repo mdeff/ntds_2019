@@ -88,8 +88,8 @@ One folder per team will be populated in `projects/code`.
 
 ## Installation
 
-Click the [binder badge][binder] to play with the notebooks from your
-browser without installing anything.
+Click the [binder badge][binder] to play with the notebooks from your browser without installing anything.
+Another option is to use the EPFL's JupyterHub, available at <https://noto.epfl.ch>.
 
 For a local installation, you will need [git], [Python], and packages from the [Python scientific stack][scipy].
 If you don't know how to install those on your platform, we recommend to install [Miniconda] or [Anaconda], a distribution of the [conda] package and environment manager.
