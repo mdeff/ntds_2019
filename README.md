@@ -24,8 +24,8 @@ Below are slides about the organization of the course.
 1. Project expectations
 1. Concluding remarks
 
-[epfl]: http://edu.epfl.ch/coursebook/en/a-network-tour-of-data-science-EE-558
-[moodle]: http://moodle.epfl.ch/course/view.php?id=15299
+[epfl]: https://edu.epfl.ch/coursebook/en/a-network-tour-of-data-science-EE-558
+[moodle]: https://moodle.epfl.ch/course/view.php?id=15299
 [2017]: https://github.com/mdeff/ntds_2017
 [2018]: https://github.com/mdeff/ntds_2018
 
@@ -55,15 +55,15 @@ For this course, you'll use the following tools:
 [conda]: https://conda.io
 [anaconda]: https://anaconda.org
 [python]: https://www.python.org
-[jupyter]: http://jupyter.org
+[jupyter]: https://jupyter.org
 [git]: https://git-scm.com
-[numpy]: http://www.numpy.org
+[numpy]: https://www.numpy.org
 [scipy]: https://www.scipy.org
 [matplotlib]: https://matplotlib.org
 [pandas]: https://pandas.pydata.org
 [networkx]: https://networkx.github.io
 [graph-tool]: https://graph-tool.skewed.de
-[pygsp]: http://pygsp.readthedocs.io
+[pygsp]: https://pygsp.readthedocs.io
 [gephi]: https://gephi.org
 [pytorch]: https://pytorch.org
 
