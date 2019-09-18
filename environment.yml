@@ -6,6 +6,8 @@ channels:
 dependencies:
   # Created by running the following commands on Linux, macOS and Windows, then taking the common subset of dependencies.
   # conda create -n ntds_2019 python=3.7 jupyterlab git numpy scipy matplotlib-base pandas networkx pygsp scikit-learn pytorch cpuonly -c pytorch -c conda-forge -c defaults --override-channels
+  # conda activate ntds_2019
+  # pip install requests torch-scatter torch-sparse torch-cluster torch-spline-conv torch-geometric
   # conda env export --no-builds -n ntds_2019 > environment_linux.yml
   - attrs=19.1.0
   - backcall=0.1.0
@@ -82,3 +84,18 @@ dependencies:
   - wheel=0.33.6
   - zeromq=4.3.2
   - zlib=1.2.11
+  - pip:
+    - chardet==3.0.4
+    - googledrivedownloader==0.4
+    - h5py==2.10.0
+    - idna==2.8
+    - isodate==0.6.0
+    - plyfile==0.7
+    - rdflib==4.2.2
+    - requests==2.22.0
+    - torch-cluster==1.4.4
+    - torch-geometric==1.3.1
+    - torch-scatter==1.3.1
+    - torch-sparse==0.4.0
+    - torch-spline-conv==1.1.0
+    - urllib3==1.25.3
