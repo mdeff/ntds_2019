@@ -37,7 +37,7 @@ Below are slides about the organization of the course.
 Below is the teaching material you'll find in this repository (tentative).
 
 1. [Installation instructions](#installation)
-1. Introduction
+1. [Introduction][t01]
 1. Building graphs from edge lists
 1. Building graphs from features
 1. Plotting with matplotlib
