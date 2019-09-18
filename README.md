@@ -50,7 +50,7 @@ Below is the teaching material you'll find in this repository (tentative).
 [t01]: https://nbviewer.jupyter.org/github/mdeff/ntds_2019/blob/outputs/tutorials/01_introduction.ipynb
 
 For this course, you'll use the following tools:
-[conda] & [anaconda], [python], [jupyter], [git], [numpy], [scipy], [matplotlib], [pandas], [networkx], [graph-tool], [pygsp], [gephi], [pytorch].
+[conda] & [anaconda], [python], [jupyter], [git], [numpy], [scipy], [matplotlib], [pandas], [networkx], [graph-tool], [pygsp], [gephi], [scikit-learn], [pytorch].
 
 [conda]: https://conda.io
 [anaconda]: https://anaconda.org
@@ -65,6 +65,7 @@ For this course, you'll use the following tools:
 [graph-tool]: https://graph-tool.skewed.de
 [pygsp]: https://pygsp.readthedocs.io
 [gephi]: https://gephi.org
+[scikit-learn]: https://scikit-learn.org
 [pytorch]: https://pytorch.org
 
 ## Assignments
