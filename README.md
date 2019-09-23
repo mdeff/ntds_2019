@@ -91,9 +91,9 @@ One folder per team will be populated in `projects/code`.
 
 Click the [binder badge][binder] to play with the notebooks from your browser without installing anything.
 
-Another option is to use the EPFL's JupyterHub service, available at <https://noto.epfl.ch>. The default environment on Noto has most packages pre-installed, but you can also 
-create different environments (e.g. for different classes). To do so, follow the instructions contained in the notebooks supplied in the `Documentation` folder that is
-available on your Noto instance.
+Another option is to use the EPFL's JupyterHub service, available at <https://noto.epfl.ch>.
+While the default environment has most packages pre-installed, you can create different environments (e.g., for different classes).
+To do so, follow the instructions contained in the notebooks supplied in the `Documentation` folder that is available on your Noto instance.
 
 For a local installation, you will need [git], [Python], and packages from the [Python scientific stack][scipy].
 If you don't know how to install those on your platform, we recommend to install [Miniconda] or [Anaconda], a distribution of the [conda] package and environment manager.
