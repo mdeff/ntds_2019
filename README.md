@@ -24,8 +24,8 @@ Below are slides about the organization of the course.
 1. Project expectations
 1. Concluding remarks
 
-[epfl]: http://edu.epfl.ch/coursebook/en/a-network-tour-of-data-science-EE-558
-[moodle]: http://moodle.epfl.ch/course/view.php?id=15299
+[epfl]: https://edu.epfl.ch/coursebook/en/a-network-tour-of-data-science-EE-558
+[moodle]: https://moodle.epfl.ch/course/view.php?id=15299
 [2017]: https://github.com/mdeff/ntds_2017
 [2018]: https://github.com/mdeff/ntds_2018
 
@@ -37,7 +37,7 @@ Below are slides about the organization of the course.
 Below is the teaching material you'll find in this repository (tentative).
 
 1. [Installation instructions](#installation)
-1. Introduction
+1. [Introduction][t01]
 1. Building graphs from edge lists
 1. Building graphs from features
 1. Plotting with matplotlib
@@ -50,21 +50,22 @@ Below is the teaching material you'll find in this repository (tentative).
 [t01]: https://nbviewer.jupyter.org/github/mdeff/ntds_2019/blob/outputs/tutorials/01_introduction.ipynb
 
 For this course, you'll use the following tools:
-[conda] & [anaconda], [python], [jupyter], [git], [numpy], [scipy], [matplotlib], [pandas], [networkx], [graph-tool], [pygsp], [gephi], [pytorch].
+[conda] & [anaconda], [python], [jupyter], [git], [numpy], [scipy], [matplotlib], [pandas], [networkx], [graph-tool], [pygsp], [gephi], [scikit-learn], [pytorch].
 
 [conda]: https://conda.io
 [anaconda]: https://anaconda.org
 [python]: https://www.python.org
-[jupyter]: http://jupyter.org
+[jupyter]: https://jupyter.org
 [git]: https://git-scm.com
-[numpy]: http://www.numpy.org
+[numpy]: https://www.numpy.org
 [scipy]: https://www.scipy.org
 [matplotlib]: https://matplotlib.org
 [pandas]: https://pandas.pydata.org
 [networkx]: https://networkx.github.io
 [graph-tool]: https://graph-tool.skewed.de
-[pygsp]: http://pygsp.readthedocs.io
+[pygsp]: https://pygsp.readthedocs.io
 [gephi]: https://gephi.org
+[scikit-learn]: https://scikit-learn.org
 [pytorch]: https://pytorch.org
 
 ## Assignments
@@ -88,41 +89,42 @@ One folder per team will be populated in `projects/code`.
 
 ## Installation
 
-Click the [binder badge][binder] to play with the notebooks from your
-browser without installing anything.
+Click the [binder badge][binder] to play with the notebooks from your browser without installing anything.
+
+Another option is to use the EPFL's JupyterHub service, available at <https://noto.epfl.ch>.
+While the default environment has most packages pre-installed, you can create different environments (e.g., for different classes).
+To do so, follow the instructions contained in the notebooks supplied in the `Documentation` folder that is available on your Noto instance.
 
 For a local installation, you will need [git], [Python], and packages from the [Python scientific stack][scipy].
 If you don't know how to install those on your platform, we recommend to install [Miniconda] or [Anaconda], a distribution of the [conda] package and environment manager.
 Follow the below instructions to install it and create an environment for the course.
 
-1. Download the Python 3.x installer for Windows, macOS, or Linux from
-   <https://conda.io/miniconda.html> and install with default settings. Skip
-   this step if you have conda already installed (from [Miniconda] or
-   [Anaconda]). Linux users may prefer to use their package manager.
-   * Windows: Double-click on `Miniconda3-latest-Windows-x86_64.exe`.
-   * macOS: Run `bash Miniconda3-latest-MacOSX-x86_64.sh` in your terminal.
-   * Linux: Run `bash Miniconda3-latest-Linux-x86_64.sh` in your terminal.
-1. Open a terminal. Windows: open the Anaconda Prompt from the Start menu.
+1. Download the Python 3.x installer for Windows, macOS, or Linux from <https://conda.io/miniconda.html> and install with default settings.
+   Skip this step if you have conda already installed (from [Miniconda] or [Anaconda]).
+   * Windows: double-click on `Miniconda3-latest-Windows-x86_64.exe`.
+   * macOS: double-click on `Miniconda3-latest-MacOSX-x86_64.pkg` or run `bash Miniconda3-latest-MacOSX-x86_64.sh` in a terminal.
+   * Linux: run `bash Miniconda3-latest-Linux-x86_64.sh` in a terminal or use your package manager.
+1. Open a terminal.
+   Windows: open the Anaconda Prompt from the Start menu.
 1. Install git with `conda install git`.
-1. Navigate to the folder where you want to store the course material with `cd path/to/ntds`.
-   Windows users may need `\` instead of `/` as the path separator.
+1. Navigate to the folder where you want to store the course material with `cd path/to/folder`.
 1. Download this repository with `git clone https://github.com/mdeff/ntds_2019`.
 1. Enter the repository with `cd ntds_2019`.
-1. Create an environment with the packages required for the course with
-   `conda env create -f environment.yml`.
-1. If everything went fine, you should be able to run the [`test_install.ipynb`][test_install] notebook after following the above steps.
+1. Create an environment with the packages required for the course with `conda env create -f environment.yml`.
+1. If everything went fine, you should be able to run the [`test_install.ipynb`][test_install] notebook, after following the steps below to start Jupyter.
 
 [test_install]: https://nbviewer.jupyter.org/github/mdeff/ntds_2019/blob/outputs/test_install.ipynb
 
 Every time you want to work, do the following:
 
-1. Open a terminal. Windows: open the Anaconda Prompt from the Start menu.
-1. Activate the environment with `conda activate ntds_2019`
-   (or `activate ntds_2019`, or `source activate ntds_2019`).
-1. Navigate to the folder where you stored the course material with `cd path/to/ntds_2019`.
-1. Start Jupyter with `jupyter notebook` or `jupyter lab`. The command should
-   open a new tab in your web browser.
+1. Open a terminal.
+   Windows: open the Anaconda Prompt from the Start menu.
+1. Activate the environment with `conda activate ntds_2019`.
+1. Navigate to the folder where you stored the course material with `cd path/to/folder/ntds_2019`.
+1. Start Jupyter with `jupyter lab`.
+   The command should open a new tab in your web browser.
 1. Edit and run the notebooks from your browser.
+1. Once done, you can run `conda deactivate` to leave the `ntds_2019` environment.
 
 [git]: https://git-scm.com
 [python]: https://www.python.org
