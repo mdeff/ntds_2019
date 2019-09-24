@@ -111,7 +111,7 @@ Follow the below instructions to install it and create an environment for the co
 1. Download this repository with `git clone https://github.com/mdeff/ntds_2019`.
 1. Enter the repository with `cd ntds_2019`.
 1. Create an environment with the packages required for the course with `conda env create -f environment.yml`.
-1. Run the steps below to start Jupyter. If everything went fine, you should now be able to run the [`test_install.ipynb`][test_install] notebook.
+1. Run the steps below to start Jupyter. You should be able to run the [`test_install.ipynb`][test_install] notebook.
 
 [test_install]: https://nbviewer.jupyter.org/github/mdeff/ntds_2019/blob/outputs/test_install.ipynb
 
