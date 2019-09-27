@@ -37,8 +37,6 @@ Keep in mind that the amount of work generally trades with flexibility: well pac
 
 In addition to the above list, we allow teams to work on their own data and ideas.
 That is especially relevant to PhD students who want to apply the knowledge acquired in this course to their own problems.
-Teams that choose this option must submit a project proposal.
-The proposal must explain what is the data, where is the network, and what the team wants to do with it.
 The network can either exist in the data, either be constructed from features.
 Look at the below descriptions and discuss with the TAs for guidance.
 
