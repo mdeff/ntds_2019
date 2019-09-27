@@ -81,6 +81,7 @@ As a Data Science course, those activities are realized on real data and network
 ## Projects
 
 Part of the course is evaluated by an open-ended project (see the [description][projects]), proposed and carried out by groups of four students.
+We provide a list of [datasets and project ideas](projects).
 Those data projects are meant to jointly practice and evaluate their theoretical network analysis skills and practical Data Science skills.
 Below is the work of the 150 students enrolled that year.
 
