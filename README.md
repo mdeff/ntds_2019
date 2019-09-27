@@ -5,7 +5,7 @@
 [binder]: https://mybinder.org/v2/gh/mdeff/ntds_2019/outputs?urlpath=lab
 
 This repository contains the material for the practical work associated with the EPFL master course [EE-558 A Network Tour of Data Science][epfl] ([moodle]), taught in fall 2019.
-The content is similar to the [2017] and [2018] editions.
+The content is similar to the [2017] and [2018] editions, with more emphasis on machine learning with graphs.
 Compared to the [2016 edition], the course has been refocused on graph and network sciences.
 The course is divided in two parts: Network Science and Learning with Graphs.
 The material revolves around the following topics:
