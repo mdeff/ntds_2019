@@ -1,14 +1,6 @@
-# Projects for NTDS'18
+# Dataset and project ideas for NTDS'19
 
-All projects encompass the creation of a network and its analysis.
-For each network created, the goal is to analyze its structure and use it to get valuable information about the dataset.
-Among the many possibilities, we expect the use of several of the following approaches/tools/techniques:
-
-* graph connectivity and degree distributions, graph model (connected components, hubs, scale free, mean degree...),
-* existence and characterization of communities,
-* analysis of data on the nodes (correlation between data and network structure),
-* filtering of values on the nodes / label propagation,
-* dynamic activity on the network.
+## A word on preparing the data
 
 For all projects, some degree of pre-processing is needed before obtaining usable data.
 That is inherent to the work of a data scientist, and will mostly involve the following steps.
@@ -28,10 +20,9 @@ While those steps are necessary for every project, the amount of pre-processing 
 If the project requires raw data to be collected or the network to be created, that will be indicated in the project description.
 So if you're a beginner and don't feel confident, choose a project that requires little pre-processing.
 If you feel confident, be adventurous!
-Keep in mind that the amount of work generally trades with flexibility for the second part of the semester.
-Well packaged data usually serves a single task and may restrict your creativity.
+Keep in mind that the amount of work generally trades with flexibility: well packaged data usually serves a single task and may restrict your creativity.
 
-## List of proposed projects
+## Proposed datasets
 
 * [Free Music Archive](#free-music-archive)
 * [US Senators](#us-senators)
@@ -44,14 +35,11 @@ Well packaged data usually serves a single task and may restrict your creativity
 * [IMDb Films and Crew](#imdb-films-and-crew)
 * [Flight Routes](#flight-routes)
 
-In addition to the above list, we allow teams to work on their own project.
+In addition to the above list, we allow teams to work on their own data and ideas.
 That is especially relevant to PhD students who want to apply the knowledge acquired in this course to their own problems.
 Teams that choose this option must submit a project proposal.
 The proposal must explain what is the data, where is the network, and what the team wants to do with it.
 The network can either exist in the data, either be constructed from features.
-Nodes should have features and ideally have a label.
-Keep in mind that projects should use tools and ideas from the lectures.
-While the second part is quite open ended, it should include graph and network data aspects, and more generally fall under the scope of the class.
 Look at the below descriptions and discuss with the TAs for guidance.
 
 ## Free Music Archive
@@ -139,7 +127,6 @@ The archive provides the articles titles (articles.tsv), their categories (categ
 The first goal will be to create the graph of articles from the data and study it (apply the techniques learned during the course).
 
 In the second step, to allow more freedom and creativity, the students will have access to a graph database where the full wikipedia graph has been stored, along with categories (work in progress within the LTS2 lab, do not look for it on the internet). In addition, the number visits per hour will be available (for one month). Since the graph is enormous (14 millions articles for the english Wikipedia), the goal for the teams will be to focus on a few categories (that they choose freely) and investigate this smaller subgraph. They will have the possibility to answer questions such as how the categories are connected, what are the central articles within categories, what are the articles that bridge categories... Looking at the number of visits, can we detect particular events that triggered an increase in the number of visits? Which pages are involved? It should also be possible to study the graph of articles for different languages and compare the differences.
-
 
 Dataset:
 
