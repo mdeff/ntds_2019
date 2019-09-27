@@ -6,6 +6,7 @@
 
 This repository contains the material for the practical work associated with the EPFL master course [EE-558 A Network Tour of Data Science][epfl] ([moodle]), taught in fall 2019.
 The content is similar to the [2017] and [2018] editions.
+Compared to the [2016 edition], the course has been refocused on graph and network sciences.
 The course is divided in two parts: Network Science and Learning with Graphs.
 The material revolves around the following topics:
 
@@ -26,6 +27,7 @@ Below are slides about the organization of the course.
 
 [epfl]: https://edu.epfl.ch/coursebook/en/a-network-tour-of-data-science-EE-558
 [moodle]: https://moodle.epfl.ch/course/view.php?id=15299
+[2016 edition]: https://github.com/mdeff/ntds_2016
 [2017]: https://github.com/mdeff/ntds_2017
 [2018]: https://github.com/mdeff/ntds_2018
 
