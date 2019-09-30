@@ -320,3 +320,43 @@ The construction of the graph is facilitated by the source and destination airpo
 * **Data acquisition**: already collected and packaged
 * **Requires down-sampling**: no
 * **Network creation**: network is essentially given (list of edges)
+
+## Recipes 1M
+By Nicolas
+
+Resources:
+* <http://pic2recipe.csail.mit.edu/>
+* <http://im2recipe.csail.mit.edu/dataset/download/> (requires free registration prior download)
+
+This database contains ca. 1 million cooking recipes retrieved from several websites, along with one or more images for each recipe (13 million images available).
+Its original use is to train models to perform a "im2recipe" (i.e. get a recipe instructins from an image).
+For every recipe in this dataset, you can retrieve the full-text of instructions, ingredients contained in the file available under the "layers" link (and after you unpack the file, in the "layer1.json" file). 
+For each ingredient line inside a recipe, the name of the ingredient has been extracted ("ingredient detection" link). 
+Ingredient name detection from text is a non-trivial task, expect the results to be noisy. 
+Quantity detection has not been performed, but might be an interesting feature to study (requires extra work).
+If you intend to work with images, they require more than 100 GB of download and a matching storage space, be careful !
+
+You can, for instance, construct an ingredient graph (linking ingredients when they appear simultaneously in a recipe).
+
+|          | Description                                 | Amount          |
+| -------- | ------------------------------------------- | --------------: |
+| nodes    | ingredients                                 |           18253 |
+| edges    | connect co-appearing ingredients            |  O(10) per node |
+| features | recipes                                     |               1 |
+| labels   | N/A                                         |             N/A |
+
+Another approach could be to create a graph from recipes having several ingredients in common.
+Given the size of the dataset, it might be a good idea to try out a smaller subset of the dataset, for instance by filtering recipes that contain a particular ingredient (e.g. 'beef', 'vanilla', etc.).
+In order for the students to get started more easily, [two smaller subsets](https://drive.switch.ch/index.php/s/fjjqqaRznah6PKp) (with ca. 10k and 23k recipes) are supplied.
+
+|          | Description                                 | Amount                                 |
+| -------- | ------------------------------------------- | -------------------------------------: |
+| nodes    | recipes                                     |                                     1M |
+| edges    | connect recipes with common ingredients     |    dependent on how the graph is built |
+| features | images / ingredient quantities              |                                   1-10 |
+| labels   | N/A                                         |                                    N/A |
+
+
+* **Data acquisition**: already collected and packaged
+* **Requires down-sampling**: yes
+* **Network creation**: to be created from co-appearing ingredients or from recipes.
