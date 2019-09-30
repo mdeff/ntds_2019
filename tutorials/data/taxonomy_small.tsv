@@ -1,0 +1,1000 @@
+uid	|	parent_uid	|	name	|	rank	|	sourceinfo	|	uniqname	|	flags	|	
+805080	|		|	life	|	no rank	|	silva:0,ncbi:1,worms:1,gbif:0,irmng:0	|		|		|	
+93302	|	805080	|	cellular organisms	|	no rank	|	ncbi:131567	|		|		|	
+996421	|	93302	|	Archaea	|	domain	|	silva:D37982/#1,ncbi:2157,worms:8,gbif:2,irmng:12	|	Archaea (domain silva:D37982/#1)	|		|	
+5246114	|	996421	|	Marine Hydrothermal Vent Group 1(MHVG-1)	|	no rank - terminal	|	silva:AB302039/#2	|		|		|	
+102415	|	996421	|	Thaumarchaeota	|	phylum	|	silva:D87348/#2,ncbi:651137,worms:559429,irmng:258	|		|		|	
+5246628	|	102415	|	terrestrial group	|	no rank - terminal	|	silva:AB600373/#3	|		|		|	
+4795965	|	102415	|	Marine Group I	|	no rank	|	silva:D87348/#3,ncbi:905826	|		|		|	
+5205649	|	4795965	|	uncultured marine crenarchaeote 'Gulf of Maine'	|	species	|	silva:AGBE01001967,ncbi:1089683	|		|	sibling_higher	|	
+5208050	|	4795965	|	uncultured marine archaeon DCM858	|	species	|	silva:AF121992,ncbi:105567	|		|	sibling_higher	|	
+5205092	|	4795965	|	uncultured marine group I thaumarchaeote	|	species	|	silva:JF715361,ncbi:360837	|		|	sibling_higher	|	
+5205072	|	4795965	|	uncultured Nitrosopumilaceae archaeon	|	species	|	silva:JN591993,ncbi:1118069	|		|	sibling_higher	|	
+5208765	|	4795965	|	uncultured marine archaeon DCM874	|	species	|	silva:AF122001,ncbi:105576	|		|	sibling_higher	|	
+179705	|	4795965	|	Cenarchaeales	|	order	|	silva:AY192631/#4,ncbi:205948,worms:573555,irmng:10957	|		|		|	
+189165	|	179705	|	Cenarchaeaceae	|	family	|	silva:AY192631/#5,ncbi:205957,worms:573556,gbif:4896414,irmng:105060	|		|		|	
+888219	|	189165	|	Cenarchaeum	|	genus	|	silva:AY192631/#6,ncbi:46769,worms:573557,gbif:4896415,irmng:1030758	|		|		|	
+5207306	|	888219	|	Thermoplasmatales archaeon Gpl	|	species	|	silva:JN881616,ncbi:261391	|		|		|	
+376618	|	888219	|	Cenarchaeum symbiosum A	|	no rank - terminal	|	silva:DQ397549,ncbi:414004	|		|		|	
+4796244	|	888219	|	crenarchaeote symbiont of Axinella sp.	|	species	|	silva:AF421159,ncbi:173517	|		|		|	
+4796252	|	888219	|	crenarchaeote symbiont of Axinella verrucosa	|	species	|	silva:AF420237,ncbi:171716	|		|		|	
+5204995	|	888219	|	uncultured Cenarchaeaceae thaumarchaeote	|	species	|	silva:DQ299278,ncbi:375545	|		|		|	
+363497	|	888219	|	Cenarchaeum symbiosum	|	species	|	silva:AF083072,ncbi:46770,worms:573558,gbif:5900469,irmng:11734707	|		|		|	
+376617	|	363497	|	Cenarchaeum symbiosum B	|	no rank - terminal	|	ncbi:414005	|		|	infraspecific	|	
+5204996	|	888219	|	Cenarchaeum environmental samples	|	no rank - terminal	|	ncbi:355925	|		|	was_container	|	
+5204994	|	189165	|	Cenarchaeaceae environmental samples	|	no rank - terminal	|	ncbi:375544	|		|	was_container	|	
+5204998	|	179705	|	Cenarchaeales environmental samples	|	no rank - terminal	|	ncbi:260466	|		|	was_container	|	
+5204999	|	179705	|	uncultured Cenarchaeales thaumarchaeote	|	species	|	ncbi:260467	|		|	sibling_higher,not_otu	|	
+5205398	|	4795965	|	uncultured crenarchaeote ODPB-A18	|	species	|	silva:AF121098,ncbi:95930	|		|	sibling_higher	|	
+5205625	|	4795965	|	uncultured crenarchaeote ODPB-A3	|	species	|	silva:AF121093,ncbi:95925	|		|	sibling_higher	|	
+5205019	|	4795965	|	uncultured marine crenarchaeote KM3-86-C1	|	species	|	silva:EU686625,ncbi:526685	|		|	sibling_higher	|	
+5205058	|	4795965	|	uncultured Nitrosopumilales archaeon	|	species	|	silva:EF069380,ncbi:171534	|		|	sibling_higher	|	
+5205057	|	4795965	|	uncultured crenarchaeote 4B7	|	species	|	silva:U40238,ncbi:44557	|		|	sibling_higher	|	
+5204997	|	4795965	|	uncultured Cenarchaeum sp.	|	species	|	silva:AB240745,ncbi:355926	|		|	sibling_higher	|	
+5205427	|	4795965	|	uncultured crenarchaeote DeepAnt-EC39	|	species	|	silva:AY316120,ncbi:247023	|		|	sibling_higher	|	
+5208046	|	4795965	|	uncultured marine archaeon DCM74161	|	species	|	silva:AF121988,ncbi:105563	|		|	sibling_higher	|	
+5208240	|	4795965	|	archaeon enrichment culture clone CN25	|	species	|	silva:HQ338108,ncbi:914639	|		|	sibling_higher	|	
+5208589	|	4795965	|	uncultured archaeon SAGMA-3	|	species	|	silva:AB050234,ncbi:140274	|		|	sibling_higher	|	
+5208762	|	4795965	|	uncultured marine archaeon DCM867	|	species	|	silva:AF121998,ncbi:105573	|		|	sibling_higher	|	
+770080	|	4795965	|	Candidatus Nitrosopumilus koreensis AR1	|	no rank - terminal	|	silva:CP003842,ncbi:1229908	|		|		|	
+5574944	|	4795965	|	cluster HP459251	|	no rank - terminal	|	silva:HP459251	|		|		|	
+5207875	|	4795965	|	uncultured archaeon 19a-19	|	species	|	silva:AJ294879,ncbi:138488	|		|	sibling_higher	|	
+5208594	|	4795965	|	uncultured archaeon SAGMA-8	|	species	|	silva:AB050238,ncbi:140278	|		|	sibling_higher	|	
+5208200	|	4795965	|	uncultured archaeon CRA8-11cm	|	species	|	silva:AF119127,ncbi:93178	|		|	sibling_higher	|	
+5207749	|	4795965	|	uncultured archaeon W4-93a	|	species	|	silva:JQ085821,ncbi:1131007	|		|	sibling_higher	|	
+5208047	|	4795965	|	uncultured marine archaeon DCM74159	|	species	|	silva:AF121987,ncbi:105562	|		|	sibling_higher	|	
+5274697	|	4795965	|	Order Incertae Sedis	|	no rank - terminal	|	silva:D87348/#4	|	Order Incertae Sedis (in Marine Group I)	|	was_container	|	
+5208100	|	4795965	|	uncultured archaeon CRA20-0cm	|	species	|	silva:AF119130,ncbi:93181	|		|	sibling_higher	|	
+5208763	|	4795965	|	uncultured marine archaeon DCM862	|	species	|	silva:AF121995,ncbi:105570	|		|	sibling_higher	|	
+5207771	|	4795965	|	uncultured marine archaeon TS235C310	|	species	|	silva:AF052949,ncbi:80928	|		|	sibling_higher	|	
+5205628	|	4795965	|	uncultured crenarchaeote ODPB-A9	|	species	|	silva:AF121096,ncbi:95928	|		|	sibling_higher	|	
+5207867	|	4795965	|	uncultured archaeon 19b-52	|	species	|	silva:AJ294873,ncbi:138482	|		|	sibling_higher	|	
+5205035	|	4795965	|	uncultured marine crenarchaeote AD1000-56-E4	|	species	|	silva:EU686623,ncbi:526641	|		|	sibling_higher	|	
+5207868	|	4795965	|	uncultured archaeon 19a-1	|	species	|	silva:AJ294874,ncbi:138483	|		|	sibling_higher	|	
+5205615	|	4795965	|	unidentified hydrothermal vent archaeon PVA_OTU_2	|	species	|	silva:U46678,ncbi:45967	|		|	sibling_higher	|	
+5207852	|	4795965	|	uncultured archaeon APA1-0cm	|	species	|	silva:AF119134,ncbi:93185	|		|	sibling_higher	|	
+5205022	|	4795965	|	uncultured marine crenarchaeote AD1000-207-H3	|	species	|	silva:EU686633,ncbi:526637	|		|	sibling_higher	|	
+5205191	|	4795965	|	uncultured thaumarchaeote	|	species	|	silva:JN825303,ncbi:651141	|		|	sibling_higher	|	
+5205356	|	4795965	|	unidentified archaeon PM7	|	species	|	silva:U71109,ncbi:52268	|		|	sibling_higher	|	
+5208043	|	4795965	|	uncultured marine archaeon DCM861	|	species	|	silva:AF121994,ncbi:105569	|		|	sibling_higher	|	
+5208198	|	4795965	|	uncultured archaeon CRA7-0cm	|	species	|	silva:AF119125,ncbi:93176	|		|	sibling_higher	|	
+5205627	|	4795965	|	uncultured crenarchaeote ODPB-A7	|	species	|	silva:AF121095,ncbi:95927	|		|	sibling_higher	|	
+5208099	|	4795965	|	uncultured archaeon APA3-0cm	|	species	|	silva:AF119136,ncbi:93187	|		|	sibling_higher	|	
+5207670	|	4795965	|	uncultured sponge symbiont PAAR8	|	species	|	silva:AF186423,ncbi:105057	|		|	sibling_higher	|	
+5208170	|	4795965	|	unidentified hydrothermal vent archaeon PVA_OTU_3	|	species	|	silva:U46679,ncbi:45968	|		|	sibling_higher	|	
+5208767	|	4795965	|	uncultured marine archaeon DCM871	|	species	|	silva:AF121999,ncbi:105574	|		|	sibling_higher	|	
+5574945	|	4795965	|	Family Incertae Sedis	|	no rank - terminal	|	silva:D87348/#5	|	Family Incertae Sedis (in Marine Group I)	|	incertae_sedis,was_container	|	
+1018283	|	4795965	|	Candidatus Nitrosoarchaeum	|	genus	|	silva:AF293018/#6,ncbi:1007082	|		|	incertae_sedis	|	
+5208590	|	1018283	|	uncultured archaeon SAGMA-1	|	species	|	silva:AB050232,ncbi:140272	|		|	incertae_sedis_inherited	|	
+5205691	|	1018283	|	uncultured Green Bay ferromanganous micronodule archaeon ARA7	|	species	|	silva:AF293018,ncbi:140618	|		|	incertae_sedis_inherited	|	
+1018291	|	1018283	|	Candidatus Nitrosoarchaeum limnia	|	species	|	ncbi:1007084	|		|	incertae_sedis_inherited	|	
+177954	|	1018291	|	Candidatus Nitrosoarchaeum limnia SFB1	|	no rank - terminal	|	silva:AEGP01000029,ncbi:886738	|		|	incertae_sedis_inherited,infraspecific	|	
+889858	|	1018291	|	Candidatus Nitrosoarchaeum limnia BG20	|	no rank - terminal	|	ncbi:859192	|		|	incertae_sedis_inherited,infraspecific	|	
+59398	|	1018283	|	Candidatus Nitrosoarchaeum koreensis	|	species	|	ncbi:1088740	|		|	incertae_sedis_inherited	|	
+784590	|	59398	|	Candidatus Nitrosoarchaeum koreensis MY1	|	no rank - terminal	|	silva:HQ331116,ncbi:1001994	|		|	incertae_sedis_inherited,infraspecific	|	
+5580298	|	1018283	|	Candidatus Nitrosoarchaeum environmental samples	|	no rank - terminal	|	ncbi:1297041	|		|	incertae_sedis_inherited,was_container	|	
+5580299	|	1018283	|	uncultured Candidatus Nitrosoarchaeum sp.	|	species	|	ncbi:1501411	|		|	incertae_sedis_inherited,not_otu	|	
+5205071	|	4795965	|	Nitrosopumilaceae environmental samples	|	no rank - terminal	|	ncbi:1118068	|		|	was_container	|	
+933985	|	4795965	|	Nitrosopumilaceae	|	family	|	ncbi:338190,worms:559432,gbif:6453386,irmng:121355	|		|	sibling_higher,merged,barren	|	
+5205000	|	4795965	|	Nitrosopumilales environmental samples	|	no rank - terminal	|	ncbi:371948	|		|	was_container	|	
+5205049	|	4795965	|	uncultured marine crenarchaeote HF4000_APKG10L15	|	species	|	ncbi:455613	|		|	environmental,not_otu	|	
+5205038	|	4795965	|	uncultured marine crenarchaeote HF4000_APKG8D6	|	species	|	ncbi:455602	|		|	environmental,not_otu	|	
+5205026	|	4795965	|	uncultured marine crenarchaeote HF4000_ANIW133O4	|	species	|	ncbi:455574	|		|	environmental,not_otu	|	
+5205067	|	4795965	|	uncultured marine crenarchaeote KM3-47-D6	|	species	|	ncbi:526680	|		|	environmental,not_otu	|	
+5205042	|	4795965	|	uncultured marine crenarchaeote HF4000_APKG8I13	|	species	|	ncbi:455606	|		|	environmental,not_otu	|	
+5205014	|	4795965	|	uncultured marine crenarchaeote HF4000_APKG5C13	|	species	|	ncbi:455591	|		|	environmental,not_otu	|	
+5205025	|	4795965	|	uncultured marine crenarchaeote HF4000_ANIW133M9	|	species	|	ncbi:455573	|		|	environmental,not_otu	|	
+5205068	|	4795965	|	uncultured marine crenarchaeote SAT1000-21-C11	|	species	|	ncbi:526689	|		|	environmental,not_otu	|	
+5205024	|	4795965	|	uncultured marine crenarchaeote HF4000_ANIW133K13	|	species	|	ncbi:455572	|		|	environmental,not_otu	|	
+5205060	|	4795965	|	uncultured marine crenarchaeote HF4000_APKG3K8	|	species	|	ncbi:455588	|		|	environmental,not_otu	|	
+5205047	|	4795965	|	uncultured marine crenarchaeote HF4000_APKG10F15	|	species	|	ncbi:455611	|		|	environmental,not_otu	|	
+5205046	|	4795965	|	uncultured marine crenarchaeote HF4000_APKG9M20	|	species	|	ncbi:455608	|		|	environmental,not_otu	|	
+5205013	|	4795965	|	uncultured marine crenarchaeote HF4000_APKG5B22	|	species	|	ncbi:455590	|		|	environmental,not_otu	|	
+5205045	|	4795965	|	uncultured marine crenarchaeote HF4000_APKG8G15	|	species	|	ncbi:455605	|		|	environmental,not_otu	|	
+5205006	|	4795965	|	uncultured marine crenarchaeote HF4000_APKG3E18	|	species	|	ncbi:455585	|		|	environmental,not_otu	|	
+5205016	|	4795965	|	uncultured marine crenarchaeote HF4000_APKG6D9	|	species	|	ncbi:455597	|		|	environmental,not_otu	|	
+5205003	|	4795965	|	uncultured marine crenarchaeote HF4000_APKG5N21	|	species	|	ncbi:455593	|		|	environmental,not_otu	|	
+5205018	|	4795965	|	uncultured marine crenarchaeote HF4000_APKG6C9	|	species	|	ncbi:455595	|		|	environmental,not_otu	|	
+5205061	|	4795965	|	uncultured marine crenarchaeote HF4000_ANIW141O9	|	species	|	ncbi:455581	|		|	environmental,not_otu	|	
+5205044	|	4795965	|	uncultured marine crenarchaeote HF4000_APKG8G2	|	species	|	ncbi:455604	|		|	environmental,not_otu	|	
+5205056	|	4795965	|	uncultured marine crenarchaeote HF4000_ANIW97M7	|	species	|	ncbi:455568	|		|	environmental,not_otu	|	
+5205005	|	4795965	|	uncultured marine crenarchaeote HF4000_ANIW141N1	|	species	|	ncbi:455580	|		|	environmental,not_otu	|	
+5205063	|	4795965	|	uncultured marine crenarchaeote HF4000_APKG2O16	|	species	|	ncbi:455582	|		|	environmental,not_otu	|	
+5205040	|	4795965	|	uncultured marine crenarchaeote HF4000_APKG7F11	|	species	|	ncbi:455600	|		|	environmental,not_otu	|	
+5205012	|	4795965	|	uncultured marine crenarchaeote HF4000_APKG5E24	|	species	|	ncbi:455592	|		|	environmental,not_otu	|	
+5205051	|	4795965	|	uncultured marine crenarchaeote HF4000_ANIW97J3	|	species	|	ncbi:455567	|		|	environmental,not_otu	|	
+5205069	|	4795965	|	uncultured marine crenarchaeote HF4000_ANIW133C7	|	species	|	ncbi:455570	|		|	environmental,not_otu	|	
+5205008	|	4795965	|	uncultured marine crenarchaeote HF4000_ANIW141M12	|	species	|	ncbi:455578	|		|	environmental,not_otu	|	
+5205027	|	4795965	|	uncultured marine crenarchaeote HF4000_ANIW137N13	|	species	|	ncbi:455575	|		|	environmental,not_otu	|	
+5205055	|	4795965	|	uncultured marine crenarchaeote HF4000_ANIW93E5	|	species	|	ncbi:455563	|		|	environmental,not_otu	|	
+5205004	|	4795965	|	uncultured marine crenarchaeote HF4000_APKG4H17	|	species	|	ncbi:455589	|		|	environmental,not_otu	|	
+5205034	|	4795965	|	uncultured crenarchaeote 83A10	|	species	|	ncbi:166585	|		|	environmental,not_otu	|	
+5205066	|	4795965	|	uncultured crenarchaeote 74A4	|	species	|	ncbi:166279	|		|	environmental,not_otu	|	
+5205053	|	4795965	|	uncultured marine crenarchaeote HF4000_ANIW93I24	|	species	|	ncbi:455565	|		|	environmental,not_otu	|	
+5205070	|	4795965	|	uncultured marine crenarchaeote HF4000_ANIW133I6	|	species	|	ncbi:455571	|		|	environmental,not_otu	|	
+5205028	|	4795965	|	uncultured marine crenarchaeote HF4000_ANIW137N18	|	species	|	ncbi:455576	|		|	environmental,not_otu	|	
+5205009	|	4795965	|	uncultured marine crenarchaeote HF4000_ANIW141M18	|	species	|	ncbi:455579	|		|	environmental,not_otu	|	
+5205021	|	4795965	|	uncultured marine crenarchaeote AD1000-202-A2	|	species	|	ncbi:526636	|		|	environmental,not_otu	|	
+5205062	|	4795965	|	uncultured marine crenarchaeote HF4000_APKG3B16	|	species	|	ncbi:455583	|		|	environmental,not_otu	|	
+5205007	|	4795965	|	uncultured marine crenarchaeote HF4000_APKG3D24	|	species	|	ncbi:455584	|		|	environmental,not_otu	|	
+5205002	|	4795965	|	uncultured marine crenarchaeote SAT1000-49-D2	|	species	|	ncbi:526692	|		|	environmental,not_otu	|	
+5205033	|	4795965	|	uncultured crenarchaeote 31B02	|	species	|	ncbi:166584	|		|	environmental,not_otu	|	
+5205015	|	4795965	|	uncultured marine crenarchaeote HF4000_APKG6D3	|	species	|	ncbi:455596	|		|	environmental,not_otu	|	
+5205032	|	4795965	|	uncultured crenarchaeote 19H08	|	species	|	ncbi:166583	|		|	environmental,not_otu	|	
+5205020	|	4795965	|	uncultured marine crenarchaeote HF4000_ANIW97P9	|	species	|	ncbi:455569	|		|	environmental,not_otu	|	
+5205037	|	4795965	|	uncultured marine crenarchaeote HF4000_APKG9P22	|	species	|	ncbi:455609	|		|	environmental,not_otu	|	
+5205030	|	4795965	|	uncultured marine crenarchaeote HF4000_APKG3J11	|	species	|	ncbi:455587	|		|	environmental,not_otu	|	
+5205052	|	4795965	|	uncultured marine crenarchaeote HF4000_ANIW93J19	|	species	|	ncbi:455566	|		|	environmental,not_otu	|	
+5205010	|	4795965	|	uncultured marine crenarchaeote HF4000_APKG6J21	|	species	|	ncbi:455598	|		|	environmental,not_otu	|	
+5205064	|	4795965	|	uncultured marine crenarchaeote HF4000_APKG3H9	|	species	|	ncbi:455586	|		|	environmental,not_otu	|	
+5205065	|	4795965	|	uncultured marine crenarchaeote KM3-34-D9	|	species	|	ncbi:526677	|		|	environmental,not_otu	|	
+5205041	|	4795965	|	uncultured marine crenarchaeote HF4000_APKG7F19	|	species	|	ncbi:455601	|		|	environmental,not_otu	|	
+5205031	|	4795965	|	uncultured crenarchaeote 15G10	|	species	|	ncbi:166582	|		|	environmental,not_otu	|	
+5205001	|	4795965	|	uncultured marine crenarchaeote SAT1000-23-F7	|	species	|	ncbi:526690	|		|	environmental,not_otu	|	
+5205043	|	4795965	|	uncultured marine crenarchaeote HF4000_APKG8O8	|	species	|	ncbi:455607	|		|	environmental,not_otu	|	
+5205036	|	4795965	|	uncultured marine crenarchaeote AD1000-325-A12	|	species	|	ncbi:526639	|		|	environmental,not_otu	|	
+5205029	|	4795965	|	uncultured marine crenarchaeote HF4000_ANIW141J13	|	species	|	ncbi:455577	|		|	environmental,not_otu	|	
+5205017	|	4795965	|	uncultured marine crenarchaeote HF4000_APKG6B14	|	species	|	ncbi:455594	|		|	environmental,not_otu	|	
+5205011	|	4795965	|	uncultured marine crenarchaeote HF4000_APKG6N3	|	species	|	ncbi:455599	|		|	environmental,not_otu	|	
+5205050	|	4795965	|	uncultured marine crenarchaeote HF4000_APKG10I20	|	species	|	ncbi:455612	|		|	environmental,not_otu	|	
+5205048	|	4795965	|	uncultured marine crenarchaeote HF4000_APKG10D8	|	species	|	ncbi:455610	|		|	environmental,not_otu	|	
+5205054	|	4795965	|	uncultured marine crenarchaeote HF4000_ANIW93H17	|	species	|	ncbi:455564	|		|	environmental,not_otu	|	
+5205039	|	4795965	|	uncultured marine crenarchaeote HF4000_APKG8D22	|	species	|	ncbi:455603	|		|	environmental,not_otu	|	
+701766	|	4795965	|	Nitrosopumilales	|	order	|	ncbi:31932,worms:559431,irmng:12878	|		|	merged,barren	|	
+5574946	|	4795965	|	Marine Group I thaumarchaeote SCGC AAA799-D11	|	species	|	ncbi:1502291	|		|	sibling_higher	|	
+5574952	|	4795965	|	Marine Group I thaumarchaeote SCGC AAA799-E16	|	species	|	ncbi:1502292	|		|	sibling_higher	|	
+5574953	|	4795965	|	Marine Group I thaumarchaeote SCGC AAA799-N04	|	species	|	ncbi:1502293	|		|	sibling_higher	|	
+5247438	|	4795965	|	Marine Group I thaumarchaeote SCGC AAA160-J20	|	species	|	ncbi:1105053	|		|	sibling_higher	|	
+5574947	|	4795965	|	Marine Group I thaumarchaeote SCGC AAA799-P11	|	species	|	ncbi:1502295	|		|	sibling_higher	|	
+5574950	|	4795965	|	Marine Group I thaumarchaeote SCGC AAA799-B03	|	species	|	ncbi:1502289	|		|	sibling_higher	|	
+5205089	|	4795965	|	Marine Group I environmental samples	|	no rank - terminal	|	ncbi:905827	|		|	was_container	|	
+5205093	|	4795965	|	Thaumarchaeota archaeon SCGC AAA007-O23	|	species	|	ncbi:913333	|		|	sibling_higher	|	
+5574951	|	4795965	|	Marine Group I thaumarchaeote SCGC AAA799-D07	|	species	|	ncbi:1502290	|		|	sibling_higher	|	
+5574949	|	4795965	|	Marine Group I thaumarchaeote SCGC RSA3	|	species	|	ncbi:1503183	|		|	sibling_higher	|	
+5205088	|	4795965	|	Marine Group I thaumarchaeote SCGC AB-629-I23	|	species	|	ncbi:1131266	|		|	sibling_higher	|	
+5205087	|	4795965	|	Marine Group I thaumarchaeote SCGC AB-629-A13	|	species	|	ncbi:1131267	|		|	sibling_higher	|	
+5574948	|	4795965	|	Marine Group I thaumarchaeote SCGC AAA799-O18	|	species	|	ncbi:1502294	|		|	sibling_higher	|	
+5205090	|	4795965	|	archaeon enrichment culture clone AR	|	species	|	ncbi:1109400	|		|	environmental	|	
+5205091	|	4795965	|	archaeon enrichment culture clone SJ	|	species	|	ncbi:1109399	|		|	environmental	|	
+933987	|	4795965	|	Candidatus Nitrosopumilus	|	genus	|	silva:D87348/#6,ncbi:338191,worms:559433,gbif:6453387,irmng:1468524	|		|	sibling_higher	|	
+5205074	|	933987	|	uncultured Candidatus Nitrosopumilus sp.	|	species	|	silva:GU386315,ncbi:517606	|		|		|	
+5208197	|	933987	|	uncultured archaeon CRA7-11cm	|	species	|	silva:AF119126,ncbi:93177	|		|		|	
+5205358	|	933987	|	unidentified archaeon C6	|	species	|	silva:U71112,ncbi:52266	|		|		|	
+5207873	|	933987	|	uncultured archaeon 19a-4	|	species	|	silva:AJ294875,ncbi:138484	|		|		|	
+5205360	|	933987	|	unidentified archaeon C46	|	species	|	silva:U71117,ncbi:52264	|		|		|	
+5205382	|	933987	|	unculturable Mariana archaeon no. 1	|	species	|	silva:D87348,ncbi:73126	|		|		|	
+5208115	|	933987	|	uncultured sediment archaeon	|	species	|	silva:FN553854,ncbi:676242	|		|		|	
+604494	|	933987	|	Nitrosopumilus sp. SJ	|	species	|	silva:AJVI01000001,ncbi:1027374	|		|		|	
+922836	|	933987	|	Candidatus Nitrosopumilus sp. NM25	|	species	|	silva:AB546961,ncbi:718286	|		|		|	
+5205357	|	933987	|	unidentified archaeon PM8	|	species	|	silva:U71110,ncbi:52269	|		|		|	
+5205629	|	933987	|	uncultured crenarchaeote ODPB-A12	|	species	|	silva:AF121097,ncbi:95929	|		|		|	
+5207855	|	933987	|	uncultured archaeon CRA36-0cm	|	species	|	silva:AF119131,ncbi:93182	|		|		|	
+5205365	|	933987	|	unidentified archaeon C20	|	species	|	silva:U71114,ncbi:52261	|		|		|	
+5208257	|	933987	|	archaeon enrichment culture clone CN150	|	species	|	silva:HQ338109,ncbi:914640	|		|		|	
+5207871	|	933987	|	uncultured archaeon 19a-14	|	species	|	silva:AJ294877,ncbi:138486	|		|		|	
+5580292	|	933987	|	Candidatus Nitrosopumilus koreensis	|	species	|	ncbi:1510466	|		|	merged	|	
+5878051	|	933987	|	Nitrosopumilus sp. LS_AOA	|	species	|	ncbi:1671876	|		|		|	
+5580295	|	933987	|	Candidatus Nitrosopumilus adriaticus	|	species	|	ncbi:1580092	|		|		|	
+5878048	|	933987	|	Nitrosopumilus sp. BACL13 MAG-120910-bin56	|	species	|	ncbi:1655560	|		|		|	
+5878053	|	933987	|	Nitrosopumilus sp. SW	|	species	|	ncbi:1818884	|		|		|	
+5361995	|	933987	|	Candidatus Nitrosopumilus sp. PS0	|	species	|	ncbi:1470067	|		|		|	
+770081	|	933987	|	Candidatus Nitrosopumilus sp. AR2	|	species	|	ncbi:1229909	|		|		|	
+297988	|	933987	|	Candidatus Nitrosopumilus salaria	|	species	|	ncbi:1170320	|		|		|	
+136362	|	297988	|	Candidatus Nitrosopumilus salaria BD31	|	no rank - terminal	|	silva:AEXL02000090,ncbi:859350	|		|	infraspecific	|	
+5580296	|	933987	|	Candidatus Nitrosopumilus piranensis	|	species	|	ncbi:1582439	|		|		|	
+5205073	|	933987	|	Nitrosopumilus environmental samples	|	no rank - terminal	|	ncbi:517605	|		|	was_container	|	
+5878049	|	933987	|	Nitrosopumilus sp. BACL13 MAG-121220-bin23	|	species	|	ncbi:1655561	|		|		|	
+5878052	|	933987	|	Nitrosopumilus sp. Nsub	|	species	|	ncbi:1776294	|		|		|	
+465781	|	933987	|	Nitrosopumilus sp. AR	|	species	|	ncbi:1027373	|		|		|	
+5878047	|	933987	|	Candidatus Nitrosopumilus sp. DDS1	|	species	|	ncbi:1679446	|		|		|	
+5878050	|	933987	|	Nitrosopumilus sp. DDS1	|	species	|	ncbi:1740111	|		|		|	
+5580293	|	933987	|	Nitrosopumilus sp. PRT-SC01	|	species	|	ncbi:1527301	|		|		|	
+5361994	|	933987	|	Candidatus Nitrosopumilus sp. HCA1	|	species	|	ncbi:1470066	|		|		|	
+933975	|	933987	|	Nitrosopumilus maritimus	|	species	|	ncbi:338192,worms:559434,gbif:6453388,irmng:11736333	|		|		|	
+922115	|	933975	|	Nitrosopumilus maritimus SCM1	|	no rank - terminal	|	silva:CP000866,ncbi:436308	|		|	infraspecific	|	
+5580294	|	933987	|	Nitrosopumilus sp. RSA3	|	species	|	ncbi:1435467	|		|		|	
+5246629	|	102415	|	Marine Benthic Group A	|	no rank	|	silva:AB177271/#3	|		|		|	
+5205059	|	5246629	|	uncultured marine crenarchaeote KM3-153-F8	|	species	|	silva:EU686631,ncbi:526665	|		|		|	
+5205648	|	5246629	|	uncultured marine crenarchaeote	|	species	|	silva:FJ150808,ncbi:115413	|		|		|	
+5207853	|	5246629	|	uncultured archaeon APA2-17cm	|	species	|	silva:AF119135,ncbi:93186	|		|		|	
+5205558	|	5246629	|	uncultured crenarchaeote	|	species	|	silva:EU369858,ncbi:29281	|		|		|	
+5205171	|	5246629	|	uncultured marine thaumarchaeote	|	species	|	silva:JF715383,ncbi:1167203	|		|		|	
+5207748	|	5246629	|	uncultured archaeon W5-61a	|	species	|	silva:JQ085825,ncbi:1131008	|		|		|	
+5207149	|	5246629	|	uncultured marine benthic group A euryarchaeote	|	species	|	silva:JN590083,ncbi:1082484	|		|		|	
+5246635	|	102415	|	AK59	|	no rank - terminal	|	silva:AB301997/#3	|		|		|	
+5246643	|	102415	|	OPPD003	|	no rank - terminal	|	silva:AY861942/#3	|		|		|	
+5246636	|	102415	|	AK8	|	no rank - terminal	|	silva:GQ848431/#3	|		|		|	
+5246651	|	102415	|	pMC2A209	|	no rank - terminal	|	silva:AB175574/#3	|		|		|	
+5246633	|	102415	|	Group C3	|	no rank	|	silva:U59984/#3	|		|		|	
+5205909	|	5246633	|	uncultured marine crenarchaeote E6-3G	|	species	|	silva:HQ214610,ncbi:907719	|		|		|	
+5246634	|	102415	|	Class Incertae Sedis	|	no rank - terminal	|	silva:EU239993/#3	|	Class Incertae Sedis (in phylum Thaumarchaeota)	|	was_container	|	
+5246649	|	102415	|	Z273FA48	|	no rank - terminal	|	silva:FJ485501/#3	|		|		|	
+5208593	|	102415	|	uncultured archaeon SAGMA-Z	|	species	|	silva:AB050231,ncbi:140271	|		|	sibling_higher	|	
+5246625	|	102415	|	Miscellaneous Crenarchaeotic Group	|	no rank	|	silva:L25305/#3	|		|		|	
+5205620	|	5246625	|	uncultured crenarchaeote pBRKC135	|	species	|	silva:AF118657,ncbi:91314	|		|		|	
+5207854	|	5246625	|	uncultured archaeon CRA9-27cm	|	species	|	silva:AF119129,ncbi:93180	|		|		|	
+5208511	|	5246625	|	uncultured archaeon 19c-51	|	species	|	silva:AJ294896,ncbi:138505	|		|		|	
+5208020	|	5246625	|	uncultured archaeon Arc.171	|	species	|	silva:AF005765,ncbi:62249	|		|		|	
+5208563	|	5246625	|	uncultured archaeon Arc.118	|	species	|	silva:AF005761,ncbi:62236	|		|		|	
+5208749	|	5246625	|	uncultured archaeon 19b-17	|	species	|	silva:AJ294859,ncbi:138468	|		|		|	
+5205910	|	5246625	|	uncultured marine crenarchaeote E37-7F	|	species	|	silva:HQ214611,ncbi:907717	|		|		|	
+5205948	|	5246625	|	uncultured Desulfurococcales archaeon	|	species	|	silva:HQ700684,ncbi:307553	|		|		|	
+5207698	|	5246625	|	uncultured archaeon Arc.212	|	species	|	silva:AF005767,ncbi:62254	|		|		|	
+5205908	|	5246625	|	uncultured marine crenarchaeote E48-1C	|	species	|	silva:HQ214612,ncbi:907718	|		|		|	
+5208426	|	5246625	|	uncultured archaeon 19a-29	|	species	|	silva:AJ294882,ncbi:138491	|		|		|	
+5208806	|	5246625	|	uncultured archaeon 19b-39	|	species	|	silva:AJ294869,ncbi:138478	|		|		|	
+5205385	|	5246625	|	uncultured crenarchaeote MCG	|	species	|	silva:EU559699,ncbi:529375	|		|		|	
+5205314	|	5246625	|	uncultured crenarchaeote pBRKC88	|	species	|	silva:AF118662,ncbi:91317	|		|		|	
+5207905	|	5246625	|	uncultured archaeon Arc.119	|	species	|	silva:AF005762,ncbi:62240	|		|		|	
+5208057	|	5246625	|	archaeon enrichment culture clone C4-6C-A	|	species	|	silva:GU196155,ncbi:698585	|		|		|	
+5207787	|	5246625	|	uncultured thermal soil archaeon	|	species	|	silva:AF391992,ncbi:166500	|		|		|	
+5878054	|	5246625	|	hot springs metagenome	|	species	|	silva:ADKI01000120,ncbi:433727	|		|		|	
+5207788	|	5246625	|	archaeon enrichment culture clone C4-32C-A	|	species	|	silva:GU196176,ncbi:698565	|		|		|	
+5207804	|	5246625	|	archaeon enrichment culture clone C3-1C-A	|	species	|	silva:GQ470597,ncbi:670835	|		|		|	
+5246630	|	102415	|	Terrestrial Hot Spring Gp(THSCG)	|	no rank	|	silva:U63341/#3	|		|		|	
+5205086	|	5246630	|	Candidatus Caldiarchaeum subterraneum	|	species	|	silva:JN881568,ncbi:311458	|		|		|	
+5208097	|	5246630	|	uncultured archaeon 20c-54	|	species	|	silva:AJ299202,ncbi:138407	|		|		|	
+5274699	|	5246630	|	Order Incertae Sedis	|	no rank - terminal	|	silva:AB566230/#4	|	Order Incertae Sedis (in Terrestrial Hot Spring Gp(THSCG))	|	was_container	|	
+5207913	|	5246630	|	uncultured archaeon 20a-28	|	species	|	silva:AJ299159,ncbi:138364	|		|		|	
+5207909	|	5246630	|	uncultured archaeon 20a-12	|	species	|	silva:AJ299155,ncbi:138360	|		|		|	
+5208622	|	5246630	|	uncultured archaeon 20a-6	|	species	|	silva:AJ299151,ncbi:138356	|		|		|	
+5208623	|	5246630	|	uncultured archaeon 20a-7	|	species	|	silva:AJ299152,ncbi:138357	|		|		|	
+5207910	|	5246630	|	uncultured archaeon 20b-7	|	species	|	silva:AJ299162,ncbi:138367	|		|		|	
+5208598	|	5246630	|	uncultured archaeon 20b-27	|	species	|	silva:AJ299172,ncbi:138377	|		|		|	
+4917978	|	5246630	|	uncultured marine microorganism HF4000_APKG10H11	|	species	|	silva:EU016667,ncbi:455559	|		|		|	
+5574954	|	5246630	|	Family Incertae Sedis	|	no rank - terminal	|	silva:AB566230/#5	|	Family Incertae Sedis (in Terrestrial Hot Spring Gp(THSCG))	|	incertae_sedis,was_container	|	
+4795961	|	5246630	|	Candidatus Caldiarchaeum	|	genus	|	silva:AB566230/#6,ncbi:1048752	|		|	incertae_sedis,barren	|	
+5246646	|	102415	|	Sc-EA05	|	no rank - terminal	|	silva:JQ684417/#3	|		|		|	
+5246627	|	102415	|	Soil Crenarchaeotic Group(SCG)	|	no rank	|	silva:U68604/#3	|		|		|	
+5205313	|	5246627	|	Crenarchaeote enrichment culture clone OREC-R1073	|	species	|	silva:JF799649,ncbi:1050482	|		|		|	
+5205368	|	5246627	|	unidentified archaeon SCA1150	|	species	|	silva:U62812,ncbi:50850	|		|		|	
+5205475	|	5246627	|	unidentified archaeon SCA1158	|	species	|	silva:U62815,ncbi:50853	|		|		|	
+5205395	|	5246627	|	Crenarchaeote enrichment culture clone OREC-R104	|	species	|	silva:JF799591,ncbi:1050424	|		|		|	
+5205480	|	5246627	|	unidentified archaeon SCA1170	|	species	|	silva:U62817,ncbi:50855	|		|		|	
+5205295	|	5246627	|	uncultured crenarchaeote TRC132-9	|	species	|	silva:AF227639,ncbi:115024	|		|		|	
+5205481	|	5246627	|	unidentified archaeon SCA1166	|	species	|	silva:U62816,ncbi:50854	|		|		|	
+5205477	|	5246627	|	unidentified archaeon SCA1151	|	species	|	silva:U62813,ncbi:50851	|		|		|	
+5205566	|	5246627	|	Crenarchaeote enrichment culture clone OREC-B1081	|	species	|	silva:JF799656,ncbi:1050489	|		|		|	
+5274698	|	5246627	|	Order Incertae Sedis	|	no rank - terminal	|	silva:U62820/#4	|	Order Incertae Sedis (in Soil Crenarchaeotic Group(SCG))	|	was_container	|	
+5205695	|	5246627	|	Crenarchaeote enrichment culture clone OREC-R1342	|	species	|	silva:JF799622,ncbi:1050455	|		|		|	
+5208322	|	5246627	|	uncultured ammonia-oxidizing archaeon	|	species	|	silva:JQ668662,ncbi:418404	|		|		|	
+5205297	|	5246627	|	uncultured crenarchaeote TREC89-44	|	species	|	silva:AY487101,ncbi:258871	|		|		|	
+5205479	|	5246627	|	unidentified archaeon SCA1173	|	species	|	silva:U62818,ncbi:50856	|		|		|	
+5205593	|	5246627	|	uncultured crenarchaeote TREC89-34	|	species	|	silva:AY487103,ncbi:258873	|		|		|	
+5205286	|	5246627	|	Crenarchaeote enrichment culture clone OREC-B1021	|	species	|	silva:JF799608,ncbi:1050441	|		|		|	
+5247440	|	5246627	|	cluster CQ786497	|	no rank - terminal	|	silva:CQ786497	|		|		|	
+5205476	|	5246627	|	unidentified archaeon SCA1154	|	species	|	silva:U62814,ncbi:50852	|		|		|	
+5208787	|	5246627	|	uncultured soil archaeon	|	species	|	silva:JQ668088,ncbi:164850	|		|		|	
+5574957	|	5246627	|	Family Incertae Sedis	|	no rank - terminal	|	silva:U62820/#5	|	Family Incertae Sedis (in Soil Crenarchaeotic Group(SCG))	|	incertae_sedis,was_container	|	
+378065	|	5246627	|	Candidatus Nitrososphaera	|	genus	|	silva:U62820/#6,ncbi:497726	|		|	incertae_sedis	|	
+378062	|	378065	|	Candidatus Nitrososphaera gargensis	|	species	|	silva:EU281334,ncbi:497727	|		|	incertae_sedis_inherited	|	
+5205408	|	378065	|	Crenarchaeote enrichment culture clone OREC-B1045	|	species	|	silva:JF799625,ncbi:1050458	|		|	incertae_sedis_inherited	|	
+5205562	|	378065	|	Crenarchaeote enrichment culture clone OREC-R1390	|	species	|	silva:JF799664,ncbi:1050497	|		|	incertae_sedis_inherited	|	
+5208591	|	378065	|	uncultured archaeon SAGMA-2	|	species	|	silva:AB050233,ncbi:140273	|		|	incertae_sedis_inherited	|	
+811534	|	378065	|	Candidatus Nitrososphaera gargensis Ga9.2	|	no rank - terminal	|	silva:CP002408,ncbi:1237085	|		|	incertae_sedis_inherited	|	
+5207940	|	378065	|	uncultured archaeon SAGMA-W	|	species	|	silva:AB050228,ncbi:140268	|		|	incertae_sedis_inherited	|	
+5205257	|	378065	|	uncultured Nitrososphaera sp.	|	species	|	silva:JX047156,ncbi:759874	|		|	incertae_sedis_inherited	|	
+5205644	|	378065	|	Crenarchaeote enrichment culture clone OREC-R1050	|	species	|	silva:JF799630,ncbi:1050463	|		|	incertae_sedis_inherited	|	
+5208592	|	378065	|	uncultured archaeon SAGMA-Y	|	species	|	silva:AB050230,ncbi:140270	|		|	incertae_sedis_inherited	|	
+5205474	|	378065	|	unidentified archaeon SCA11	|	species	|	silva:U62820,ncbi:50858	|		|	incertae_sedis_inherited	|	
+5205256	|	378065	|	Nitrososphaera environmental samples	|	no rank - terminal	|	ncbi:759873	|		|	incertae_sedis_inherited,was_container	|	
+5580300	|	378065	|	Candidatus Nitrososphaera sp. N89-12	|	species	|	ncbi:1622297	|		|	incertae_sedis_inherited	|	
+118845	|	378065	|	Nitrososphaera sp. JG1	|	species	|	ncbi:1110358	|		|	incertae_sedis_inherited	|	
+5878060	|	378065	|	Candidatus Nitrososphaera sp. 13_1_40CM_48_12	|	species	|	ncbi:1805054	|		|	incertae_sedis_inherited	|	
+400100	|	378065	|	Nitrososphaera viennensis	|	species	|	ncbi:1034015	|		|	incertae_sedis_inherited	|	
+750289	|	400100	|	Nitrososphaera viennensis EN76	|	no rank - terminal	|	silva:FR773157,ncbi:926571	|		|	incertae_sedis_inherited,infraspecific	|	
+5580302	|	378065	|	Candidatus Nitrososphaera evergladensis	|	species	|	ncbi:1459637	|		|	incertae_sedis_inherited	|	
+5585661	|	5580302	|	Candidatus Nitrososphaera evergladensis SR1	|	no rank - terminal	|	ncbi:1459636	|		|	incertae_sedis_inherited,infraspecific	|	
+5878061	|	378065	|	Nitrososphaera sp. 13_1_20CM_3_36_3	|	species	|	ncbi:1805257	|		|	incertae_sedis_inherited	|	
+5580301	|	378065	|	Candidatus Nitrososphaera sp. THUAOA	|	species	|	ncbi:1526932	|		|	incertae_sedis_inherited	|	
+5580303	|	378065	|	Nitrososphaera sp. enrichment culture	|	species	|	ncbi:1616795	|		|	incertae_sedis_inherited,environmental	|	
+5246647	|	102415	|	pSL12	|	no rank	|	silva:U63343/#3	|		|		|	
+5205023	|	5246647	|	uncultured marine crenarchaeote AD1000-23-H12	|	species	|	silva:EU686635,ncbi:526638	|		|		|	
+5246652	|	102415	|	HDBA-SITS389	|	no rank - terminal	|	silva:HM187516/#3	|		|		|	
+5246644	|	102415	|	FS243A-60	|	no rank - terminal	|	silva:AB302012/#3	|		|		|	
+5246632	|	102415	|	AK31	|	no rank - terminal	|	silva:DQ190090/#3	|		|		|	
+5246640	|	102415	|	F9P122000-Arc-2-E02	|	no rank - terminal	|	silva:JQ221038/#3	|		|		|	
+5246639	|	102415	|	D-F10	|	no rank	|	silva:AB293212/#3	|		|		|	
+5205892	|	5246639	|	uncultured Candidatus Nitrosocaldus sp.	|	species	|	silva:JN881577,ncbi:766501	|		|		|	
+5246638	|	102415	|	AB64A-17	|	no rank - terminal	|	silva:FR846896/#3	|		|		|	
+5246637	|	102415	|	AK56	|	no rank - terminal	|	silva:AB302036/#3	|		|		|	
+5246648	|	102415	|	ArcC-u-cD06	|	no rank - terminal	|	silva:EU307065/#3	|		|		|	
+5246642	|	102415	|	AS48	|	no rank - terminal	|	silva:JX047158/#3	|		|		|	
+5246641	|	102415	|	Papm3A43	|	no rank - terminal	|	silva:AB213098/#3	|		|		|	
+5246645	|	102415	|	TOTO-A6-15	|	no rank - terminal	|	silva:AB167488/#3	|		|		|	
+5246631	|	102415	|	South African Gold Mine Gp 1(SAGMCG-1)	|	no rank	|	silva:AJ535128/#3	|		|		|	
+5207933	|	5246631	|	uncultured archaeon SAGMA-V	|	species	|	silva:AB050227,ncbi:140267	|		|		|	
+5205954	|	5246631	|	uncultured Thermoprotei archaeon	|	species	|	silva:HQ671235,ncbi:476105	|		|		|	
+5208822	|	5246631	|	uncultured archaeon SAGMA-11	|	species	|	silva:AB050241,ncbi:140281	|		|		|	
+5208823	|	5246631	|	uncultured archaeon SAGMA-10	|	species	|	silva:AB050240,ncbi:140280	|		|		|	
+5274700	|	5246631	|	Order Incertae Sedis	|	no rank - terminal	|	silva:AJ535128/#4	|	Order Incertae Sedis (in South African Gold Mine Gp 1(SAGMCG-1))	|	was_container	|	
+5574955	|	5246631	|	Family Incertae Sedis	|	no rank - terminal	|	silva:AJ535128/#5	|	Family Incertae Sedis (in South African Gold Mine Gp 1(SAGMCG-1))	|	incertae_sedis,was_container	|	
+4795963	|	5246631	|	Candidatus Nitrosotalea	|	genus	|	silva:AJ535128/#6,ncbi:1078904	|		|	incertae_sedis	|	
+5205311	|	4795963	|	Crenarchaeote enrichment culture clone OREC-R1076	|	species	|	silva:JF799651,ncbi:1050484	|		|	incertae_sedis_inherited	|	
+5207939	|	4795963	|	uncultured archaeon SAGMA-X	|	species	|	silva:AB050229,ncbi:140269	|		|	incertae_sedis_inherited	|	
+5361996	|	4795963	|	Nitrosotalea sp. Nd2	|	species	|	ncbi:1499975	|		|	incertae_sedis_inherited	|	
+4795964	|	4795963	|	Candidatus Nitrosotalea devanaterra	|	species	|	ncbi:1078905	|		|	incertae_sedis_inherited	|	
+5878063	|	4795963	|	Candidatus Nitrosotalea environmental samples	|	no rank - terminal	|	ncbi:1617642	|		|	incertae_sedis_inherited,was_container	|	
+5878064	|	4795963	|	uncultured Candidatus Nitrosotalea sp.	|	species	|	ncbi:1617643	|		|	incertae_sedis_inherited,not_otu	|	
+5246626	|	102415	|	Marine Benthic Group B	|	no rank	|	silva:AB052992/#3	|		|		|	
+5207849	|	5246626	|	uncultured archaeon APA3-11cm	|	species	|	silva:AF119137,ncbi:93188	|		|		|	
+5207568	|	5246626	|	uncultured archaeon pPACMA-Y	|	species	|	silva:AB052992,ncbi:146990	|		|		|	
+5205935	|	5246626	|	uncultured Desulfurococcus sp.	|	species	|	silva:AB240734,ncbi:158791	|		|		|	
+5205316	|	5246626	|	uncultured crenarchaeote pBRKC86	|	species	|	silva:AF118656,ncbi:91313	|		|		|	
+5205619	|	5246626	|	uncultured crenarchaeote pBRKC129	|	species	|	silva:AF118658,ncbi:91315	|		|		|	
+5208729	|	5246626	|	uncultured archaeon VC2.1 Arc31	|	species	|	silva:AF068822,ncbi:78316	|		|		|	
+5205622	|	5246626	|	uncultured crenarchaeote pBRKC108	|	species	|	silva:AF118664,ncbi:91318	|		|		|	
+5246650	|	102415	|	HDBA-SITS413	|	no rank - terminal	|	silva:HM187524/#3	|		|		|	
+5571543	|	102415	|	Order Incertae Sedis	|	no rank - terminal	|	silva:EU239993/#4	|	Order Incertae Sedis (silva:EU239993/#4)	|	incertae_sedis,was_container	|	
+5571544	|	102415	|	Family Incertae Sedis	|	no rank - terminal	|	silva:EU239993/#5	|	Family Incertae Sedis (silva:EU239993/#5)	|	incertae_sedis,was_container	|	
+4796256	|	102415	|	Candidatus Nitrosocaldus	|	genus	|	silva:EU239993/#6,ncbi:498374	|		|	incertae_sedis	|	
+4796257	|	4796256	|	Candidatus Nitrosocaldus yellowstonii	|	species	|	ncbi:498375	|		|	incertae_sedis_inherited	|	
+4796258	|	4796257	|	Candidatus Nitrosocaldus yellowstonii HL72	|	no rank - terminal	|	ncbi:1268556	|		|	incertae_sedis_inherited,infraspecific	|	
+5205891	|	4796256	|	Candidatus Nitrosocaldus environmental samples	|	no rank - terminal	|	ncbi:766500	|		|	incertae_sedis_inherited,was_container	|	
+5205094	|	102415	|	Thaumarchaeota environmental samples	|	no rank - terminal	|	ncbi:651140	|		|	was_container	|	
+4795960	|	102415	|	unclassified Thaumarchaeota	|	no rank - terminal	|	ncbi:651142	|		|	was_container,not_otu	|	
+5571545	|	102415	|	Nitrososphaeria	|	class	|	ncbi:1643678	|		|		|	
+686295	|	5571545	|	Nitrososphaerales	|	order	|	ncbi:1033996	|		|		|	
+5878058	|	686295	|	Nitrososphaerales environmental samples	|	no rank - terminal	|	ncbi:1740633	|		|	was_container	|	
+686307	|	686295	|	Nitrososphaeraceae	|	family	|	ncbi:1033997	|		|		|	
+5878055	|	686307	|	Candidatus Nitrosocosmicus	|	genus	|	ncbi:1826864	|		|		|	
+5245645	|	5878055	|	Thaumarchaeota archaeon MY3	|	species	|	ncbi:1353260	|		|		|	
+5878057	|	5878055	|	Candidatus Nitrosocosmicus sp. G61	|	species	|	ncbi:1826872	|		|		|	
+5878056	|	5878055	|	Candidatus Nitrosocosmicus franklandus	|	species	|	ncbi:1798806	|		|		|	
+5878059	|	686295	|	uncultured Nitrososphaerales archaeon	|	species	|	ncbi:1740634	|		|	sibling_higher,not_otu	|	
+5571817	|	102415	|	uncultured marine thaumarchaeote KM3_170_G11	|	species	|	ncbi:1456047	|		|	environmental,not_otu	|	
+5572076	|	102415	|	uncultured marine thaumarchaeote SAT1000_25_G12	|	species	|	ncbi:1456399	|		|	environmental,not_otu	|	
+5572081	|	102415	|	uncultured marine thaumarchaeote SAT1000_27_B10	|	species	|	ncbi:1456401	|		|	environmental,not_otu	|	
+5205134	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa1b4-08	|	species	|	ncbi:1238010	|		|	environmental	|	
+5571608	|	102415	|	uncultured marine thaumarchaeote KM3_25_B05	|	species	|	ncbi:1456103	|		|	environmental,not_otu	|	
+5572091	|	102415	|	uncultured marine thaumarchaeote AD1000_21_H05	|	species	|	ncbi:1455901	|		|	environmental,not_otu	|	
+5571913	|	102415	|	uncultured marine thaumarchaeote KM3_169_D08	|	species	|	ncbi:1456040	|		|	environmental,not_otu	|	
+5571779	|	102415	|	uncultured marine thaumarchaeote SAT1000_45_H05	|	species	|	ncbi:1456412	|		|	environmental,not_otu	|	
+5205232	|	102415	|	thaumarchaeote enrichment culture clone Ec.MTa2b4-20	|	species	|	ncbi:1238128	|		|	environmental	|	
+5205205	|	102415	|	thaumarchaeote enrichment culture clone Ec.MTa2b4-19	|	species	|	ncbi:1238127	|		|	environmental	|	
+5571764	|	102415	|	uncultured marine thaumarchaeote KM3_86_D01	|	species	|	ncbi:1456320	|		|	environmental,not_otu	|	
+5572010	|	102415	|	uncultured marine thaumarchaeote KM3_34_C02	|	species	|	ncbi:1456129	|		|	environmental,not_otu	|	
+5205133	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa1b4-16	|	species	|	ncbi:1238017	|		|	environmental	|	
+5205165	|	102415	|	thaumarchaeote enrichment culture clone Ec.MTa2b1-13	|	species	|	ncbi:1238099	|		|	environmental	|	
+5205209	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa1b4-03	|	species	|	ncbi:1238005	|		|	environmental	|	
+5571753	|	102415	|	uncultured marine thaumarchaeote KM3_28_B05	|	species	|	ncbi:1456111	|		|	environmental,not_otu	|	
+5571554	|	102415	|	uncultured marine thaumarchaeote KM3_77_H05	|	species	|	ncbi:1456288	|		|	environmental,not_otu	|	
+5205196	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa1b9-08	|	species	|	ncbi:1238029	|		|	environmental	|	
+5572070	|	102415	|	uncultured marine thaumarchaeote KM3_01_C08	|	species	|	ncbi:1455951	|		|	environmental,not_otu	|	
+5571846	|	102415	|	uncultured marine thaumarchaeote KM3_82_G09	|	species	|	ncbi:1456306	|		|	environmental,not_otu	|	
+5205252	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa-T16S-01	|	species	|	ncbi:1237970	|		|	environmental	|	
+5571835	|	102415	|	uncultured marine thaumarchaeote KM3_02_H10	|	species	|	ncbi:1455957	|		|	environmental,not_otu	|	
+5571625	|	102415	|	uncultured marine thaumarchaeote KM3_17_G07	|	species	|	ncbi:1456063	|		|	environmental,not_otu	|	
+5205168	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBb-T16S-04	|	species	|	ncbi:1238062	|		|	environmental	|	
+5571811	|	102415	|	uncultured marine thaumarchaeote KM3_160_B06	|	species	|	ncbi:1456030	|		|	environmental,not_otu	|	
+5571635	|	102415	|	uncultured marine thaumarchaeote KM3_70_D07	|	species	|	ncbi:1456252	|		|	environmental,not_otu	|	
+5205189	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBb-T16S-02	|	species	|	ncbi:1238060	|		|	environmental	|	
+5571866	|	102415	|	uncultured marine thaumarchaeote KM3_130_H01	|	species	|	ncbi:1456001	|		|	environmental,not_otu	|	
+5571795	|	102415	|	uncultured marine thaumarchaeote KM3_100_D10	|	species	|	ncbi:1455979	|		|	environmental,not_otu	|	
+5571963	|	102415	|	uncultured marine thaumarchaeote KM3_71_H11	|	species	|	ncbi:1456260	|		|	environmental,not_otu	|	
+5571758	|	102415	|	uncultured marine thaumarchaeote KM3_65_D11	|	species	|	ncbi:1456225	|		|	environmental,not_otu	|	
+5571906	|	102415	|	uncultured marine thaumarchaeote SAT1000_40_A08	|	species	|	ncbi:1456408	|		|	environmental,not_otu	|	
+5571581	|	102415	|	uncultured marine thaumarchaeote AD1000_66_F10	|	species	|	ncbi:1455930	|		|	environmental,not_otu	|	
+5571949	|	102415	|	uncultured marine thaumarchaeote KM3_59_E10	|	species	|	ncbi:1456211	|		|	environmental,not_otu	|	
+5571887	|	102415	|	uncultured marine thaumarchaeote KM3_94_B01	|	species	|	ncbi:1456346	|		|	environmental,not_otu	|	
+5571964	|	102415	|	uncultured marine thaumarchaeote KM3_182_G12	|	species	|	ncbi:1456067	|		|	environmental,not_otu	|	
+5572029	|	102415	|	uncultured marine thaumarchaeote KM3_153_E08	|	species	|	ncbi:1456018	|		|	environmental,not_otu	|	
+5205164	|	102415	|	thaumarchaeote enrichment culture clone Ec.MTa2b1-12	|	species	|	ncbi:1238098	|		|	environmental	|	
+5205154	|	102415	|	thaumarchaeote enrichment culture clone Ec.MTa2b1-23	|	species	|	ncbi:1238107	|		|	environmental	|	
+5572037	|	102415	|	uncultured marine thaumarchaeote KM3_64_A03	|	species	|	ncbi:1456220	|		|	environmental,not_otu	|	
+5205180	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa-TamoA-18	|	species	|	ncbi:1237995	|		|	environmental	|	
+5572014	|	102415	|	uncultured marine thaumarchaeote KM3_145_B06	|	species	|	ncbi:1456011	|		|	environmental,not_otu	|	
+5571995	|	102415	|	uncultured marine thaumarchaeote AD1000_70_C10	|	species	|	ncbi:1455933	|		|	environmental,not_otu	|	
+5571785	|	102415	|	uncultured marine thaumarchaeote SAT1000_24_E05	|	species	|	ncbi:1456397	|		|	environmental,not_otu	|	
+5572009	|	102415	|	uncultured marine thaumarchaeote KM3_03_B05	|	species	|	ncbi:1455958	|		|	environmental,not_otu	|	
+5571907	|	102415	|	uncultured marine thaumarchaeote KM3_130_G11	|	species	|	ncbi:1456000	|		|	environmental,not_otu	|	
+5572043	|	102415	|	uncultured marine thaumarchaeote KM3_41_D10	|	species	|	ncbi:1456144	|		|	environmental,not_otu	|	
+5571725	|	102415	|	uncultured marine thaumarchaeote KM3_186_G04	|	species	|	ncbi:1456071	|		|	environmental,not_otu	|	
+5571703	|	102415	|	uncultured marine thaumarchaeote KM3_33_G02	|	species	|	ncbi:1456127	|		|	environmental,not_otu	|	
+5571886	|	102415	|	uncultured marine thaumarchaeote KM3_76_G12	|	species	|	ncbi:1456285	|		|	environmental,not_otu	|	
+5571609	|	102415	|	uncultured marine thaumarchaeote KM3_140_D09	|	species	|	ncbi:1456009	|		|	environmental,not_otu	|	
+5571599	|	102415	|	uncultured marine thaumarchaeote KM3_56_B06	|	species	|	ncbi:1456201	|		|	environmental,not_otu	|	
+5572038	|	102415	|	uncultured marine thaumarchaeote SAT1000_09_C08	|	species	|	ncbi:1456370	|		|	environmental,not_otu	|	
+5571904	|	102415	|	uncultured marine thaumarchaeote KM3_03_H02	|	species	|	ncbi:1455963	|		|	environmental,not_otu	|	
+5571917	|	102415	|	uncultured marine thaumarchaeote AD1000_40_H03	|	species	|	ncbi:1455914	|		|	environmental,not_otu	|	
+5571843	|	102415	|	uncultured marine thaumarchaeote KM3_35_E05	|	species	|	ncbi:1456134	|		|	environmental,not_otu	|	
+5571920	|	102415	|	uncultured marine thaumarchaeote KM3_87_A02	|	species	|	ncbi:1456325	|		|	environmental,not_otu	|	
+5205229	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa2b1-08	|	species	|	ncbi:1238048	|		|	environmental	|	
+5571885	|	102415	|	uncultured marine thaumarchaeote KM3_18_D11	|	species	|	ncbi:1456075	|		|	environmental,not_otu	|	
+5205136	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa1b4-10	|	species	|	ncbi:1238012	|		|	environmental	|	
+5571601	|	102415	|	uncultured marine thaumarchaeote KM3_15_C08	|	species	|	ncbi:1456026	|		|	environmental,not_otu	|	
+5205238	|	102415	|	thaumarchaeote enrichment culture clone Ec.MTa2b4-14	|	species	|	ncbi:1238122	|		|	environmental	|	
+5571654	|	102415	|	uncultured marine thaumarchaeote KM3_44_G08	|	species	|	ncbi:1456152	|		|	environmental,not_otu	|	
+5571799	|	102415	|	uncultured thaumarchaeote Rifle_16ft_4_minimus_1872	|	species	|	ncbi:1665209	|		|	environmental,not_otu	|	
+5571600	|	102415	|	uncultured marine thaumarchaeote SAT1000_44_H06	|	species	|	ncbi:1456411	|		|	environmental,not_otu	|	
+5571937	|	102415	|	uncultured marine thaumarchaeote KM3_79_H02	|	species	|	ncbi:1456297	|		|	environmental,not_otu	|	
+5571877	|	102415	|	uncultured marine thaumarchaeote KM3_46_G12	|	species	|	ncbi:1456162	|		|	environmental,not_otu	|	
+5571570	|	102415	|	uncultured marine thaumarchaeote SAT1000_06_B02	|	species	|	ncbi:1456361	|		|	environmental,not_otu	|	
+5205216	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa-T16S-04	|	species	|	ncbi:1237973	|		|	environmental	|	
+5571911	|	102415	|	uncultured marine thaumarchaeote KM3_170_F12	|	species	|	ncbi:1456046	|		|	environmental,not_otu	|	
+5571822	|	102415	|	uncultured marine thaumarchaeote KM3_53_F06	|	species	|	ncbi:1456185	|		|	environmental,not_otu	|	
+5571681	|	102415	|	uncultured marine thaumarchaeote KM3_53_E01	|	species	|	ncbi:1456183	|		|	environmental,not_otu	|	
+5571783	|	102415	|	uncultured marine thaumarchaeote KM3_187_A08	|	species	|	ncbi:1456073	|		|	environmental,not_otu	|	
+5571759	|	102415	|	uncultured marine thaumarchaeote AD1000_31_F12	|	species	|	ncbi:1455906	|		|	environmental,not_otu	|	
+5571677	|	102415	|	uncultured marine thaumarchaeote SAT1000_06_A02	|	species	|	ncbi:1456359	|		|	environmental,not_otu	|	
+5571711	|	102415	|	uncultured marine thaumarchaeote KM3_36_B08	|	species	|	ncbi:1456135	|		|	environmental,not_otu	|	
+5571693	|	102415	|	uncultured marine thaumarchaeote KM3_85_A07	|	species	|	ncbi:1456315	|		|	environmental,not_otu	|	
+5571766	|	102415	|	uncultured marine thaumarchaeote KM3_76_B07	|	species	|	ncbi:1456283	|		|	environmental,not_otu	|	
+5205167	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBb-TamoA-03	|	species	|	ncbi:1238068	|		|	environmental	|	
+5571586	|	102415	|	uncultured marine thaumarchaeote KM3_153_F09	|	species	|	ncbi:1456019	|		|	environmental,not_otu	|	
+5571925	|	102415	|	uncultured marine thaumarchaeote KM3_39_A11	|	species	|	ncbi:1456140	|		|	environmental,not_otu	|	
+5571710	|	102415	|	uncultured marine thaumarchaeote KM3_01_G08	|	species	|	ncbi:1455954	|		|	environmental,not_otu	|	
+5571585	|	102415	|	uncultured marine thaumarchaeote KM3_175_E11	|	species	|	ncbi:1456055	|		|	environmental,not_otu	|	
+5571837	|	102415	|	uncultured marine thaumarchaeote KM3_204_F10	|	species	|	ncbi:1456098	|		|	environmental,not_otu	|	
+5571592	|	102415	|	uncultured marine thaumarchaeote KM3_90_H07	|	species	|	ncbi:1456345	|		|	environmental,not_otu	|	
+5571567	|	102415	|	uncultured marine thaumarchaeote AD1000_38_A02	|	species	|	ncbi:1455911	|		|	environmental,not_otu	|	
+5571560	|	102415	|	uncultured marine thaumarchaeote AD1000_18_B11	|	species	|	ncbi:1455896	|		|	environmental,not_otu	|	
+5205127	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa-TamoA-10	|	species	|	ncbi:1237989	|		|	environmental	|	
+5571615	|	102415	|	uncultured marine thaumarchaeote AD1000_07_E11	|	species	|	ncbi:1455886	|		|	environmental,not_otu	|	
+5571928	|	102415	|	uncultured marine thaumarchaeote KM3_62_H05	|	species	|	ncbi:1456218	|		|	environmental,not_otu	|	
+5571952	|	102415	|	uncultured marine thaumarchaeote AD1000_31_G03	|	species	|	ncbi:1455907	|		|	environmental,not_otu	|	
+5205178	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa-TamoA-12	|	species	|	ncbi:1237991	|		|	environmental	|	
+5571798	|	102415	|	uncultured marine thaumarchaeote KM3_42_G11	|	species	|	ncbi:1456149	|		|	environmental,not_otu	|	
+5571992	|	102415	|	uncultured marine thaumarchaeote AD1000_69_E02	|	species	|	ncbi:1455932	|		|	environmental,not_otu	|	
+5571744	|	102415	|	uncultured marine thaumarchaeote KM3_156_B03	|	species	|	ncbi:1456022	|		|	environmental,not_otu	|	
+5205193	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa2b1-02	|	species	|	ncbi:1238042	|		|	environmental	|	
+5205104	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBb-TamoA-05	|	species	|	ncbi:1238070	|		|	environmental	|	
+5205249	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBb-TamoA-24	|	species	|	ncbi:1238088	|		|	environmental	|	
+5205117	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBb-T16S-01	|	species	|	ncbi:1238059	|		|	environmental	|	
+5571648	|	102415	|	uncultured marine thaumarchaeote KM3_75_C09	|	species	|	ncbi:1456277	|		|	environmental,not_otu	|	
+5571563	|	102415	|	uncultured marine thaumarchaeote KM3_72_A09	|	species	|	ncbi:1456261	|		|	environmental,not_otu	|	
+5571856	|	102415	|	uncultured marine thaumarchaeote KM3_72_D04	|	species	|	ncbi:1456262	|		|	environmental,not_otu	|	
+5571734	|	102415	|	uncultured marine thaumarchaeote AD1000_71_D06	|	species	|	ncbi:1455937	|		|	environmental,not_otu	|	
+5571809	|	102415	|	uncultured marine thaumarchaeote KM3_45_E05	|	species	|	ncbi:1456156	|		|	environmental,not_otu	|	
+5205101	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa1b9-02	|	species	|	ncbi:1238023	|		|	environmental	|	
+5571980	|	102415	|	uncultured marine thaumarchaeote KM3_201_G04	|	species	|	ncbi:1456094	|		|	environmental,not_otu	|	
+5571714	|	102415	|	uncultured marine thaumarchaeote SAT1000_04_B06	|	species	|	ncbi:1456354	|		|	environmental,not_otu	|	
+5205241	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa2b1-18	|	species	|	ncbi:1238057	|		|	environmental	|	
+5571660	|	102415	|	uncultured marine thaumarchaeote KM3_176_H06	|	species	|	ncbi:1456057	|		|	environmental,not_otu	|	
+5572093	|	102415	|	uncultured marine thaumarchaeote KM3_178_G06	|	species	|	ncbi:1456060	|		|	environmental,not_otu	|	
+5571722	|	102415	|	uncultured marine thaumarchaeote KM3_66_A07	|	species	|	ncbi:1456227	|		|	environmental,not_otu	|	
+5571924	|	102415	|	uncultured marine thaumarchaeote KM3_67_E09	|	species	|	ncbi:1456238	|		|	environmental,not_otu	|	
+5571602	|	102415	|	uncultured marine thaumarchaeote KM3_40_F03	|	species	|	ncbi:1456143	|		|	environmental,not_otu	|	
+5571639	|	102415	|	uncultured marine thaumarchaeote SAT1000_09_H09	|	species	|	ncbi:1456371	|		|	environmental,not_otu	|	
+5205224	|	102415	|	thaumarchaeote enrichment culture clone Ec.MTa2b4-01	|	species	|	ncbi:1238109	|		|	environmental	|	
+5571627	|	102415	|	uncultured marine thaumarchaeote KM3_61_F01	|	species	|	ncbi:1456213	|		|	environmental,not_otu	|	
+5571595	|	102415	|	uncultured marine thaumarchaeote KM3_23_F10	|	species	|	ncbi:1456100	|		|	environmental,not_otu	|	
+5571851	|	102415	|	uncultured marine thaumarchaeote KM3_52_H04	|	species	|	ncbi:1456178	|		|	environmental,not_otu	|	
+5571808	|	102415	|	uncultured marine thaumarchaeote KM3_135_A07	|	species	|	ncbi:1456003	|		|	environmental,not_otu	|	
+5571998	|	102415	|	uncultured marine thaumarchaeote KM3_168_C12	|	species	|	ncbi:1456038	|		|	environmental,not_otu	|	
+5571884	|	102415	|	uncultured marine thaumarchaeote KM3_05_F10	|	species	|	ncbi:1455969	|		|	environmental,not_otu	|	
+5571634	|	102415	|	uncultured marine thaumarchaeote KM3_88_E12	|	species	|	ncbi:1456336	|		|	environmental,not_otu	|	
+5571664	|	102415	|	uncultured marine thaumarchaeote KM3_84_A09	|	species	|	ncbi:1456310	|		|	environmental,not_otu	|	
+5571978	|	102415	|	uncultured marine thaumarchaeote KM3_04_H11	|	species	|	ncbi:1455968	|		|	environmental,not_otu	|	
+5571938	|	102415	|	uncultured marine thaumarchaeote KM3_25_D06	|	species	|	ncbi:1456104	|		|	environmental,not_otu	|	
+5571671	|	102415	|	uncultured marine thaumarchaeote KM3_85_H09	|	species	|	ncbi:1456318	|		|	environmental,not_otu	|	
+5571854	|	102415	|	uncultured marine thaumarchaeote SAT1000_06_F08	|	species	|	ncbi:1456362	|		|	environmental,not_otu	|	
+5571985	|	102415	|	uncultured marine thaumarchaeote KM3_90_E04	|	species	|	ncbi:1456343	|		|	environmental,not_otu	|	
+5571981	|	102415	|	uncultured marine thaumarchaeote KM3_04_E09	|	species	|	ncbi:1455966	|		|	environmental,not_otu	|	
+5572024	|	102415	|	uncultured marine thaumarchaeote KM3_162_C12	|	species	|	ncbi:1456032	|		|	environmental,not_otu	|	
+5571721	|	102415	|	uncultured marine thaumarchaeote SAT1000_50_F07	|	species	|	ncbi:1456417	|		|	environmental,not_otu	|	
+5571598	|	102415	|	uncultured marine thaumarchaeote SAT1000_12_D12	|	species	|	ncbi:1456378	|		|	environmental,not_otu	|	
+5571643	|	102415	|	uncultured marine thaumarchaeote KM3_67_B10	|	species	|	ncbi:1456233	|		|	environmental,not_otu	|	
+5571742	|	102415	|	uncultured marine thaumarchaeote KM3_01_F02	|	species	|	ncbi:1455952	|		|	environmental,not_otu	|	
+5571919	|	102415	|	uncultured marine thaumarchaeote KM3_73_B11	|	species	|	ncbi:1456265	|		|	environmental,not_otu	|	
+5571966	|	102415	|	uncultured marine thaumarchaeote KM3_191_D11	|	species	|	ncbi:1456079	|		|	environmental,not_otu	|	
+5205144	|	102415	|	thaumarchaeote enrichment culture clone Ec.MTa2b4-04	|	species	|	ncbi:1238112	|		|	environmental	|	
+5205114	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa2b1-15	|	species	|	ncbi:1238054	|		|	environmental	|	
+5571984	|	102415	|	uncultured marine thaumarchaeote KM3_48_E01	|	species	|	ncbi:1456170	|		|	environmental,not_otu	|	
+5571745	|	102415	|	uncultured marine thaumarchaeote KM3_198_G09	|	species	|	ncbi:1456089	|		|	environmental,not_otu	|	
+5572054	|	102415	|	uncultured marine thaumarchaeote AD1000_45_G09	|	species	|	ncbi:1455919	|		|	environmental,not_otu	|	
+5571673	|	102415	|	uncultured marine thaumarchaeote KM3_73_E02	|	species	|	ncbi:1456267	|		|	environmental,not_otu	|	
+5571967	|	102415	|	uncultured marine thaumarchaeote KM3_136_D12	|	species	|	ncbi:1456005	|		|	environmental,not_otu	|	
+5571596	|	102415	|	uncultured marine thaumarchaeote KM3_34_B07	|	species	|	ncbi:1456128	|		|	environmental,not_otu	|	
+5205125	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa1b9-19	|	species	|	ncbi:1238039	|		|	environmental	|	
+5205179	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa-TamoA-13	|	species	|	ncbi:1237992	|		|	environmental	|	
+5571613	|	102415	|	uncultured marine thaumarchaeote KM3_161_D03	|	species	|	ncbi:1456031	|		|	environmental,not_otu	|	
+5571584	|	102415	|	uncultured marine thaumarchaeote KM3_86_F11	|	species	|	ncbi:1456322	|		|	environmental,not_otu	|	
+5572074	|	102415	|	uncultured marine thaumarchaeote KM3_199_E03	|	species	|	ncbi:1456092	|		|	environmental,not_otu	|	
+5571786	|	102415	|	uncultured marine thaumarchaeote KM3_05_H01	|	species	|	ncbi:1455971	|		|	environmental,not_otu	|	
+5205246	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBb-TamoA-17	|	species	|	ncbi:1238081	|		|	environmental	|	
+5571804	|	102415	|	uncultured marine thaumarchaeote SAT1000_48_C08	|	species	|	ncbi:1456415	|		|	environmental,not_otu	|	
+5571773	|	102415	|	uncultured marine thaumarchaeote AD1000_14_H02	|	species	|	ncbi:1455893	|		|	environmental,not_otu	|	
+5205146	|	102415	|	thaumarchaeote enrichment culture clone Ec.MTa2b4-06	|	species	|	ncbi:1238114	|		|	environmental	|	
+5205187	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBb-TamoA-01	|	species	|	ncbi:1238066	|		|	environmental	|	
+5572068	|	102415	|	uncultured marine thaumarchaeote KM3_32_G12	|	species	|	ncbi:1456124	|		|	environmental,not_otu	|	
+5572078	|	102415	|	uncultured marine thaumarchaeote KM3_162_H04	|	species	|	ncbi:1456033	|		|	environmental,not_otu	|	
+5571990	|	102415	|	uncultured marine thaumarchaeote SAT1000_05_A05	|	species	|	ncbi:1456356	|		|	environmental,not_otu	|	
+5572025	|	102415	|	uncultured marine thaumarchaeote AD1000_41_B03	|	species	|	ncbi:1455915	|		|	environmental,not_otu	|	
+5571999	|	102415	|	uncultured marine thaumarchaeote KM3_195_B01	|	species	|	ncbi:1456083	|		|	environmental,not_otu	|	
+5205230	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa1b9-20	|	species	|	ncbi:1238040	|		|	environmental	|	
+5571894	|	102415	|	uncultured marine thaumarchaeote KM3_53_C08	|	species	|	ncbi:1456181	|		|	environmental,not_otu	|	
+5571674	|	102415	|	uncultured marine thaumarchaeote KM3_103_A05	|	species	|	ncbi:1455980	|		|	environmental,not_otu	|	
+5572072	|	102415	|	uncultured marine thaumarchaeote AD1000_14_F02	|	species	|	ncbi:1455892	|		|	environmental,not_otu	|	
+5205143	|	102415	|	thaumarchaeote enrichment culture clone Ec.MTa2b4-05	|	species	|	ncbi:1238113	|		|	environmental	|	
+5572031	|	102415	|	uncultured marine thaumarchaeote KM3_84_E02	|	species	|	ncbi:1456312	|		|	environmental,not_otu	|	
+5205152	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa-TamoA-17	|	species	|	ncbi:1237994	|		|	environmental	|	
+5205158	|	102415	|	thaumarchaeote enrichment culture clone Ec.MTa2b1-10	|	species	|	ncbi:1238096	|		|	environmental	|	
+5572089	|	102415	|	uncultured marine thaumarchaeote KM3_54_C03	|	species	|	ncbi:1456190	|		|	environmental,not_otu	|	
+5571872	|	102415	|	uncultured marine thaumarchaeote KM3_08_B06	|	species	|	ncbi:1455978	|		|	environmental,not_otu	|	
+5571922	|	102415	|	uncultured marine thaumarchaeote KM3_16_C10	|	species	|	ncbi:1456042	|		|	environmental,not_otu	|	
+5571876	|	102415	|	uncultured marine thaumarchaeote KM3_12_C10	|	species	|	ncbi:1455998	|		|	environmental,not_otu	|	
+5571750	|	102415	|	uncultured marine thaumarchaeote KM3_55_A12	|	species	|	ncbi:1456196	|		|	environmental,not_otu	|	
+5571571	|	102415	|	uncultured marine thaumarchaeote SAT1000_09_B07	|	species	|	ncbi:1456367	|		|	environmental,not_otu	|	
+5571629	|	102415	|	uncultured marine thaumarchaeote AD1000_69_B10	|	species	|	ncbi:1455931	|		|	environmental,not_otu	|	
+5571988	|	102415	|	uncultured marine thaumarchaeote KM3_196_E01	|	species	|	ncbi:1456085	|		|	environmental,not_otu	|	
+5205124	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa1b9-18	|	species	|	ncbi:1238038	|		|	environmental	|	
+5571797	|	102415	|	uncultured marine thaumarchaeote AD1000_36_B08	|	species	|	ncbi:1455910	|		|	environmental,not_otu	|	
+5571882	|	102415	|	uncultured marine thaumarchaeote KM3_26_F01	|	species	|	ncbi:1456108	|		|	environmental,not_otu	|	
+5571604	|	102415	|	uncultured marine thaumarchaeote KM3_56_C06	|	species	|	ncbi:1456202	|		|	environmental,not_otu	|	
+5205113	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa2b1-14	|	species	|	ncbi:1238053	|		|	environmental	|	
+5572059	|	102415	|	uncultured marine thaumarchaeote SAT1000_15_E07	|	species	|	ncbi:1456385	|		|	environmental,not_otu	|	
+5571781	|	102415	|	uncultured marine thaumarchaeote KM3_53_E03	|	species	|	ncbi:1456184	|		|	environmental,not_otu	|	
+5571736	|	102415	|	uncultured marine thaumarchaeote KM3_41_D11	|	species	|	ncbi:1456145	|		|	environmental,not_otu	|	
+5571676	|	102415	|	uncultured marine thaumarchaeote KM3_128_G11	|	species	|	ncbi:1455996	|		|	environmental,not_otu	|	
+5205110	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa2b1-11	|	species	|	ncbi:1238051	|		|	environmental	|	
+5571723	|	102415	|	uncultured marine thaumarchaeote KM3_188_F10	|	species	|	ncbi:1456074	|		|	environmental,not_otu	|	
+5571620	|	102415	|	uncultured marine thaumarchaeote AD1000_54_F06	|	species	|	ncbi:1455925	|		|	environmental,not_otu	|	
+5571945	|	102415	|	uncultured marine thaumarchaeote KM3_26_G04	|	species	|	ncbi:1456109	|		|	environmental,not_otu	|	
+5571640	|	102415	|	uncultured marine thaumarchaeote KM3_175_G11	|	species	|	ncbi:1456056	|		|	environmental,not_otu	|	
+5205151	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa-T16S-08	|	species	|	ncbi:1237977	|		|	environmental	|	
+5571819	|	102415	|	uncultured marine thaumarchaeote KM3_15_F02	|	species	|	ncbi:1456029	|		|	environmental,not_otu	|	
+5572087	|	102415	|	uncultured marine thaumarchaeote KM3_51_F10	|	species	|	ncbi:1456175	|		|	environmental,not_otu	|	
+5571796	|	102415	|	uncultured marine thaumarchaeote KM3_195_B03	|	species	|	ncbi:1456084	|		|	environmental,not_otu	|	
+5572019	|	102415	|	uncultured marine thaumarchaeote AD1000_39_D02	|	species	|	ncbi:1455912	|		|	environmental,not_otu	|	
+5571842	|	102415	|	uncultured marine thaumarchaeote KM3_88_D06	|	species	|	ncbi:1456334	|		|	environmental,not_otu	|	
+5205176	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa-TamoA-14	|	species	|	ncbi:1237993	|		|	environmental	|	
+5571829	|	102415	|	uncultured marine thaumarchaeote KM3_57_F01	|	species	|	ncbi:1456208	|		|	environmental,not_otu	|	
+5572047	|	102415	|	uncultured marine thaumarchaeote KM3_31_F03	|	species	|	ncbi:1456119	|		|	environmental,not_otu	|	
+5205116	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa2b1-19	|	species	|	ncbi:1238058	|		|	environmental	|	
+5571898	|	102415	|	uncultured marine thaumarchaeote KM3_03_H03	|	species	|	ncbi:1455964	|		|	environmental,not_otu	|	
+5205185	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBb-T16S-06	|	species	|	ncbi:1238064	|		|	environmental	|	
+5571942	|	102415	|	uncultured marine thaumarchaeote KM3_85_C11	|	species	|	ncbi:1456316	|		|	environmental,not_otu	|	
+5571977	|	102415	|	uncultured marine thaumarchaeote KM3_47_F06	|	species	|	ncbi:1456168	|		|	environmental,not_otu	|	
+5205111	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa2b1-10	|	species	|	ncbi:1238050	|		|	environmental	|	
+5571617	|	102415	|	uncultured marine thaumarchaeote AD1000_106_A06	|	species	|	ncbi:1455888	|		|	environmental,not_otu	|	
+5571713	|	102415	|	uncultured marine thaumarchaeote SAT1000_06_A07	|	species	|	ncbi:1456360	|		|	environmental,not_otu	|	
+5205121	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa1b9-13	|	species	|	ncbi:1238033	|		|	environmental	|	
+5572062	|	102415	|	uncultured marine thaumarchaeote KM3_06_C02	|	species	|	ncbi:1455976	|		|	environmental,not_otu	|	
+5572064	|	102415	|	uncultured marine thaumarchaeote KM3_33_B12	|	species	|	ncbi:1456125	|		|	environmental,not_otu	|	
+5571761	|	102415	|	uncultured marine thaumarchaeote KM3_15_A07	|	species	|	ncbi:1456025	|		|	environmental,not_otu	|	
+5571860	|	102415	|	uncultured marine thaumarchaeote KM3_11_E10	|	species	|	ncbi:1455991	|		|	environmental,not_otu	|	
+5205115	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa2b1-17	|	species	|	ncbi:1238056	|		|	environmental	|	
+5571770	|	102415	|	uncultured marine thaumarchaeote KM3_89_A10	|	species	|	ncbi:1456338	|		|	environmental,not_otu	|	
+5571719	|	102415	|	uncultured marine thaumarchaeote KM3_38_E04	|	species	|	ncbi:1456139	|		|	environmental,not_otu	|	
+5572053	|	102415	|	uncultured marine thaumarchaeote KM3_82_D11	|	species	|	ncbi:1456305	|		|	environmental,not_otu	|	
+5571918	|	102415	|	uncultured marine thaumarchaeote KM3_24_H04	|	species	|	ncbi:1456101	|		|	environmental,not_otu	|	
+5571915	|	102415	|	uncultured marine thaumarchaeote KM3_73_F02	|	species	|	ncbi:1456268	|		|	environmental,not_otu	|	
+5572033	|	102415	|	uncultured marine thaumarchaeote KM3_87_C09	|	species	|	ncbi:1456327	|		|	environmental,not_otu	|	
+5571874	|	102415	|	uncultured marine thaumarchaeote KM3_105_E03	|	species	|	ncbi:1455981	|		|	environmental,not_otu	|	
+5205129	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa1b4-18	|	species	|	ncbi:1238019	|		|	environmental	|	
+5571838	|	102415	|	uncultured marine thaumarchaeote AD1000_46_F05	|	species	|	ncbi:1455921	|		|	environmental,not_otu	|	
+5205217	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa-T16S-02	|	species	|	ncbi:1237971	|		|	environmental	|	
+5205244	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBb-TamoA-21	|	species	|	ncbi:1238085	|		|	environmental	|	
+5205099	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa-TamoA-04	|	species	|	ncbi:1237985	|		|	environmental	|	
+5571557	|	102415	|	uncultured marine thaumarchaeote KM3_71_H03	|	species	|	ncbi:1456259	|		|	environmental,not_otu	|	
+5571960	|	102415	|	uncultured marine thaumarchaeote AD1000_80_D11	|	species	|	ncbi:1455942	|		|	environmental,not_otu	|	
+5571688	|	102415	|	uncultured marine thaumarchaeote KM3_73_E01	|	species	|	ncbi:1456266	|		|	environmental,not_otu	|	
+5572039	|	102415	|	uncultured marine thaumarchaeote KM3_53_F08	|	species	|	ncbi:1456186	|		|	environmental,not_otu	|	
+5571566	|	102415	|	uncultured marine thaumarchaeote KM3_70_E10	|	species	|	ncbi:1456254	|		|	environmental,not_otu	|	
+5205157	|	102415	|	thaumarchaeote enrichment culture clone Ec.MTa2b1-06	|	species	|	ncbi:1238094	|		|	environmental	|	
+5572058	|	102415	|	uncultured marine thaumarchaeote KM3_16_E08	|	species	|	ncbi:1456044	|		|	environmental,not_otu	|	
+5571982	|	102415	|	uncultured marine thaumarchaeote AD1000_100_C06	|	species	|	ncbi:1455887	|		|	environmental,not_otu	|	
+5571923	|	102415	|	uncultured marine thaumarchaeote AD1000_70_G10	|	species	|	ncbi:1455934	|		|	environmental,not_otu	|	
+5572060	|	102415	|	uncultured marine thaumarchaeote KM3_168_C06	|	species	|	ncbi:1456037	|		|	environmental,not_otu	|	
+5205095	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa-TamoA-02	|	species	|	ncbi:1237983	|		|	environmental	|	
+5572083	|	102415	|	uncultured marine thaumarchaeote SAT1000_22_C02	|	species	|	ncbi:1456394	|		|	environmental,not_otu	|	
+5205255	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa-TamoA-22	|	species	|	ncbi:1237999	|		|	environmental	|	
+5571547	|	102415	|	uncultured marine thaumarchaeote KM3_70_F07	|	species	|	ncbi:1456256	|		|	environmental,not_otu	|	
+5572088	|	102415	|	uncultured marine thaumarchaeote KM3_06_B11	|	species	|	ncbi:1455975	|		|	environmental,not_otu	|	
+5571852	|	102415	|	uncultured marine thaumarchaeote AD1000_19_G07	|	species	|	ncbi:1455897	|		|	environmental,not_otu	|	
+5571864	|	102415	|	uncultured marine thaumarchaeote KM3_45_A02	|	species	|	ncbi:1456154	|		|	environmental,not_otu	|	
+5572018	|	102415	|	uncultured marine thaumarchaeote KM3_74_C01	|	species	|	ncbi:1456269	|		|	environmental,not_otu	|	
+5205126	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa1b4-17	|	species	|	ncbi:1238018	|		|	environmental	|	
+5571805	|	102415	|	uncultured marine thaumarchaeote KM3_179_B04	|	species	|	ncbi:1456061	|		|	environmental,not_otu	|	
+5571606	|	102415	|	uncultured marine thaumarchaeote KM3_200_B02	|	species	|	ncbi:1456093	|		|	environmental,not_otu	|	
+5571767	|	102415	|	uncultured marine thaumarchaeote AD1000_06_F06	|	species	|	ncbi:1455885	|		|	environmental,not_otu	|	
+5571661	|	102415	|	uncultured marine thaumarchaeote KM3_79_H09	|	species	|	ncbi:1456299	|		|	environmental,not_otu	|	
+5571612	|	102415	|	uncultured marine thaumarchaeote KM3_95_D02	|	species	|	ncbi:1456347	|		|	environmental,not_otu	|	
+5205097	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa-TamoA-08	|	species	|	ncbi:1237987	|		|	environmental	|	
+5571950	|	102415	|	uncultured marine thaumarchaeote AD1000_79_B02	|	species	|	ncbi:1455941	|		|	environmental,not_otu	|	
+5205221	|	102415	|	thaumarchaeote enrichment culture clone Ec.MTa2b1-18	|	species	|	ncbi:1238102	|		|	environmental	|	
+5571827	|	102415	|	uncultured marine thaumarchaeote SAT1000_27_H05	|	species	|	ncbi:1456402	|		|	environmental,not_otu	|	
+5571587	|	102415	|	uncultured marine thaumarchaeote KM3_65_A09	|	species	|	ncbi:1456223	|		|	environmental,not_otu	|	
+5205096	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa-T16S-13	|	species	|	ncbi:1237982	|		|	environmental	|	
+5571769	|	102415	|	uncultured marine thaumarchaeote KM3_55_G04	|	species	|	ncbi:1456199	|		|	environmental,not_otu	|	
+5571791	|	102415	|	uncultured marine thaumarchaeote KM3_29_F10	|	species	|	ncbi:1456114	|		|	environmental,not_otu	|	
+5572001	|	102415	|	uncultured marine thaumarchaeote KM3_46_G10	|	species	|	ncbi:1456161	|		|	environmental,not_otu	|	
+5571562	|	102415	|	uncultured marine thaumarchaeote AD1000_44_B05	|	species	|	ncbi:1455917	|		|	environmental,not_otu	|	
+5571593	|	102415	|	uncultured marine thaumarchaeote KM3_115_A11	|	species	|	ncbi:1455988	|		|	environmental,not_otu	|	
+5571971	|	102415	|	uncultured marine thaumarchaeote KM3_201_G07	|	species	|	ncbi:1456095	|		|	environmental,not_otu	|	
+5571706	|	102415	|	uncultured marine thaumarchaeote KM3_79_E03	|	species	|	ncbi:1456296	|		|	environmental,not_otu	|	
+5205199	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa1b4-19	|	species	|	ncbi:1238020	|		|	environmental	|	
+5571738	|	102415	|	uncultured marine thaumarchaeote KM3_197_B03	|	species	|	ncbi:1456087	|		|	environmental,not_otu	|	
+5571741	|	102415	|	uncultured marine thaumarchaeote KM3_156_A10	|	species	|	ncbi:1456021	|		|	environmental,not_otu	|	
+5572084	|	102415	|	uncultured marine thaumarchaeote KM3_70_B05	|	species	|	ncbi:1456248	|		|	environmental,not_otu	|	
+5571863	|	102415	|	uncultured marine thaumarchaeote KM3_29_B12	|	species	|	ncbi:1456113	|		|	environmental,not_otu	|	
+5571631	|	102415	|	uncultured marine thaumarchaeote KM3_43_G12	|	species	|	ncbi:1456151	|		|	environmental,not_otu	|	
+5205132	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa1b4-15	|	species	|	ncbi:1238016	|		|	environmental	|	
+5572005	|	102415	|	uncultured marine thaumarchaeote KM3_30_B02	|	species	|	ncbi:1456115	|		|	environmental,not_otu	|	
+5571792	|	102415	|	uncultured marine thaumarchaeote KM3_172_D05	|	species	|	ncbi:1456048	|		|	environmental,not_otu	|	
+5571855	|	102415	|	uncultured marine thaumarchaeote KM3_74_G04	|	species	|	ncbi:1456274	|		|	environmental,not_otu	|	
+5205233	|	102415	|	thaumarchaeote enrichment culture clone Ec.MTa2b4-16	|	species	|	ncbi:1238124	|		|	environmental	|	
+5205109	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBb-TamoA-11	|	species	|	ncbi:1238075	|		|	environmental	|	
+5571979	|	102415	|	uncultured marine thaumarchaeote SAT1000_23_E11	|	species	|	ncbi:1456396	|		|	environmental,not_otu	|	
+5571836	|	102415	|	uncultured marine thaumarchaeote KM3_67_E02	|	species	|	ncbi:1456235	|		|	environmental,not_otu	|	
+5205135	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa1b4-09	|	species	|	ncbi:1238011	|		|	environmental	|	
+5571832	|	102415	|	uncultured marine thaumarchaeote KM3_04_H06	|	species	|	ncbi:1455967	|		|	environmental,not_otu	|	
+5571968	|	102415	|	uncultured marine thaumarchaeote KM3_86_B06	|	species	|	ncbi:1456319	|		|	environmental,not_otu	|	
+5571707	|	102415	|	uncultured marine thaumarchaeote KM3_197_F10	|	species	|	ncbi:1456088	|		|	environmental,not_otu	|	
+5205141	|	102415	|	thaumarchaeote enrichment culture clone Ec.MTa2b4-03	|	species	|	ncbi:1238111	|		|	environmental	|	
+5205140	|	102415	|	thaumarchaeote enrichment culture clone Ec.MTa2b4-10	|	species	|	ncbi:1238118	|		|	environmental	|	
+5572013	|	102415	|	uncultured marine thaumarchaeote SAT1000_17_H05	|	species	|	ncbi:1456390	|		|	environmental,not_otu	|	
+5572008	|	102415	|	uncultured marine thaumarchaeote KM3_10_C07	|	species	|	ncbi:1455986	|		|	environmental,not_otu	|	
+5572021	|	102415	|	uncultured marine thaumarchaeote KM3_62_H02	|	species	|	ncbi:1456217	|		|	environmental,not_otu	|	
+5572077	|	102415	|	uncultured marine thaumarchaeote KM3_64_C01	|	species	|	ncbi:1456221	|		|	environmental,not_otu	|	
+5571987	|	102415	|	uncultured marine thaumarchaeote SAT1000_51_C10	|	species	|	ncbi:1456419	|		|	environmental,not_otu	|	
+5571729	|	102415	|	uncultured marine thaumarchaeote KM3_151_D03	|	species	|	ncbi:1456016	|		|	environmental,not_otu	|	
+5205182	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa-TamoA-20	|	species	|	ncbi:1237997	|		|	environmental	|	
+5571825	|	102415	|	uncultured marine thaumarchaeote SAT1000_25_G11	|	species	|	ncbi:1456398	|		|	environmental,not_otu	|	
+5205198	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa1b4-20	|	species	|	ncbi:1238021	|		|	environmental	|	
+5572046	|	102415	|	uncultured marine thaumarchaeote KM3_53_D03	|	species	|	ncbi:1456182	|		|	environmental,not_otu	|	
+5205142	|	102415	|	thaumarchaeote enrichment culture clone Ec.MTa2b4-02	|	species	|	ncbi:1238110	|		|	environmental	|	
+5571954	|	102415	|	uncultured marine thaumarchaeote KM3_190_B07	|	species	|	ncbi:1456077	|		|	environmental,not_otu	|	
+5572073	|	102415	|	uncultured marine thaumarchaeote KM3_40_C06	|	species	|	ncbi:1456142	|		|	environmental,not_otu	|	
+5205254	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa-TamoA-11	|	species	|	ncbi:1237990	|		|	environmental	|	
+5571972	|	102415	|	uncultured marine thaumarchaeote KM3_106_G11	|	species	|	ncbi:1455984	|		|	environmental,not_otu	|	
+5205212	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa-TamoA-24	|	species	|	ncbi:1238001	|		|	environmental	|	
+5571733	|	102415	|	uncultured marine thaumarchaeote KM3_87_C05	|	species	|	ncbi:1456326	|		|	environmental,not_otu	|	
+5205240	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa1b9-16	|	species	|	ncbi:1238036	|		|	environmental	|	
+5571776	|	102415	|	uncultured marine thaumarchaeote KM3_163_G06	|	species	|	ncbi:1456034	|		|	environmental,not_otu	|	
+5571644	|	102415	|	uncultured marine thaumarchaeote KM3_54_F04	|	species	|	ncbi:1456191	|		|	environmental,not_otu	|	
+5571623	|	102415	|	uncultured marine thaumarchaeote AD1000_98_C07	|	species	|	ncbi:1455949	|		|	environmental,not_otu	|	
+5572000	|	102415	|	uncultured marine thaumarchaeote KM3_81_E07	|	species	|	ncbi:1456300	|		|	environmental,not_otu	|	
+5571555	|	102415	|	uncultured marine thaumarchaeote SAT1000_07_E02	|	species	|	ncbi:1456363	|		|	environmental,not_otu	|	
+5572004	|	102415	|	uncultured marine thaumarchaeote AD1000_46_C12	|	species	|	ncbi:1455920	|		|	environmental,not_otu	|	
+5571908	|	102415	|	uncultured marine thaumarchaeote KM3_31_F07	|	species	|	ncbi:1456120	|		|	environmental,not_otu	|	
+5571572	|	102415	|	uncultured marine thaumarchaeote KM3_12_B11	|	species	|	ncbi:1455997	|		|	environmental,not_otu	|	
+5571970	|	102415	|	uncultured marine thaumarchaeote KM3_40_A11	|	species	|	ncbi:1456141	|		|	environmental,not_otu	|	
+5572027	|	102415	|	uncultured marine thaumarchaeote KM3_54_G11	|	species	|	ncbi:1456193	|		|	environmental,not_otu	|	
+5205211	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa1b4-01	|	species	|	ncbi:1238003	|		|	environmental	|	
+5205169	|	102415	|	thaumarchaeote enrichment culture clone Ec.MTa2b1-22	|	species	|	ncbi:1238106	|		|	environmental	|	
+5571873	|	102415	|	uncultured marine thaumarchaeote KM3_167_H09	|	species	|	ncbi:1456036	|		|	environmental,not_otu	|	
+5571642	|	102415	|	uncultured marine thaumarchaeote KM3_87_F05	|	species	|	ncbi:1456329	|		|	environmental,not_otu	|	
+5571868	|	102415	|	uncultured marine thaumarchaeote KM3_61_F08	|	species	|	ncbi:1456214	|		|	environmental,not_otu	|	
+5571989	|	102415	|	uncultured marine thaumarchaeote KM3_86_G02	|	species	|	ncbi:1456323	|		|	environmental,not_otu	|	
+5572030	|	102415	|	uncultured marine thaumarchaeote SAT1000_07_E05	|	species	|	ncbi:1456364	|		|	environmental,not_otu	|	
+5572028	|	102415	|	uncultured marine thaumarchaeote KM3_75_F03	|	species	|	ncbi:1456279	|		|	environmental,not_otu	|	
+5571774	|	102415	|	uncultured marine thaumarchaeote AD1000_17_C04	|	species	|	ncbi:1455895	|		|	environmental,not_otu	|	
+5572049	|	102415	|	uncultured marine thaumarchaeote KM3_46_D02	|	species	|	ncbi:1456158	|		|	environmental,not_otu	|	
+5572063	|	102415	|	uncultured marine thaumarchaeote SAT1000_41_C02	|	species	|	ncbi:1456409	|		|	environmental,not_otu	|	
+5205106	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBb-TamoA-12	|	species	|	ncbi:1238076	|		|	environmental	|	
+5571965	|	102415	|	uncultured marine thaumarchaeote KM3_90_C11	|	species	|	ncbi:1456342	|		|	environmental,not_otu	|	
+5571892	|	102415	|	uncultured marine thaumarchaeote KM3_32_D07	|	species	|	ncbi:1456123	|		|	environmental,not_otu	|	
+5205202	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa1b9-03	|	species	|	ncbi:1238024	|		|	environmental	|	
+5571605	|	102415	|	uncultured marine thaumarchaeote SAT1000_53_A12	|	species	|	ncbi:1456422	|		|	environmental,not_otu	|	
+5205156	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBb-TamoA-15	|	species	|	ncbi:1238079	|		|	environmental	|	
+5571951	|	102415	|	uncultured marine thaumarchaeote AD1000_06_A03	|	species	|	ncbi:1455884	|		|	environmental,not_otu	|	
+5205155	|	102415	|	thaumarchaeote enrichment culture clone Ec.MTa2b1-15	|	species	|	ncbi:1238101	|		|	environmental	|	
+5205215	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa-T16S-03	|	species	|	ncbi:1237972	|		|	environmental	|	
+5571579	|	102415	|	uncultured marine thaumarchaeote KM3_54_A10	|	species	|	ncbi:1456188	|		|	environmental,not_otu	|	
+5571561	|	102415	|	uncultured marine thaumarchaeote KM3_87_E01	|	species	|	ncbi:1456328	|		|	environmental,not_otu	|	
+5571958	|	102415	|	uncultured marine thaumarchaeote SAT1000_09_A04	|	species	|	ncbi:1456366	|		|	environmental,not_otu	|	
+5571726	|	102415	|	uncultured marine thaumarchaeote KM3_01_F07	|	species	|	ncbi:1455953	|		|	environmental,not_otu	|	
+5205181	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa-TamoA-19	|	species	|	ncbi:1237996	|		|	environmental	|	
+5205105	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBb-TamoA-06	|	species	|	ncbi:1238071	|		|	environmental	|	
+5205197	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa1b9-07	|	species	|	ncbi:1238028	|		|	environmental	|	
+5571901	|	102415	|	uncultured marine thaumarchaeote SAT1000_10_H08	|	species	|	ncbi:1456376	|		|	environmental,not_otu	|	
+5572022	|	102415	|	uncultured marine thaumarchaeote KM3_70_D05	|	species	|	ncbi:1456251	|		|	environmental,not_otu	|	
+5571879	|	102415	|	uncultured marine thaumarchaeote KM3_106_B12	|	species	|	ncbi:1455982	|		|	environmental,not_otu	|	
+5205138	|	102415	|	thaumarchaeote enrichment culture clone Ec.MTa2b1-09	|	species	|	ncbi:1238095	|		|	environmental	|	
+5571755	|	102415	|	uncultured marine thaumarchaeote KM3_137_A09	|	species	|	ncbi:1456006	|		|	environmental,not_otu	|	
+5205145	|	102415	|	thaumarchaeote enrichment culture clone Ec.MTa2b4-07	|	species	|	ncbi:1238115	|		|	environmental	|	
+5571683	|	102415	|	uncultured marine thaumarchaeote AD1000_12_H07	|	species	|	ncbi:1455891	|		|	environmental,not_otu	|	
+5571633	|	102415	|	uncultured marine thaumarchaeote KM3_146_F08	|	species	|	ncbi:1456012	|		|	environmental,not_otu	|	
+5571793	|	102415	|	uncultured marine thaumarchaeote KM3_13_C11	|	species	|	ncbi:1456007	|		|	environmental,not_otu	|	
+5572055	|	102415	|	uncultured marine thaumarchaeote KM3_18_F10	|	species	|	ncbi:1456076	|		|	environmental,not_otu	|	
+5572092	|	102415	|	uncultured marine thaumarchaeote KM3_35_A11	|	species	|	ncbi:1456130	|		|	environmental,not_otu	|	
+5571784	|	102415	|	uncultured marine thaumarchaeote SAT1000_13_B06	|	species	|	ncbi:1456381	|		|	environmental,not_otu	|	
+5571651	|	102415	|	uncultured marine thaumarchaeote KM3_55_A11	|	species	|	ncbi:1456195	|		|	environmental,not_otu	|	
+5571883	|	102415	|	uncultured marine thaumarchaeote AD1000_02_C08	|	species	|	ncbi:1455880	|		|	environmental,not_otu	|	
+5571941	|	102415	|	uncultured marine thaumarchaeote SAT1000_35_E09	|	species	|	ncbi:1456405	|		|	environmental,not_otu	|	
+5571765	|	102415	|	uncultured marine thaumarchaeote KM3_88_G03	|	species	|	ncbi:1456337	|		|	environmental,not_otu	|	
+5571802	|	102415	|	uncultured marine thaumarchaeote KM3_157_H08	|	species	|	ncbi:1456023	|		|	environmental,not_otu	|	
+5571902	|	102415	|	uncultured marine thaumarchaeote AD1000_30_G09	|	species	|	ncbi:1455905	|		|	environmental,not_otu	|	
+5571824	|	102415	|	uncultured marine thaumarchaeote KM3_31_D02	|	species	|	ncbi:1456117	|		|	environmental,not_otu	|	
+5572002	|	102415	|	uncultured marine thaumarchaeote KM3_181_D10	|	species	|	ncbi:1456064	|		|	environmental,not_otu	|	
+5205128	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa-TamoA-09	|	species	|	ncbi:1237988	|		|	environmental	|	
+5571686	|	102415	|	uncultured marine thaumarchaeote KM3_88_B06	|	species	|	ncbi:1456332	|		|	environmental,not_otu	|	
+5205108	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBb-TamoA-10	|	species	|	ncbi:1238074	|		|	environmental	|	
+5571929	|	102415	|	uncultured marine thaumarchaeote SAT1000_22_D06	|	species	|	ncbi:1456395	|		|	environmental,not_otu	|	
+5571875	|	102415	|	uncultured marine thaumarchaeote KM3_47_A04	|	species	|	ncbi:1456165	|		|	environmental,not_otu	|	
+5571859	|	102415	|	uncultured marine thaumarchaeote KM3_74_H09	|	species	|	ncbi:1456276	|		|	environmental,not_otu	|	
+5572045	|	102415	|	uncultured marine thaumarchaeote KM3_79_D07	|	species	|	ncbi:1456295	|		|	environmental,not_otu	|	
+5571789	|	102415	|	uncultured marine thaumarchaeote KM3_16_G02	|	species	|	ncbi:1456045	|		|	environmental,not_otu	|	
+5571659	|	102415	|	uncultured marine thaumarchaeote KM3_74_F07	|	species	|	ncbi:1456272	|		|	environmental,not_otu	|	
+5571749	|	102415	|	uncultured marine thaumarchaeote AD1000_49_H01	|	species	|	ncbi:1455922	|		|	environmental,not_otu	|	
+5571820	|	102415	|	uncultured marine thaumarchaeote KM3_67_A06	|	species	|	ncbi:1456231	|		|	environmental,not_otu	|	
+5571751	|	102415	|	uncultured marine thaumarchaeote AD1000_88_E07	|	species	|	ncbi:1455946	|		|	environmental,not_otu	|	
+5571662	|	102415	|	uncultured marine thaumarchaeote SAT1000_05_B05	|	species	|	ncbi:1456357	|		|	environmental,not_otu	|	
+5205194	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa2b1-01	|	species	|	ncbi:1238041	|		|	environmental	|	
+5571903	|	102415	|	uncultured marine thaumarchaeote KM3_27_D09	|	species	|	ncbi:1456110	|		|	environmental,not_otu	|	
+5571912	|	102415	|	uncultured marine thaumarchaeote KM3_67_A04	|	species	|	ncbi:1456230	|		|	environmental,not_otu	|	
+5205137	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa1b4-11	|	species	|	ncbi:1238013	|		|	environmental	|	
+5571763	|	102415	|	uncultured marine thaumarchaeote SAT1000_15_B11	|	species	|	ncbi:1456384	|		|	environmental,not_otu	|	
+5571833	|	102415	|	uncultured marine thaumarchaeote SAT1000_37_C08	|	species	|	ncbi:1456406	|		|	environmental,not_otu	|	
+5571947	|	102415	|	uncultured marine thaumarchaeote KM3_05_G02	|	species	|	ncbi:1455970	|		|	environmental,not_otu	|	
+5571752	|	102415	|	uncultured marine thaumarchaeote KM3_177_A10	|	species	|	ncbi:1456058	|		|	environmental,not_otu	|	
+5571632	|	102415	|	uncultured marine thaumarchaeote KM3_83_E04	|	species	|	ncbi:1456308	|		|	environmental,not_otu	|	
+5571705	|	102415	|	uncultured marine thaumarchaeote KM3_25_G08	|	species	|	ncbi:1456105	|		|	environmental,not_otu	|	
+5571694	|	102415	|	uncultured marine thaumarchaeote KM3_72_F07	|	species	|	ncbi:1456263	|		|	environmental,not_otu	|	
+5571657	|	102415	|	uncultured marine thaumarchaeote KM3_125_A06	|	species	|	ncbi:1455993	|		|	environmental,not_otu	|	
+5571893	|	102415	|	uncultured marine thaumarchaeote SAT1000_12_G09	|	species	|	ncbi:1456379	|		|	environmental,not_otu	|	
+5572090	|	102415	|	uncultured marine thaumarchaeote SAT1000_39_F02	|	species	|	ncbi:1456407	|		|	environmental,not_otu	|	
+5571698	|	102415	|	uncultured marine thaumarchaeote AD1000_65_A02	|	species	|	ncbi:1455929	|		|	environmental,not_otu	|	
+5572036	|	102415	|	uncultured marine thaumarchaeote AD1000_39_D08	|	species	|	ncbi:1455913	|		|	environmental,not_otu	|	
+5571718	|	102415	|	uncultured marine thaumarchaeote KM3_78_D07	|	species	|	ncbi:1456291	|		|	environmental,not_otu	|	
+5571708	|	102415	|	uncultured marine thaumarchaeote KM3_74_E11	|	species	|	ncbi:1456271	|		|	environmental,not_otu	|	
+5205174	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa1b9-12	|	species	|	ncbi:1238032	|		|	environmental	|	
+5571840	|	102415	|	uncultured marine thaumarchaeote KM3_11_F08	|	species	|	ncbi:1455992	|		|	environmental,not_otu	|	
+5571896	|	102415	|	uncultured marine thaumarchaeote SAT1000_12_G12	|	species	|	ncbi:1456380	|		|	environmental,not_otu	|	
+5205206	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa1b4-07	|	species	|	ncbi:1238009	|		|	environmental	|	
+5571994	|	102415	|	uncultured marine thaumarchaeote KM3_97_B07	|	species	|	ncbi:1456350	|		|	environmental,not_otu	|	
+5571739	|	102415	|	uncultured marine thaumarchaeote KM3_33_G01	|	species	|	ncbi:1456126	|		|	environmental,not_otu	|	
+5571610	|	102415	|	uncultured marine thaumarchaeote KM3_203_A01	|	species	|	ncbi:1456097	|		|	environmental,not_otu	|	
+5205207	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa1b4-05	|	species	|	ncbi:1238007	|		|	environmental	|	
+5571996	|	102415	|	uncultured marine thaumarchaeote SAT1000_05_G10	|	species	|	ncbi:1456358	|		|	environmental,not_otu	|	
+5205223	|	102415	|	thaumarchaeote enrichment culture clone Ec.MTa2b1-25	|	species	|	ncbi:1238108	|		|	environmental	|	
+5571858	|	102415	|	uncultured marine thaumarchaeote KM3_38_E02	|	species	|	ncbi:1456138	|		|	environmental,not_otu	|	
+5571910	|	102415	|	uncultured marine thaumarchaeote KM3_175_E04	|	species	|	ncbi:1456054	|		|	environmental,not_otu	|	
+5571818	|	102415	|	uncultured marine thaumarchaeote AD1000_82_B05	|	species	|	ncbi:1455944	|		|	environmental,not_otu	|	
+5571588	|	102415	|	uncultured marine thaumarchaeote KM3_76_B05	|	species	|	ncbi:1456282	|		|	environmental,not_otu	|	
+5571826	|	102415	|	uncultured marine thaumarchaeote KM3_78_A04	|	species	|	ncbi:1456289	|		|	environmental,not_otu	|	
+5571546	|	102415	|	uncultured marine thaumarchaeote KM3_65_H02	|	species	|	ncbi:1456226	|		|	environmental,not_otu	|	
+5572044	|	102415	|	uncultured marine thaumarchaeote KM3_72_H08	|	species	|	ncbi:1456264	|		|	environmental,not_otu	|	
+5571720	|	102415	|	uncultured marine thaumarchaeote KM3_183_D02	|	species	|	ncbi:1456068	|		|	environmental,not_otu	|	
+5571934	|	102415	|	uncultured marine thaumarchaeote AD1000_33_B07	|	species	|	ncbi:1455908	|		|	environmental,not_otu	|	
+5205247	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBb-TamoA-16	|	species	|	ncbi:1238080	|		|	environmental	|	
+5571780	|	102415	|	uncultured marine thaumarchaeote KM3_44_H07	|	species	|	ncbi:1456153	|		|	environmental,not_otu	|	
+5571927	|	102415	|	uncultured marine thaumarchaeote KM3_78_E10	|	species	|	ncbi:1456292	|		|	environmental,not_otu	|	
+5571658	|	102415	|	uncultured marine thaumarchaeote SAT1000_26_E12	|	species	|	ncbi:1456400	|		|	environmental,not_otu	|	
+5571641	|	102415	|	uncultured marine thaumarchaeote KM3_03_F11	|	species	|	ncbi:1455961	|		|	environmental,not_otu	|	
+5571895	|	102415	|	uncultured marine thaumarchaeote KM3_177_D01	|	species	|	ncbi:1456059	|		|	environmental,not_otu	|	
+5571700	|	102415	|	uncultured marine thaumarchaeote KM3_196_F10	|	species	|	ncbi:1456086	|		|	environmental,not_otu	|	
+5572048	|	102415	|	uncultured marine thaumarchaeote KM3_82_C03	|	species	|	ncbi:1456303	|		|	environmental,not_otu	|	
+5571699	|	102415	|	uncultured marine thaumarchaeote SAT1000_08_G06	|	species	|	ncbi:1456365	|		|	environmental,not_otu	|	
+5205234	|	102415	|	thaumarchaeote enrichment culture clone Ec.MTa2b4-17	|	species	|	ncbi:1238125	|		|	environmental	|	
+5571897	|	102415	|	uncultured marine thaumarchaeote AD1000_118_C08	|	species	|	ncbi:1455889	|		|	environmental,not_otu	|	
+5571946	|	102415	|	uncultured marine thaumarchaeote KM3_99_A02	|	species	|	ncbi:1456353	|		|	environmental,not_otu	|	
+5205218	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBb-TamoA-14	|	species	|	ncbi:1238078	|		|	environmental	|	
+5571582	|	102415	|	uncultured marine thaumarchaeote SAT1000_09_B08	|	species	|	ncbi:1456368	|		|	environmental,not_otu	|	
+5205237	|	102415	|	thaumarchaeote enrichment culture clone Ec.MTa2b4-13	|	species	|	ncbi:1238121	|		|	environmental	|	
+5571653	|	102415	|	uncultured marine thaumarchaeote AD1000_96_F07	|	species	|	ncbi:1455948	|		|	environmental,not_otu	|	
+5571881	|	102415	|	uncultured marine thaumarchaeote KM3_42_C02	|	species	|	ncbi:1456147	|		|	environmental,not_otu	|	
+5205201	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa1b9-04	|	species	|	ncbi:1238025	|		|	environmental	|	
+5571583	|	102415	|	uncultured marine thaumarchaeote KM3_67_E04	|	species	|	ncbi:1456236	|		|	environmental,not_otu	|	
+5572015	|	102415	|	uncultured marine thaumarchaeote KM3_74_C10	|	species	|	ncbi:1456270	|		|	environmental,not_otu	|	
+5571930	|	102415	|	uncultured marine thaumarchaeote KM3_153_B11	|	species	|	ncbi:1456017	|		|	environmental,not_otu	|	
+5571841	|	102415	|	uncultured marine thaumarchaeote AD1000_80_F03	|	species	|	ncbi:1455943	|		|	environmental,not_otu	|	
+5205118	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa-T16S-12	|	species	|	ncbi:1237981	|		|	environmental	|	
+5571800	|	102415	|	uncultured marine thaumarchaeote KM3_70_D04	|	species	|	ncbi:1456250	|		|	environmental,not_otu	|	
+5571689	|	102415	|	uncultured marine thaumarchaeote KM3_55_F05	|	species	|	ncbi:1456198	|		|	environmental,not_otu	|	
+5205227	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa2b1-05	|	species	|	ncbi:1238045	|		|	environmental	|	
+5571916	|	102415	|	uncultured marine thaumarchaeote KM3_76_D06	|	species	|	ncbi:1456284	|		|	environmental,not_otu	|	
+5571787	|	102415	|	uncultured marine thaumarchaeote KM3_51_A05	|	species	|	ncbi:1456173	|		|	environmental,not_otu	|	
+5571944	|	102415	|	uncultured marine thaumarchaeote KM3_126_D02	|	species	|	ncbi:1455994	|		|	environmental,not_otu	|	
+5571771	|	102415	|	uncultured marine thaumarchaeote AD1000_04_C02	|	species	|	ncbi:1455881	|		|	environmental,not_otu	|	
+5205102	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBb-TamoA-07	|	species	|	ncbi:1238072	|		|	environmental	|	
+5571624	|	102415	|	uncultured marine thaumarchaeote KM3_168_H11	|	species	|	ncbi:1456039	|		|	environmental,not_otu	|	
+5571955	|	102415	|	uncultured marine thaumarchaeote KM3_51_E02	|	species	|	ncbi:1456174	|		|	environmental,not_otu	|	
+5205173	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa1b9-15	|	species	|	ncbi:1238035	|		|	environmental	|	
+5205162	|	102415	|	thaumarchaeote enrichment culture clone Ec.MTa2b1-04	|	species	|	ncbi:1238092	|		|	environmental	|	
+5571899	|	102415	|	uncultured marine thaumarchaeote AD1000_71_A04	|	species	|	ncbi:1455935	|		|	environmental,not_otu	|	
+5571943	|	102415	|	uncultured marine thaumarchaeote SAT1000_52_D06	|	species	|	ncbi:1456420	|		|	environmental,not_otu	|	
+5571790	|	102415	|	uncultured marine thaumarchaeote SAT1000_15_H02	|	species	|	ncbi:1456386	|		|	environmental,not_otu	|	
+5572082	|	102415	|	uncultured marine thaumarchaeote KM3_57_F02	|	species	|	ncbi:1456209	|		|	environmental,not_otu	|	
+5571680	|	102415	|	uncultured marine thaumarchaeote KM3_90_G11	|	species	|	ncbi:1456344	|		|	environmental,not_otu	|	
+5571724	|	102415	|	uncultured marine thaumarchaeote KM3_68_B04	|	species	|	ncbi:1456242	|		|	environmental,not_otu	|	
+5571691	|	102415	|	uncultured marine thaumarchaeote KM3_164_C03	|	species	|	ncbi:1456035	|		|	environmental,not_otu	|	
+5571578	|	102415	|	uncultured marine thaumarchaeote KM3_52_B01	|	species	|	ncbi:1456176	|		|	environmental,not_otu	|	
+5571735	|	102415	|	uncultured marine thaumarchaeote AD1000_54_E04	|	species	|	ncbi:1455924	|		|	environmental,not_otu	|	
+5205098	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa-TamoA-07	|	species	|	ncbi:1237986	|		|	environmental	|	
+5571716	|	102415	|	uncultured marine thaumarchaeote SAT1000_47_G01	|	species	|	ncbi:1456413	|		|	environmental,not_otu	|	
+5571556	|	102415	|	uncultured marine thaumarchaeote KM3_08_A11	|	species	|	ncbi:1455977	|		|	environmental,not_otu	|	
+5572026	|	102415	|	uncultured marine thaumarchaeote KM3_69_B11	|	species	|	ncbi:1456244	|		|	environmental,not_otu	|	
+5205119	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa-T16S-11	|	species	|	ncbi:1237980	|		|	environmental	|	
+5571867	|	102415	|	uncultured marine thaumarchaeote KM3_77_E10	|	species	|	ncbi:1456287	|		|	environmental,not_otu	|	
+5571652	|	102415	|	uncultured marine thaumarchaeote KM3_47_G11	|	species	|	ncbi:1456169	|		|	environmental,not_otu	|	
+5571656	|	102415	|	uncultured marine thaumarchaeote KM3_84_F11	|	species	|	ncbi:1456314	|		|	environmental,not_otu	|	
+5571909	|	102415	|	uncultured marine thaumarchaeote KM3_182_G05	|	species	|	ncbi:1456066	|		|	environmental,not_otu	|	
+5571813	|	102415	|	uncultured marine thaumarchaeote KM3_67_B11	|	species	|	ncbi:1456234	|		|	environmental,not_otu	|	
+5571806	|	102415	|	uncultured marine thaumarchaeote AD1000_21_E03	|	species	|	ncbi:1455900	|		|	environmental,not_otu	|	
+5572051	|	102415	|	uncultured marine thaumarchaeote KM3_50_F11	|	species	|	ncbi:1456172	|		|	environmental,not_otu	|	
+5571590	|	102415	|	uncultured marine thaumarchaeote KM3_46_H07	|	species	|	ncbi:1456163	|		|	environmental,not_otu	|	
+5571936	|	102415	|	uncultured marine thaumarchaeote KM3_15_E09	|	species	|	ncbi:1456028	|		|	environmental,not_otu	|	
+5571939	|	102415	|	uncultured marine thaumarchaeote KM3_89_H08	|	species	|	ncbi:1456341	|		|	environmental,not_otu	|	
+5571621	|	102415	|	uncultured marine thaumarchaeote KM3_26_A01	|	species	|	ncbi:1456106	|		|	environmental,not_otu	|	
+5571717	|	102415	|	uncultured marine thaumarchaeote KM3_70_B04	|	species	|	ncbi:1456247	|		|	environmental,not_otu	|	
+5571715	|	102415	|	uncultured marine thaumarchaeote KM3_49_A08	|	species	|	ncbi:1456171	|		|	environmental,not_otu	|	
+5205172	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa1b9-17	|	species	|	ncbi:1238037	|		|	environmental	|	
+5205153	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa-TamoA-25	|	species	|	ncbi:1238002	|		|	environmental	|	
+5571997	|	102415	|	uncultured marine thaumarchaeote KM3_98_C03	|	species	|	ncbi:1456352	|		|	environmental,not_otu	|	
+5571577	|	102415	|	uncultured marine thaumarchaeote KM3_30_B03	|	species	|	ncbi:1456116	|		|	environmental,not_otu	|	
+5571709	|	102415	|	uncultured marine thaumarchaeote KM3_35_D03	|	species	|	ncbi:1456132	|		|	environmental,not_otu	|	
+5571692	|	102415	|	uncultured marine thaumarchaeote KM3_60_F11	|	species	|	ncbi:1456212	|		|	environmental,not_otu	|	
+5572075	|	102415	|	uncultured marine thaumarchaeote SAT1000_14_E04	|	species	|	ncbi:1456383	|		|	environmental,not_otu	|	
+5571948	|	102415	|	uncultured marine thaumarchaeote KM3_15_E05	|	species	|	ncbi:1456027	|		|	environmental,not_otu	|	
+5572069	|	102415	|	uncultured marine thaumarchaeote KM3_03_B08	|	species	|	ncbi:1455959	|		|	environmental,not_otu	|	
+5572011	|	102415	|	uncultured marine thaumarchaeote KM3_183_D03	|	species	|	ncbi:1456069	|		|	environmental,not_otu	|	
+5571630	|	102415	|	uncultured marine thaumarchaeote KM3_57_B01	|	species	|	ncbi:1456205	|		|	environmental,not_otu	|	
+5571889	|	102415	|	uncultured marine thaumarchaeote KM3_54_H01	|	species	|	ncbi:1456194	|		|	environmental,not_otu	|	
+5205236	|	102415	|	thaumarchaeote enrichment culture clone Ec.MTa2b4-12	|	species	|	ncbi:1238120	|		|	environmental	|	
+5571728	|	102415	|	uncultured marine thaumarchaeote KM3_173_E01	|	species	|	ncbi:1456050	|		|	environmental,not_otu	|	
+5572007	|	102415	|	uncultured marine thaumarchaeote KM3_24_H11	|	species	|	ncbi:1456102	|		|	environmental,not_otu	|	
+5571914	|	102415	|	uncultured marine thaumarchaeote KM3_75_C11	|	species	|	ncbi:1456278	|		|	environmental,not_otu	|	
+5205159	|	102415	|	thaumarchaeote enrichment culture clone Ec.MTa2b1-11	|	species	|	ncbi:1238097	|		|	environmental	|	
+5571933	|	102415	|	uncultured marine thaumarchaeote KM3_70_D01	|	species	|	ncbi:1456249	|		|	environmental,not_otu	|	
+5571768	|	102415	|	uncultured marine thaumarchaeote KM3_149_F07	|	species	|	ncbi:1456013	|		|	environmental,not_otu	|	
+5205250	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa-T16S-09	|	species	|	ncbi:1237978	|		|	environmental	|	
+5571580	|	102415	|	uncultured marine thaumarchaeote KM3_35_D07	|	species	|	ncbi:1456133	|		|	environmental,not_otu	|	
+5205242	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBb-TamoA-23	|	species	|	ncbi:1238087	|		|	environmental	|	
+5571839	|	102415	|	uncultured marine thaumarchaeote KM3_05_H05	|	species	|	ncbi:1455972	|		|	environmental,not_otu	|	
+5571782	|	102415	|	uncultured marine thaumarchaeote KM3_59_C01	|	species	|	ncbi:1456210	|		|	environmental,not_otu	|	
+5572061	|	102415	|	uncultured marine thaumarchaeote KM3_57_D03	|	species	|	ncbi:1456206	|		|	environmental,not_otu	|	
+5571568	|	102415	|	uncultured marine thaumarchaeote SAT1000_51_A06	|	species	|	ncbi:1456418	|		|	environmental,not_otu	|	
+5572020	|	102415	|	uncultured marine thaumarchaeote KM3_84_F03	|	species	|	ncbi:1456313	|		|	environmental,not_otu	|	
+5571616	|	102415	|	uncultured marine thaumarchaeote AD1000_63_F07	|	species	|	ncbi:1455928	|		|	environmental,not_otu	|	
+5572086	|	102415	|	uncultured marine thaumarchaeote SAT1000_18_D03	|	species	|	ncbi:1456391	|		|	environmental,not_otu	|	
+5571845	|	102415	|	uncultured marine thaumarchaeote SAT1000_20_C01	|	species	|	ncbi:1456393	|		|	environmental,not_otu	|	
+5571757	|	102415	|	uncultured marine thaumarchaeote KM3_85_E11	|	species	|	ncbi:1456317	|		|	environmental,not_otu	|	
+5205190	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa2b1-16	|	species	|	ncbi:1238055	|		|	environmental	|	
+5571638	|	102415	|	uncultured marine thaumarchaeote AD1000_89_F09	|	species	|	ncbi:1455947	|		|	environmental,not_otu	|	
+5571668	|	102415	|	uncultured marine thaumarchaeote KM3_74_F11	|	species	|	ncbi:1456273	|		|	environmental,not_otu	|	
+5571737	|	102415	|	uncultured marine thaumarchaeote KM3_107_D09	|	species	|	ncbi:1455985	|		|	environmental,not_otu	|	
+5571569	|	102415	|	uncultured marine thaumarchaeote KM3_13_H10	|	species	|	ncbi:1456008	|		|	environmental,not_otu	|	
+5572080	|	102415	|	uncultured marine thaumarchaeote KM3_77_D12	|	species	|	ncbi:1456286	|		|	environmental,not_otu	|	
+5205219	|	102415	|	thaumarchaeote enrichment culture clone Ec.MTa2b1-20	|	species	|	ncbi:1238104	|		|	environmental	|	
+5572066	|	102415	|	uncultured marine thaumarchaeote KM3_55_D03	|	species	|	ncbi:1456197	|		|	environmental,not_otu	|	
+5572079	|	102415	|	uncultured marine thaumarchaeote AD1000_04_G03	|	species	|	ncbi:1455882	|		|	environmental,not_otu	|	
+5205200	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa1b9-01	|	species	|	ncbi:1238022	|		|	environmental	|	
+5571849	|	102415	|	uncultured marine thaumarchaeote KM3_95_H05	|	species	|	ncbi:1456348	|		|	environmental,not_otu	|	
+5571690	|	102415	|	uncultured marine thaumarchaeote KM3_31_G08	|	species	|	ncbi:1456121	|		|	environmental,not_otu	|	
+5571574	|	102415	|	uncultured marine thaumarchaeote KM3_88_C09	|	species	|	ncbi:1456333	|		|	environmental,not_otu	|	
+5205160	|	102415	|	thaumarchaeote enrichment culture clone Ec.MTa2b1-01	|	species	|	ncbi:1238090	|		|	environmental	|	
+5571857	|	102415	|	uncultured marine thaumarchaeote KM3_82_B03	|	species	|	ncbi:1456302	|		|	environmental,not_otu	|	
+5572071	|	102415	|	uncultured marine thaumarchaeote KM3_66_E12	|	species	|	ncbi:1456229	|		|	environmental,not_otu	|	
+5571551	|	102415	|	uncultured marine thaumarchaeote KM3_89_C12	|	species	|	ncbi:1456339	|		|	environmental,not_otu	|	
+5205203	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa1b9-06	|	species	|	ncbi:1238027	|		|	environmental	|	
+5571682	|	102415	|	uncultured marine thaumarchaeote KM3_36_H05	|	species	|	ncbi:1456136	|		|	environmental,not_otu	|	
+5571731	|	102415	|	uncultured marine thaumarchaeote SAT1000_10_G09	|	species	|	ncbi:1456375	|		|	environmental,not_otu	|	
+5205148	|	102415	|	thaumarchaeote enrichment culture clone Ec.MTa2b4-08	|	species	|	ncbi:1238116	|		|	environmental	|	
+5571746	|	102415	|	uncultured marine thaumarchaeote SAT1000_16_E04	|	species	|	ncbi:1456389	|		|	environmental,not_otu	|	
+5571637	|	102415	|	uncultured marine thaumarchaeote KM3_82_A11	|	species	|	ncbi:1456301	|		|	environmental,not_otu	|	
+5571760	|	102415	|	uncultured marine thaumarchaeote KM3_63_D09	|	species	|	ncbi:1456219	|		|	environmental,not_otu	|	
+5205213	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa-TamoA-23	|	species	|	ncbi:1238000	|		|	environmental	|	
+5205243	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBb-TamoA-22	|	species	|	ncbi:1238086	|		|	environmental	|	
+5571861	|	102415	|	uncultured marine thaumarchaeote KM3_89_G03	|	species	|	ncbi:1456340	|		|	environmental,not_otu	|	
+5205107	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBb-TamoA-13	|	species	|	ncbi:1238077	|		|	environmental	|	
+5571975	|	102415	|	uncultured marine thaumarchaeote KM3_67_H03	|	species	|	ncbi:1456239	|		|	environmental,not_otu	|	
+5571810	|	102415	|	uncultured marine thaumarchaeote KM3_98_B07	|	species	|	ncbi:1456351	|		|	environmental,not_otu	|	
+5571669	|	102415	|	uncultured thaumarchaeote Rifle_16ft_4_minimus_11813	|	species	|	ncbi:1665208	|		|	environmental,not_otu	|	
+5571704	|	102415	|	uncultured marine thaumarchaeote KM3_70_D10	|	species	|	ncbi:1456253	|		|	environmental,not_otu	|	
+5205228	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa2b1-04	|	species	|	ncbi:1238044	|		|	environmental	|	
+5571678	|	102415	|	uncultured marine thaumarchaeote SAT1000_04_F07	|	species	|	ncbi:1456355	|		|	environmental,not_otu	|	
+5571666	|	102415	|	uncultured marine thaumarchaeote KM3_79_C04	|	species	|	ncbi:1456294	|		|	environmental,not_otu	|	
+5205184	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBb-T16S-08	|	species	|	ncbi:1238065	|		|	environmental	|	
+5572057	|	102415	|	uncultured marine thaumarchaeote SAT1000_29_H07	|	species	|	ncbi:1456403	|		|	environmental,not_otu	|	
+5571932	|	102415	|	uncultured marine thaumarchaeote KM3_56_D04	|	species	|	ncbi:1456203	|		|	environmental,not_otu	|	
+5571812	|	102415	|	uncultured marine thaumarchaeote KM3_78_D03	|	species	|	ncbi:1456290	|		|	environmental,not_otu	|	
+5205100	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa-TamoA-03	|	species	|	ncbi:1237984	|		|	environmental	|	
+5571976	|	102415	|	uncultured marine thaumarchaeote KM3_37_D10	|	species	|	ncbi:1456137	|		|	environmental,not_otu	|	
+5571549	|	102415	|	uncultured marine thaumarchaeote KM3_02_B09	|	species	|	ncbi:1455956	|		|	environmental,not_otu	|	
+5571622	|	102415	|	uncultured marine thaumarchaeote KM3_79_B12	|	species	|	ncbi:1456293	|		|	environmental,not_otu	|	
+5571801	|	102415	|	uncultured marine thaumarchaeote KM3_14_C04	|	species	|	ncbi:1456014	|		|	environmental,not_otu	|	
+5205188	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBb-T16S-03	|	species	|	ncbi:1238061	|		|	environmental	|	
+5205112	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa2b1-13	|	species	|	ncbi:1238052	|		|	environmental	|	
+5571695	|	102415	|	uncultured marine thaumarchaeote AD1000_25_B10	|	species	|	ncbi:1455903	|		|	environmental,not_otu	|	
+5205161	|	102415	|	thaumarchaeote enrichment culture clone Ec.MTa2b1-02	|	species	|	ncbi:1238091	|		|	environmental	|	
+5571816	|	102415	|	uncultured marine thaumarchaeote KM3_66_E06	|	species	|	ncbi:1456228	|		|	environmental,not_otu	|	
+5571777	|	102415	|	uncultured marine thaumarchaeote KM3_110_B01	|	species	|	ncbi:1455987	|		|	environmental,not_otu	|	
+5571684	|	102415	|	uncultured marine thaumarchaeote KM3_68_A08	|	species	|	ncbi:1456241	|		|	environmental,not_otu	|	
+5571589	|	102415	|	uncultured marine thaumarchaeote KM3_57_E08	|	species	|	ncbi:1456207	|		|	environmental,not_otu	|	
+5205204	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa1b9-05	|	species	|	ncbi:1238026	|		|	environmental	|	
+5571553	|	102415	|	uncultured marine thaumarchaeote KM3_43_D05	|	species	|	ncbi:1456150	|		|	environmental,not_otu	|	
+5571628	|	102415	|	uncultured marine thaumarchaeote KM3_55_H11	|	species	|	ncbi:1456200	|		|	environmental,not_otu	|	
+5571552	|	102415	|	uncultured marine thaumarchaeote KM3_76_A03	|	species	|	ncbi:1456281	|		|	environmental,not_otu	|	
+5571665	|	102415	|	uncultured marine thaumarchaeote SAT1000_11_C10	|	species	|	ncbi:1456377	|		|	environmental,not_otu	|	
+5572067	|	102415	|	uncultured marine thaumarchaeote KM3_28_C05	|	species	|	ncbi:1456112	|		|	environmental,not_otu	|	
+5205149	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa-T16S-05	|	species	|	ncbi:1237974	|		|	environmental	|	
+5205248	|	102415	|	thaumarchaeote enrichment culture clone Ec.MTa1b9-01	|	species	|	ncbi:1238089	|		|	environmental	|	
+5571575	|	102415	|	uncultured marine thaumarchaeote KM3_61_H06	|	species	|	ncbi:1456215	|		|	environmental,not_otu	|	
+5572012	|	102415	|	uncultured marine thaumarchaeote KM3_87_G04	|	species	|	ncbi:1456330	|		|	environmental,not_otu	|	
+5571645	|	102415	|	uncultured marine thaumarchaeote KM3_03_G08	|	species	|	ncbi:1455962	|		|	environmental,not_otu	|	
+5571953	|	102415	|	uncultured marine thaumarchaeote KM3_79_H05	|	species	|	ncbi:1456298	|		|	environmental,not_otu	|	
+5571576	|	102415	|	uncultured marine thaumarchaeote AD1000_20_B03	|	species	|	ncbi:1455899	|		|	environmental,not_otu	|	
+5571828	|	102415	|	uncultured marine thaumarchaeote KM3_47_A03	|	species	|	ncbi:1456164	|		|	environmental,not_otu	|	
+5571626	|	102415	|	uncultured marine thaumarchaeote KM3_47_C08	|	species	|	ncbi:1456167	|		|	environmental,not_otu	|	
+5572035	|	102415	|	uncultured marine thaumarchaeote KM3_181_G03	|	species	|	ncbi:1456065	|		|	environmental,not_otu	|	
+5571732	|	102415	|	uncultured marine thaumarchaeote KM3_54_B03	|	species	|	ncbi:1456189	|		|	environmental,not_otu	|	
+5571772	|	102415	|	uncultured marine thaumarchaeote SAT1000_18_G08	|	species	|	ncbi:1456392	|		|	environmental,not_otu	|	
+5571548	|	102415	|	uncultured marine thaumarchaeote KM3_74_G09	|	species	|	ncbi:1456275	|		|	environmental,not_otu	|	
+5571821	|	102415	|	uncultured marine thaumarchaeote SAT1000_10_F12	|	species	|	ncbi:1456373	|		|	environmental,not_otu	|	
+5571803	|	102415	|	uncultured marine thaumarchaeote KM3_45_G08	|	species	|	ncbi:1456157	|		|	environmental,not_otu	|	
+5571670	|	102415	|	uncultured marine thaumarchaeote KM3_87_H02	|	species	|	ncbi:1456331	|		|	environmental,not_otu	|	
+5571619	|	102415	|	uncultured marine thaumarchaeote KM3_126_H01	|	species	|	ncbi:1455995	|		|	environmental,not_otu	|	
+5571986	|	102415	|	uncultured marine thaumarchaeote SAT1000_48_G08	|	species	|	ncbi:1456416	|		|	environmental,not_otu	|	
+5571647	|	102415	|	uncultured marine thaumarchaeote SAT1000_13_G01	|	species	|	ncbi:1456382	|		|	environmental,not_otu	|	
+5571573	|	102415	|	uncultured marine thaumarchaeote KM3_88_D08	|	species	|	ncbi:1456335	|		|	environmental,not_otu	|	
+5571878	|	102415	|	uncultured marine thaumarchaeote KM3_70_B03	|	species	|	ncbi:1456246	|		|	environmental,not_otu	|	
+5205139	|	102415	|	thaumarchaeote enrichment culture clone Ec.MTa2b4-11	|	species	|	ncbi:1238119	|		|	environmental	|	
+5571559	|	102415	|	uncultured marine thaumarchaeote KM3_26_B10	|	species	|	ncbi:1456107	|		|	environmental,not_otu	|	
+5571687	|	102415	|	uncultured marine thaumarchaeote KM3_04_D06	|	species	|	ncbi:1455965	|		|	environmental,not_otu	|	
+5571597	|	102415	|	uncultured marine thaumarchaeote SAT1000_16_A03	|	species	|	ncbi:1456387	|		|	environmental,not_otu	|	
+5571959	|	102415	|	uncultured marine thaumarchaeote KM3_83_D12	|	species	|	ncbi:1456307	|		|	environmental,not_otu	|	
+5571788	|	102415	|	uncultured marine thaumarchaeote KM3_173_D12	|	species	|	ncbi:1456049	|		|	environmental,not_otu	|	
+5205147	|	102415	|	thaumarchaeote enrichment culture clone Ec.MTa2b4-09	|	species	|	ncbi:1238117	|		|	environmental	|	
+5571974	|	102415	|	uncultured marine thaumarchaeote KM3_199_C08	|	species	|	ncbi:1456090	|		|	environmental,not_otu	|	
+5572034	|	102415	|	uncultured marine thaumarchaeote KM3_154_A05	|	species	|	ncbi:1456020	|		|	environmental,not_otu	|	
+5571880	|	102415	|	thaumarchaeote enrichment culture	|	species	|	ncbi:1608626	|		|	environmental	|	
+5571685	|	102415	|	uncultured marine thaumarchaeote KM3_03_D08	|	species	|	ncbi:1455960	|		|	environmental,not_otu	|	
+5571675	|	102415	|	uncultured marine thaumarchaeote KM3_199_D03	|	species	|	ncbi:1456091	|		|	environmental,not_otu	|	
+5571957	|	102415	|	uncultured marine thaumarchaeote KM3_16_C11	|	species	|	ncbi:1456043	|		|	environmental,not_otu	|	
+5571603	|	102415	|	uncultured marine thaumarchaeote KM3_69_H10	|	species	|	ncbi:1456245	|		|	environmental,not_otu	|	
+5205186	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBb-TamoA-02	|	species	|	ncbi:1238067	|		|	environmental	|	
+5572042	|	102415	|	uncultured marine thaumarchaeote KM3_46_F12	|	species	|	ncbi:1456160	|		|	environmental,not_otu	|	
+5205195	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa2b1-09	|	species	|	ncbi:1238049	|		|	environmental	|	
+5205226	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa2b1-06	|	species	|	ncbi:1238046	|		|	environmental	|	
+5571931	|	102415	|	uncultured marine thaumarchaeote KM3_56_F06	|	species	|	ncbi:1456204	|		|	environmental,not_otu	|	
+5571565	|	102415	|	uncultured marine thaumarchaeote AD1000_16_B05	|	species	|	ncbi:1455894	|		|	environmental,not_otu	|	
+5205231	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBb-TamoA-19	|	species	|	ncbi:1238083	|		|	environmental	|	
+5572003	|	102415	|	uncultured marine thaumarchaeote KM3_187_A01	|	species	|	ncbi:1456072	|		|	environmental,not_otu	|	
+5572056	|	102415	|	uncultured marine thaumarchaeote KM3_12_F11	|	species	|	ncbi:1455999	|		|	environmental,not_otu	|	
+5571871	|	102415	|	uncultured marine thaumarchaeote KM3_97_A02	|	species	|	ncbi:1456349	|		|	environmental,not_otu	|	
+5571853	|	102415	|	uncultured marine thaumarchaeote KM3_68_E02	|	species	|	ncbi:1456243	|		|	environmental,not_otu	|	
+5571727	|	102415	|	uncultured marine thaumarchaeote KM3_42_E08	|	species	|	ncbi:1456148	|		|	environmental,not_otu	|	
+5205210	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa1b4-02	|	species	|	ncbi:1238004	|		|	environmental	|	
+5205120	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa1b9-14	|	species	|	ncbi:1238034	|		|	environmental	|	
+5571991	|	102415	|	uncultured marine thaumarchaeote KM3_47_A07	|	species	|	ncbi:1456166	|		|	environmental,not_otu	|	
+5205208	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa1b4-04	|	species	|	ncbi:1238006	|		|	environmental	|	
+5571636	|	102415	|	uncultured marine thaumarchaeote KM3_32_A02	|	species	|	ncbi:1456122	|		|	environmental,not_otu	|	
+5205214	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa-T16S-07	|	species	|	ncbi:1237976	|		|	environmental	|	
+5572065	|	102415	|	uncultured marine thaumarchaeote KM3_115_G03	|	species	|	ncbi:1455989	|		|	environmental,not_otu	|	
+5205253	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBb-TamoA-18	|	species	|	ncbi:1238082	|		|	environmental	|	
+5205103	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBb-TamoA-09	|	species	|	ncbi:1238073	|		|	environmental	|	
+5205170	|	102415	|	thaumarchaeote enrichment culture clone Ec.MTa2b1-19	|	species	|	ncbi:1238103	|		|	environmental	|	
+5571672	|	102415	|	uncultured marine thaumarchaeote KM3_11_C04	|	species	|	ncbi:1455990	|		|	environmental,not_otu	|	
+5571702	|	102415	|	uncultured marine thaumarchaeote KM3_54_G03	|	species	|	ncbi:1456192	|		|	environmental,not_otu	|	
+5572085	|	102415	|	uncultured marine thaumarchaeote AD1000_11_E10	|	species	|	ncbi:1455890	|		|	environmental,not_otu	|	
+5571848	|	102415	|	uncultured marine thaumarchaeote KM3_86_E11	|	species	|	ncbi:1456321	|		|	environmental,not_otu	|	
+5571993	|	102415	|	uncultured marine thaumarchaeote AD1000_88_A06	|	species	|	ncbi:1455945	|		|	environmental,not_otu	|	
+5205163	|	102415	|	thaumarchaeote enrichment culture clone Ec.MTa2b1-05	|	species	|	ncbi:1238093	|		|	environmental	|	
+5571730	|	102415	|	uncultured marine thaumarchaeote SAT1000_31_A02	|	species	|	ncbi:1456404	|		|	environmental,not_otu	|	
+5571663	|	102415	|	uncultured marine thaumarchaeote KM3_169_G08	|	species	|	ncbi:1456041	|		|	environmental,not_otu	|	
+5572017	|	102415	|	uncultured marine thaumarchaeote SAT1000_43_E07	|	species	|	ncbi:1456410	|		|	environmental,not_otu	|	
+5571778	|	102415	|	uncultured marine thaumarchaeote AD1000_77_H06	|	species	|	ncbi:1455940	|		|	environmental,not_otu	|	
+5205177	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa1b4-06	|	species	|	ncbi:1238008	|		|	environmental	|	
+5205123	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa1b9-11	|	species	|	ncbi:1238031	|		|	environmental	|	
+5205150	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa-T16S-06	|	species	|	ncbi:1237975	|		|	environmental	|	
+5571747	|	102415	|	uncultured marine thaumarchaeote KM3_158_B05	|	species	|	ncbi:1456024	|		|	environmental,not_otu	|	
+5571649	|	102415	|	uncultured marine thaumarchaeote KM3_84_D12	|	species	|	ncbi:1456311	|		|	environmental,not_otu	|	
+5572006	|	102415	|	uncultured marine thaumarchaeote AD1000_60_A11	|	species	|	ncbi:1455927	|		|	environmental,not_otu	|	
+5205251	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa-T16S-10	|	species	|	ncbi:1237979	|		|	environmental	|	
+5571794	|	102415	|	uncultured marine thaumarchaeote KM3_201_H03	|	species	|	ncbi:1456096	|		|	environmental,not_otu	|	
+5571869	|	102415	|	uncultured marine thaumarchaeote KM3_82_D05	|	species	|	ncbi:1456304	|		|	environmental,not_otu	|	
+5571712	|	102415	|	uncultured marine thaumarchaeote AD1000_24_H07	|	species	|	ncbi:1455902	|		|	environmental,not_otu	|	
+5571961	|	102415	|	uncultured marine thaumarchaeote KM3_75_F06	|	species	|	ncbi:1456280	|		|	environmental,not_otu	|	
+5571926	|	102415	|	uncultured marine thaumarchaeote KM3_71_E12	|	species	|	ncbi:1456258	|		|	environmental,not_otu	|	
+5205222	|	102415	|	thaumarchaeote enrichment culture clone Ec.MTa2b1-14	|	species	|	ncbi:1238100	|		|	environmental	|	
+5571900	|	102415	|	uncultured marine thaumarchaeote KM3_06_B06	|	species	|	ncbi:1455974	|		|	environmental,not_otu	|	
+5205166	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBb-TamoA-04	|	species	|	ncbi:1238069	|		|	environmental	|	
+5571740	|	102415	|	uncultured marine thaumarchaeote KM3_193_A03	|	species	|	ncbi:1456081	|		|	environmental,not_otu	|	
+5205235	|	102415	|	thaumarchaeote enrichment culture clone Ec.MTa2b4-18	|	species	|	ncbi:1238126	|		|	environmental	|	
+5571679	|	102415	|	uncultured marine thaumarchaeote KM3_23_E01	|	species	|	ncbi:1456099	|		|	environmental,not_otu	|	
+5571865	|	102415	|	uncultured marine thaumarchaeote SAT1000_48_A08	|	species	|	ncbi:1456414	|		|	environmental,not_otu	|	
+5571850	|	102415	|	uncultured marine thaumarchaeote SAT1000_10_G06	|	species	|	ncbi:1456374	|		|	environmental,not_otu	|	
+5571611	|	102415	|	uncultured marine thaumarchaeote AD1000_26_G12	|	species	|	ncbi:1455904	|		|	environmental,not_otu	|	
+5572016	|	102415	|	uncultured marine thaumarchaeote KM3_65_D04	|	species	|	ncbi:1456224	|		|	environmental,not_otu	|	
+5571969	|	102415	|	uncultured marine thaumarchaeote KM3_186_C08	|	species	|	ncbi:1456070	|		|	environmental,not_otu	|	
+5571667	|	102415	|	uncultured marine thaumarchaeote KM3_41_H02	|	species	|	ncbi:1456146	|		|	environmental,not_otu	|	
+5571890	|	102415	|	uncultured marine thaumarchaeote KM3_52_F05	|	species	|	ncbi:1456177	|		|	environmental,not_otu	|	
+5571807	|	102415	|	uncultured marine thaumarchaeote AD1000_54_F09	|	species	|	ncbi:1455926	|		|	environmental,not_otu	|	
+5571591	|	102415	|	uncultured marine thaumarchaeote KM3_175_A05	|	species	|	ncbi:1456051	|		|	environmental,not_otu	|	
+5571756	|	102415	|	uncultured marine thaumarchaeote KM3_46_E07	|	species	|	ncbi:1456159	|		|	environmental,not_otu	|	
+5571888	|	102415	|	uncultured marine thaumarchaeote KM3_02_A10	|	species	|	ncbi:1455955	|		|	environmental,not_otu	|	
+5205131	|	102415	|	thaumarchaeote enrichment culture clone Ec.FBa1b4-14	|	species	|	ncbi:1238015	|		|	environmental	|	
+5572032	|	102415	|	uncultured marine thaumarchaeote KM3_53_B02	|	species	|	ncbi:1456180	|		|	environmental,not_otu	|	
