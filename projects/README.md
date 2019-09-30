@@ -34,6 +34,7 @@ Keep in mind that the amount of work generally trades with flexibility: well pac
 * [Terrorist Attacks and Relations](#terrorist-attacks-and-relations)
 * [IMDb Films and Crew](#imdb-films-and-crew)
 * [Flight Routes](#flight-routes)
+* [Recipes 1M](#recipes-1m)
 
 In addition to the above list, we allow teams to work on their own data and ideas.
 That is especially relevant to PhD students who want to apply the knowledge acquired in this course to their own problems.
