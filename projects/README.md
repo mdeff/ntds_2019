@@ -35,6 +35,7 @@ Keep in mind that the amount of work generally trades with flexibility: well pac
 * [IMDb Films and Crew](#imdb-films-and-crew)
 * [Flight Routes](#flight-routes)
 * [Recipes 1M](#recipes-1m)
+* [Genetics](#genetics)
 
 In addition to the above list, we allow teams to work on their own data and ideas.
 That is especially relevant to PhD students who want to apply the knowledge acquired in this course to their own problems.
@@ -361,3 +362,31 @@ In order for the students to get started more easily, [two smaller subsets](http
 * **Data acquisition**: already collected and packaged
 * **Requires down-sampling**: yes
 * **Network creation**: to be created from co-appearing ingredients or from recipes.
+
+## Genetics
+By Benjamin
+
+This dataset contains genes, protein expressions and phenotypes of a "family" of mice. It is a subset of the open dataset available at [genenetwork.org](http://www.genenetwork.org/). The goal is to explore the data using graphs and discover connections between genes, protein expression and / or phenotypes. This data has been collected by different labs all over the world during several decades. The LISP from EPFL is part of the group. More details about the project and dataset can be found on this [EPFL mediacom article](https://actu.epfl.ch/news/a-big-data-tool-begins-new-era-for-biology-and-per/).
+
+This dataset is a collection of matrices. Each column is a single BXD strain (a mouse) whose genome is a unique combination of the C57BL/6J and DBA/2J parental strains. They have been saved as csv files (with extention 'txt').
+The `genotype_BXD.txt` file is a binary matrix that describes the contribution of each of the parental strains for a list of selected genes (rows). Each row of the genotype data indicates whether a certain position in the genome is inherited from the C57BL/6J or DBA/2J parent. 
+Phenotype data contained in `Phenotype.txt` are also matrices indicating the values of each phenotype for each strain.
+In addition, multiomic molecular phenotypes from different mouse organs are represented as one matrix per organ (e.g. brain, bone, muscle, liver...), in the folder `expression_data`. 
+
+It is important to note that protein or phenotype information is not available for all the mice. Depending on the research team gathering the data or the protocols, only subset of mice have been tested for each phenotype, or different organs have been analyzed. Hence, the combination of several matrices will result in missing entries. 
+These missing entries, along with the variety of the data, are a real challenge for a data science approach, but mimic the real life situation encountered with human medical records.
+
+The dataset for the NTDS project can be found [here](https://drive.switch.ch/index.php/s/mtQ2F0dYc7dHOtQ). The students are expected to :
+* use the different matrices of data to build one or more graphs (for example a graph of mice), 
+* explore these graphs,
+* associate values to the nodes of the graphs using the other matrices, 
+* apply graph signal processing approaches,
+* discover new relations between the genome, protein expressions in tissues and phenotypes (optional but that would be great!)
+
+
+Resources
+
+* [EPFL mediacom article](https://actu.epfl.ch/news/a-big-data-tool-begins-new-era-for-biology-and-per/)
+* [Info on the BXD mice](https://www.biorxiv.org/content/10.1101/672097v3.full)
+* [dataset official Website](http://www.genenetwork.org/)
+* [Dataset link](https://drive.switch.ch/index.php/s/mtQ2F0dYc7dHOtQ)
