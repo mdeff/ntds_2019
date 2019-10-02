@@ -171,7 +171,7 @@ by Ersi
 This project aims to explore the co-authorship behaviour of scientific authors.
 The [dataset](https://perso.liris.cnrs.fr/marc.plantevit/doku/doku.php?id=data_sets) is a co-authorship graph built from the DBLP digital library. Each vertex represents an author that has published at least one paper in one of the major conferences and journals of the Data Mining and Database communities between January 1990 and February 2011. Each edge links two authors who co-authored at least one paper (no matter the conference or journal). The vertex properties are the number of publications in each of the 29 selected conferences or journals and 9 topological properties (Degree Cent., Closeness Cent., Betweenness Cent., EigenVector Cent., PageRank, Clustering Coeff., Size of Max. Quasi-Clique, Number of Quasi-Cliques, Size of Community).
 
-|          | Description                                                    | Amount  |
+|          | Description                                                    |  Amount |
 | -------- | -------------------------------------------------------------- | -------:|
 | nodes    | scientific authors                                             |  42,252 |
 | edges    | authors are linked if they wrote a paper together              | 210,320 |
@@ -221,7 +221,7 @@ As the goal is the classification of links, we will here build the [line graph](
 That is, instead of having terrorists as nodes and relationships between them as edges, relationships will be nodes and terrorists will be edges.
 
 We warn the students that the 106 features given in this dataset are undocumented so that it can not be used for interpreting the data or doing anything meaningful. The students who choose this project will have to increase the dataset by collecting data from other source of information about terrorism.
- 
+
 Resources:
 * <https://linqs.soe.ucsc.edu/node/236>
 * <http://www.cs.umd.edu/~sen/lbc-proj/LBC.html>
@@ -256,23 +256,23 @@ Resources:
 
 The IMDb datasets contain information such as crew, rating, and genre for every entertainment product in its database. The Kaggle dataset linked above is a smaller, but similar dataset, and could be used instead of the IMDb one, which is much larger. The goal of this project is to analyze this database in graph form, and attempt to recover missing information from data on cast/crew co-appearance in movies. The graphical analysis requires network creation, for which two possible paths are possible, according to which instances one wishes to consider as the nodes of the network.
 
-The first approach could be to construct a social network of cast/crew members, where the edges are weighted according to co-appearance For example, actor_1 becomes strongly connected to actor_2 if they have appeared in a lot of movies together. The edges of the graph could be weighted according to a count on the number of entertainment products in which the two corresponding people participated together. We can take as a signal on this constructed graph the aggregate ratings of movies each person has participated in. 
+The first approach could be to construct a social network of cast/crew members, where the edges are weighted according to co-appearance For example, actor_1 becomes strongly connected to actor_2 if they have appeared in a lot of movies together. The edges of the graph could be weighted according to a count on the number of entertainment products in which the two corresponding people participated together. We can take as a signal on this constructed graph the aggregate ratings of movies each person has participated in.
 
-|          | Description                            |                               Amount |
-| -------- | -------------------------------------- | -----------------------------------: |
-| nodes    | cast/crew                              |       millions (IMDb) ~8500 (Kaggle) |
-| edges    | co-apearance in movies/TV/etc.         |                       O(10) per node |
-| features | ratings of movies taken part in        |                       O(10) per node |
-| labels   | movie genre                            |             unknown (IMDb) 3 (Kaggle)|
+|          | Description                            |                          Amount |
+| -------- | -------------------------------------- | ------------------------------: |
+| nodes    | cast/crew                              | millions (IMDb), ~8500 (Kaggle) |
+| edges    | co-apearance in movies/TV/etc.         |                  O(10) per node |
+| features | ratings of movies taken part in        |                  O(10) per node |
+| labels   | movie genre                            |       unknown (IMDb), 3 (Kaggle)|
 
 A second approach could be to create a movie-network, in which movies are strongly connected if they share a lot of crew/cast members (or some other similarity measure combining this and genres, running times, release years, etc.). There are more options for the signal the students could consider on this graph, as they could use either the movie ratings, or the genre labels.
 
-|          | Description                                           |         Amount |
-| -------- | ----------------------------------------------------- | -------------: |
-| nodes    | movies                                                |       millions (IMDb) ~5000 (Kaggle) |
-| edges    | count of common cast/crew + other feature similarity. |                       O(10) per node |
-| features | average rating                                        |                                    1 |
-| labels   | movie genre                                           |            unknown (IMDb) 3 (Kaggle) |
+|          | Description                                           |                          Amount |
+| -------- | ----------------------------------------------------- | ------------------------------: |
+| nodes    | movies                                                | millions (IMDb), ~5000 (Kaggle) |
+| edges    | count of common cast/crew + other feature similarity. |                  O(10) per node |
+| features | average rating                                        |                               1 |
+| labels   | movie genre                                           |      unknown (IMDb), 3 (Kaggle) |
 
 For the extra work, there is plenty of extra information. For instance, the students could try to predict the revenue of movies by potentially including extra metadata. Note however that the number of instances in the original dataset is of the order of **millions**, so a smaller subset of those should be used.
 
@@ -311,15 +311,15 @@ Resources:
 
 This database contains ca. 1 million cooking recipes retrieved from several websites, along with one or more images for each recipe (13 million images available).
 Its original use is to train models to perform a "im2recipe" (i.e. get a recipe instructins from an image).
-For every recipe in this dataset, you can retrieve the full-text of instructions, ingredients contained in the file available under the "layers" link (and after you unpack the file, in the "layer1.json" file). 
-For each ingredient line inside a recipe, the name of the ingredient has been extracted ("ingredient detection" link). 
-Ingredient name detection from text is a non-trivial task, expect the results to be noisy. 
+For every recipe in this dataset, you can retrieve the full-text of instructions, ingredients contained in the file available under the "layers" link (and after you unpack the file, in the "layer1.json" file).
+For each ingredient line inside a recipe, the name of the ingredient has been extracted ("ingredient detection" link).
+Ingredient name detection from text is a non-trivial task, expect the results to be noisy.
 Quantity detection has not been performed, but might be an interesting feature to study (requires extra work).
 If you intend to work with images, they require more than 100 GB of download and a matching storage space, be careful !
 
 You can, for instance, construct an ingredient graph (linking ingredients when they appear simultaneously in a recipe).
 
-|          | Description                                 | Amount          |
+|          | Description                                 |          Amount |
 | -------- | ------------------------------------------- | --------------: |
 | nodes    | ingredients                                 |           18253 |
 | edges    | connect co-appearing ingredients            |  O(10) per node |
@@ -330,13 +330,12 @@ Another approach could be to create a graph from recipes having several ingredie
 Given the size of the dataset, it might be a good idea to try out a smaller subset of the dataset, for instance by filtering recipes that contain a particular ingredient (e.g. 'beef', 'vanilla', etc.).
 In order for the students to get started more easily, [two smaller subsets](https://drive.switch.ch/index.php/s/fjjqqaRznah6PKp) (with ca. 10k and 23k recipes) are supplied.
 
-|          | Description                                 | Amount                                 |
-| -------- | ------------------------------------------- | -------------------------------------: |
-| nodes    | recipes                                     |                                     1M |
-| edges    | connect recipes with common ingredients     |    dependent on how the graph is built |
-| features | images / ingredient quantities              |                                   1-10 |
-| labels   | N/A                                         |                                    N/A |
-
+|          | Description                                 |                         Amount |
+| -------- | ------------------------------------------- | -----------------------------: |
+| nodes    | recipes                                     |                             1M |
+| edges    | connect recipes with common ingredients     | depends how the graph is built |
+| features | images / ingredient quantities              |                           1-10 |
+| labels   | N/A                                         |                            N/A |
 
 * **Data acquisition**: already collected and packaged
 * **Requires down-sampling**: yes
@@ -348,32 +347,29 @@ By Benjamin
 This dataset contains genes, protein expressions and phenotypes of a "family" of mice. It is a subset of the open dataset available at [genenetwork.org](http://www.genenetwork.org/). The goal is to explore the data using graphs and discover connections between genes, protein expression and / or phenotypes. This data has been collected by different labs all over the world during several decades. The LISP from EPFL is part of the group. More details about the project and dataset can be found on this [EPFL mediacom article](https://actu.epfl.ch/news/a-big-data-tool-begins-new-era-for-biology-and-per/).
 
 This dataset is a collection of matrices. Each column is a single BXD strain (a mouse) whose genome is a unique combination of the C57BL/6J and DBA/2J parental strains. They have been saved as csv files (with extention 'txt').
-The `genotype_BXD.txt` file is a binary matrix that describes the contribution of each of the parental strains for a list of selected genes (rows). Each row of the genotype data indicates whether a certain position in the genome is inherited from the C57BL/6J or DBA/2J parent. 
+The `genotype_BXD.txt` file is a binary matrix that describes the contribution of each of the parental strains for a list of selected genes (rows). Each row of the genotype data indicates whether a certain position in the genome is inherited from the C57BL/6J or DBA/2J parent.
 Phenotype data contained in `Phenotype.txt` are also matrices indicating the values of each phenotype for each strain.
-In addition, multiomic molecular phenotypes from different mouse organs are represented as one matrix per organ (e.g. brain, bone, muscle, liver...), in the folder `expression_data`. 
+In addition, multiomic molecular phenotypes from different mouse organs are represented as one matrix per organ (e.g. brain, bone, muscle, liver...), in the folder `expression_data`.
 
-It is important to note that protein or phenotype information is not available for all the mice. Depending on the research team gathering the data or the protocols, only subset of mice have been tested for each phenotype, or different organs have been analyzed. Hence, the combination of several matrices will result in missing entries. 
+It is important to note that protein or phenotype information is not available for all the mice. Depending on the research team gathering the data or the protocols, only subset of mice have been tested for each phenotype, or different organs have been analyzed. Hence, the combination of several matrices will result in missing entries.
 These missing entries, along with the variety of the data, are a real challenge for a data science approach, but mimic the real life situation encountered with human medical records.
 
-The dataset for the NTDS project can be found [here](https://drive.switch.ch/index.php/s/mtQ2F0dYc7dHOtQ). The students are expected to :
-* use the different matrices of data to build one or more graphs (for example a graph of mice), 
+The dataset for the NTDS project can be found [here](https://drive.switch.ch/index.php/s/mtQ2F0dYc7dHOtQ). The students are expected to:
+* use the different matrices of data to build one or more graphs (for example a graph of mice),
 * explore these graphs,
-* associate values to the nodes of the graphs using the other matrices, 
+* associate values to the nodes of the graphs using the other matrices,
 * apply graph signal processing approaches,
 * discover new relations between the genome, protein expressions in tissues and phenotypes (optional but that would be great!)
 
-
-Resources
-
+Resources:
 * [EPFL mediacom article](https://actu.epfl.ch/news/a-big-data-tool-begins-new-era-for-biology-and-per/)
 * [Info on the BXD mice](https://www.biorxiv.org/content/10.1101/672097v3.full)
 * [dataset official Website](http://www.genenetwork.org/)
 * [Dataset link](https://drive.switch.ch/index.php/s/mtQ2F0dYc7dHOtQ)
 
-
-|          | Description                                 | Amount          |
-| -------- | ------------------------------------------- | --------------: |
-| nodes    | mice    		                             |       100 - 200 |
-| edges    | similar genes, protein expressions or phenotypes|  O(10) per node |
-| features | genes, protein expressions in tissues or phenotypes|  1000s   |
-| labels   | depends: a particular gene, a phenotype, a protein expression |  N/A |
+|          | Description                                                  |         Amount |
+| -------- | ------------------------------------------------------------ | -------------: |
+| nodes    | mice                                                         |      100 - 200 |
+| edges    | similar genes, protein expressions, or phenotypes            | O(10) per node |
+| features | genes, protein expressions in tissues, or phenotypes         |          1000s |
+| labels   | depends: a particular gene, phenotype, or protein expression |            N/A |
