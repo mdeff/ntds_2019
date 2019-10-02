@@ -40,8 +40,8 @@ Below is the teaching material you'll find in this repository (tentative).
 
 1. [Installation instructions](#installation)
 1. [Introduction][t01]
-1. Building graphs from edge lists
-1. Building graphs from features
+1. [Building graphs from edge lists][t02]
+1. [Building graphs from features][t03]
 1. Plotting with matplotlib
 1. Interactive graph visualization with gephi
 1. Sparse matrices with scipy
@@ -50,6 +50,8 @@ Below is the teaching material you'll find in this repository (tentative).
 1. Learning on graphs with pytorch
 
 [t01]: https://nbviewer.jupyter.org/github/mdeff/ntds_2019/blob/outputs/tutorials/01_introduction.ipynb
+[t02]: https://nbviewer.jupyter.org/github/mdeff/ntds_2019/blob/outputs/tutorials/02_graph_from_edge_list.ipynb
+[t03]: https://nbviewer.jupyter.org/github/mdeff/ntds_2019/blob/outputs/tutorials/03_graph_from_features.ipynb
 
 For this course, you'll use the following tools:
 [conda] & [anaconda], [python], [jupyter], [git], [numpy], [scipy], [matplotlib], [pandas], [networkx], [graph-tool], [pygsp], [gephi], [scikit-learn], [pytorch].
