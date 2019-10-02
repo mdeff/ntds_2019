@@ -71,6 +71,17 @@ It is also feasible to work with other graphs, such as relations between artists
 The latter requires to scrap the website.
 We don't recommend exploring those options before having completed the milestones.
 
+|          | Description                                | Amount |
+| -------- | ------------------------------------------ | ------:|
+| nodes    | audio tracks                               | 25,000 |
+| edges    | similarity between tracks                  |    N/A |
+| features | audio features pre-extracted from waveform |    518 |
+| labels   | musical genre (e.g., Rock, Pop)            |     16 |
+
+* **Data acquisition**: already collected and packaged
+* **Requires down-sampling**: up to the students
+* **Network creation**: needs to be built from features
+
 Resources:
 * Paper: <https://arxiv.org/abs/1612.01840>
 * Code and data: <https://github.com/mdeff/fma>
@@ -83,17 +94,6 @@ Projects from NTDS'18:
 * [[report][r33], [slides][s33], [code][c33]] Friends Will Be Friends: A Network Tour of Musical Friendship
 * [[report][r36], [slides][s36], [code][c36]] Transitional playlists for new musical discoveries
 * [[report][r52], [slides][s52], [code][c52]] Mood Changing Playlist Generator
-
-|          | Description                                | Amount |
-| -------- | ------------------------------------------ | ------:|
-| nodes    | audio tracks                               | 25,000 |
-| edges    | similarity between tracks                  |    N/A |
-| features | audio features pre-extracted from waveform |    518 |
-| labels   | musical genre (e.g., Rock, Pop)            |     16 |
-
-* **Data acquisition**: already collected and packaged
-* **Requires down-sampling**: up to the students
-* **Network creation**: needs to be built from features
 
 ## US Senators
 By Michaël
@@ -108,15 +108,6 @@ For each senator, we know (i) their political party (i.e., republican, democrat,
 We propose to first build the similarity graph from the votes, i.e., measure the distance between voting vectors.
 Going further, similarity might be measured from the other features, such as bill sponsoring or committee membership.
 
-Resources:
-* [ProPublica Congress API](https://projects.propublica.org/api-docs/congress-api/)
-* [Blog post on using the API](http://www.storybench.org/use-propublicas-congress-api-see-senators-stand-issues/)
-
-Projects from NTDS'18:
-* [[report][r02], [slides][s02], [code][c02]] Learning US Senate voting behavior from bill sponsorship profiles
-* [[report][r07], [slides][s07], [code][c07]] Vote prediction of US Senators from graph properties
-* [[report][r18], [slides][s18], [code][c18]] U.S. Senators: A Voting Pattern Study
-
 |          | Description                                              | Amount |
 | -------- | -------------------------------------------------------- | ------:|
 | nodes    | US senators                                              |   ~100 |
@@ -127,6 +118,15 @@ Projects from NTDS'18:
 * **Data acquisition**: need to be collected from a web API
 * **Requires down-sampling**: no
 * **Network creation**: needs to be built from features
+
+Resources:
+* [ProPublica Congress API](https://projects.propublica.org/api-docs/congress-api/)
+* [Blog post on using the API](http://www.storybench.org/use-propublicas-congress-api-see-senators-stand-issues/)
+
+Projects from NTDS'18:
+* [[report][r02], [slides][s02], [code][c02]] Learning US Senate voting behavior from bill sponsorship profiles
+* [[report][r07], [slides][s07], [code][c07]] Vote prediction of US Senators from graph properties
+* [[report][r18], [slides][s18], [code][c18]] U.S. Senators: A Voting Pattern Study
 
 ## Wikipedia
 By Benjamin
@@ -147,17 +147,6 @@ Dataset:
 
 Wikipedia dump + Wikipedia data on the number of visits per pages
 
-Resources:
-* <https://en.wikipedia.org/wiki/Wikipedia:Database_download>
-* <https://dumps.wikimedia.org/other/pagecounts-ez>
-
-Projects from NTDS'18:
-* [[report][r09], [slides][s09], [code][c09]] A Network Analysis of the 2018 FIFA World Cup
-* [[report][r13], [slides][s13], [code][c13]] Conversation starter using Wikipedia
-* [[report][r23], [slides][s23], [code][c23]] Minipedia
-* [[report][r24], [slides][s24], [code][c24]] Wikipedia Analysis Using Keyword Based Graphs
-* [[report][r37], [slides][s37], [code][c37]] A Wikipedia Tour of Death — or how University College Boat Club became popular
-
 A reduced dataset, extracted from the links above, will be provided to the students.
 
 |          | Description                                |  Amount |
@@ -170,6 +159,17 @@ A reduced dataset, extracted from the links above, will be provided to the stude
 * **Data acquisition**: already collected and packaged
 * **Requires down-sampling**: no
 * **Network creation**: given
+
+Resources:
+* <https://en.wikipedia.org/wiki/Wikipedia:Database_download>
+* <https://dumps.wikimedia.org/other/pagecounts-ez>
+
+Projects from NTDS'18:
+* [[report][r09], [slides][s09], [code][c09]] A Network Analysis of the 2018 FIFA World Cup
+* [[report][r13], [slides][s13], [code][c13]] Conversation starter using Wikipedia
+* [[report][r23], [slides][s23], [code][c23]] Minipedia
+* [[report][r24], [slides][s24], [code][c24]] Wikipedia Analysis Using Keyword Based Graphs
+* [[report][r37], [slides][s37], [code][c37]] A Wikipedia Tour of Death — or how University College Boat Club became popular
 
 ## Researchers on Twitter
 by Ersi
@@ -216,17 +216,6 @@ The dataset contains 5.6 million users, which are described by 4 features; "user
 
 Since this dataset is very big, it requires subsampling even during the loading of the data and cleaning the network accordingly. We warn the students that the size of the dataset add more difficulties (for example you can't create a 5.6x5.6 million adjacency matrix). So be sure you can make a smaller, meaningful subset for the project if you choose it.
 
-Resources:
-* <https://linqs.soe.ucsc.edu/node/236>
-* <https://linqs-data.soe.ucsc.edu/public/social_spammer>
-* Paper: <http://www.cs.umd.edu/~shobeir/papers/fakhraei_kdd_2015.pdf>
-* Code: <https://github.com/shobeir/fakhraei_kdd2015>
-* Data: <https://linqs-data.soe.ucsc.edu/public/social_spammer/usersdata.csv.gz>, <https://linqs-data.soe.ucsc.edu/public/social_spammer/relations.csv.gz>
-
-Projects from NTDS'18:
-* [[report][r20], [slides][s20], [code][c20]] Spammer… Catch me if you can
-* [[report][r50], [slides][s50], [code][c50]] Identifying Spammers on Social Networks
-
 |          | Description                                                   |      Amount |
 | -------- | ------------------------------------------------------------- | -----------:|
 | nodes    | users of tagged.com                                           |   5,607,447 |
@@ -238,6 +227,17 @@ Projects from NTDS'18:
 * **Requires down-sampling**: yes
 * **Network creation**: network is given as a list of edges
 
+Resources:
+* <https://linqs.soe.ucsc.edu/node/236>
+* <https://linqs-data.soe.ucsc.edu/public/social_spammer>
+* Paper: <http://www.cs.umd.edu/~shobeir/papers/fakhraei_kdd_2015.pdf>
+* Code: <https://github.com/shobeir/fakhraei_kdd2015>
+* Data: <https://linqs-data.soe.ucsc.edu/public/social_spammer/usersdata.csv.gz>, <https://linqs-data.soe.ucsc.edu/public/social_spammer/relations.csv.gz>
+
+Projects from NTDS'18:
+* [[report][r20], [slides][s20], [code][c20]] Spammer… Catch me if you can
+* [[report][r50], [slides][s50], [code][c50]] Identifying Spammers on Social Networks
+
 ## Terrorist Attacks and Relations
 by Eda
 
@@ -248,22 +248,6 @@ As the goal is the classification of links, we will here build the [line graph](
 That is, instead of having terrorists as nodes and relationships between them as edges, relationships will be nodes and terrorists will be edges.
 
 We warn the students that the 106 features given in this dataset are undocumented so that it can not be used for interpreting the data or doing anything meaningful. The students who choose this project will have to increase the dataset by collecting data from other source of information about terrorism.
-
-Resources:
-* <https://linqs.soe.ucsc.edu/node/236>
-* <http://www.cs.umd.edu/~sen/lbc-proj/LBC.html>
-* Paper: <https://pdfs.semanticscholar.org/c047/f91ece3e9ec74bf42b8f69f375e27498a54a.pdf>
-* Data: <https://linqs-data.soe.ucsc.edu/public/lbc/TerrorAttack.tgz>
-* Data: <https://linqs-data.soe.ucsc.edu/public/lbc/TerroristRel.tgz>
-
-Projects from NTDS'18:
-* [[report][r19], [slides][s19], [code][c19]] A Data Study of Terrorism and its Tendencies
-* [[report][r21], [slides][s21], [code][c21]] Exposing the True Terrorist Network
-* [[report][r25], [slides][s25], [code][c25]] Finding the Authors of a Terrorist Attack
-* [[report][r27], [slides][s27], [code][c27]] How to beat terrorism efficiently: identification of set of key players in terrorist networks
-* [[report][r29], [slides][s29], [code][c29]] Predicting Terror Attacks — A Data Story
-* [[report][r34], [slides][s34], [code][c34]] Predicting the nature of terrorist attacks
-* [[report][r54], [slides][s54], [code][c54]] Fight Against Terrorism
 
 |          | Description                                                                  | Amount |
 | -------- | ---------------------------------------------------------------------------- | ------:|
@@ -283,23 +267,24 @@ Projects from NTDS'18:
 * **Requires down-sampling**: no
 * **Network creation**: network is given as a list of edges
 
-## IMDb Films and Crew
-By Rodrigo
-
 Resources:
-* <https://www.imdb.com/interfaces>
-* <https://www.kaggle.com/tmdb/tmdb-movie-metadata/home>
+* <https://linqs.soe.ucsc.edu/node/236>
+* <http://www.cs.umd.edu/~sen/lbc-proj/LBC.html>
+* Paper: <https://pdfs.semanticscholar.org/c047/f91ece3e9ec74bf42b8f69f375e27498a54a.pdf>
+* Data: <https://linqs-data.soe.ucsc.edu/public/lbc/TerrorAttack.tgz>
+* Data: <https://linqs-data.soe.ucsc.edu/public/lbc/TerroristRel.tgz>
 
 Projects from NTDS'18:
-* [[report][r01], [slides][s01], [code][c01]] A Network Analysis of Movie Popularity
-* [[report][r04], [slides][s04], [code][c04]] Evolution of the movie industry
-* [[report][r10], [slides][s10], [code][c10]] History of Movie Success through GSP
-* [[report][r15], [slides][s15], [code][c15]] Movie Grossing Success Prediction with Convolutional Neural Networks on Graphs
-* [[report][r16], [slides][s16], [code][c16]] How to invest in movies?
-* [[report][r17], [slides][s17], [code][c17]] A Netflix Tour of Data Science — Film suggestion by diffusion on graphs
-* [[report][r31], [slides][s31], [code][c31], [proposal][p31]] Feminism in Hollywood
-* [[report][r40], [slides][s40], [code][c40]] Can we estimate the earnings of a movie?
-* [[report][r49], [slides][s49], [code][c49]] A Network Tour of Millenial Movies
+* [[report][r19], [slides][s19], [code][c19]] A Data Study of Terrorism and its Tendencies
+* [[report][r21], [slides][s21], [code][c21]] Exposing the True Terrorist Network
+* [[report][r25], [slides][s25], [code][c25]] Finding the Authors of a Terrorist Attack
+* [[report][r27], [slides][s27], [code][c27]] How to beat terrorism efficiently: identification of set of key players in terrorist networks
+* [[report][r29], [slides][s29], [code][c29]] Predicting Terror Attacks — A Data Story
+* [[report][r34], [slides][s34], [code][c34]] Predicting the nature of terrorist attacks
+* [[report][r54], [slides][s54], [code][c54]] Fight Against Terrorism
+
+## IMDb Films and Crew
+By Rodrigo
 
 The IMDb datasets contain information such as crew, rating, and genre for every entertainment product in its database. The Kaggle dataset linked above is a smaller, but similar dataset, and could be used instead of the IMDb one, which is much larger. The goal of this project is to analyze this database in graph form, and attempt to recover missing information from data on cast/crew co-appearance in movies. The graphical analysis requires network creation, for which two possible paths are possible, according to which instances one wishes to consider as the nodes of the network.
 
@@ -327,8 +312,38 @@ For the extra work, there is plenty of extra information. For instance, the stud
 * **Requires down-sampling**: yes if using the original datasets from IMDb, no if using the subsampled dataset from Kaggle
 * **Network creation**: needs to be built from features
 
+Resources:
+* <https://www.imdb.com/interfaces>
+* <https://www.kaggle.com/tmdb/tmdb-movie-metadata/home>
+
+Projects from NTDS'18:
+* [[report][r01], [slides][s01], [code][c01]] A Network Analysis of Movie Popularity
+* [[report][r04], [slides][s04], [code][c04]] Evolution of the movie industry
+* [[report][r10], [slides][s10], [code][c10]] History of Movie Success through GSP
+* [[report][r15], [slides][s15], [code][c15]] Movie Grossing Success Prediction with Convolutional Neural Networks on Graphs
+* [[report][r16], [slides][s16], [code][c16]] How to invest in movies?
+* [[report][r17], [slides][s17], [code][c17]] A Netflix Tour of Data Science — Film suggestion by diffusion on graphs
+* [[report][r31], [slides][s31], [code][c31], [proposal][p31]] Feminism in Hollywood
+* [[report][r40], [slides][s40], [code][c40]] Can we estimate the earnings of a movie?
+* [[report][r49], [slides][s49], [code][c49]] A Network Tour of Millenial Movies
+
 ## Flight Routes
 By Rodrigo
+
+This OpenFlights/Airline Route Mapper Route Database contains 67,663 routes (EDGES) between 3,321 airports (NODES) on 548 airlines spanning the globe.
+
+The construction of the graph is facilitated by the source and destination airports of each flight, which gives essentially an edge list for the airport graph. Students could complement the graph construction by providing weigths to the edges, proportional to the number of flights connecting the corresponding pair of airports. The visualization of the graph embedded on the globe can be achieved by using the supplemented data in https://openflights.org/data.html, which contains, among others, information on latitute/longitude of each airport. A potential goal of the extra work could then be comparing the embedding produced by the Laplacian eigenmaps algorithm seen in the course and the "natural" embedding given by the terrestrial coordinates. The most sensitive part of the project (which could be examined in the extra work) would be to find a label signal on the graph that could be recovered via a label propagation algorithm on the graph. In principle, the average number of stops of flights leaving each airport could fulfill this purpose, but it remains a metter of study whether a subsampled version of this information can be recovered from the topological information of the graph alone or not.
+
+|          | Description                                 | Amount |
+| -------- | ------------------------------------------- | -----: |
+| nodes    | airports                                    |  3,321 |
+| edges    | count of flights connecting airports        | 67,663 |
+| features | average number of stops of outbound flights |      1 |
+| labels   | N/A                                         |    N/A |
+
+* **Data acquisition**: already collected and packaged
+* **Requires down-sampling**: no
+* **Network creation**: network is essentially given (list of edges)
 
 Resources:
 * <https://openflights.org/data.html#route>
@@ -346,27 +361,8 @@ Projects from NTDS'18:
 * [[report][r42], [slides][s42], [code][c42]] Re-balancing flight routes inequalities
 * [[report][r47], [slides][s47], [code][c47]] An overviews of intercontinental flight route connections
 
-This OpenFlights/Airline Route Mapper Route Database contains 67,663 routes (EDGES) between 3,321 airports (NODES) on 548 airlines spanning the globe.
-
-The construction of the graph is facilitated by the source and destination airports of each flight, which gives essentially an edge list for the airport graph. Students could complement the graph construction by providing weigths to the edges, proportional to the number of flights connecting the corresponding pair of airports. The visualization of the graph embedded on the globe can be achieved by using the supplemented data in https://openflights.org/data.html, which contains, among others, information on latitute/longitude of each airport. A potential goal of the extra work could then be comparing the embedding produced by the Laplacian eigenmaps algorithm seen in the course and the "natural" embedding given by the terrestrial coordinates. The most sensitive part of the project (which could be examined in the extra work) would be to find a label signal on the graph that could be recovered via a label propagation algorithm on the graph. In principle, the average number of stops of flights leaving each airport could fulfill this purpose, but it remains a metter of study whether a subsampled version of this information can be recovered from the topological information of the graph alone or not.
-
-|          | Description                                 | Amount |
-| -------- | ------------------------------------------- | -----: |
-| nodes    | airports                                    |  3,321 |
-| edges    | count of flights connecting airports        | 67,663 |
-| features | average number of stops of outbound flights |      1 |
-| labels   | N/A                                         |    N/A |
-
-* **Data acquisition**: already collected and packaged
-* **Requires down-sampling**: no
-* **Network creation**: network is essentially given (list of edges)
-
 ## Recipes 1M
 By Nicolas
-
-Resources:
-* <http://pic2recipe.csail.mit.edu/>
-* <http://im2recipe.csail.mit.edu/dataset/download/> (requires free registration prior download)
 
 This database contains ca. 1 million cooking recipes retrieved from several websites, along with one or more images for each recipe (13 million images available).
 Its original use is to train models to perform a "im2recipe" (i.e. get a recipe instructins from an image).
@@ -400,6 +396,10 @@ In order for the students to get started more easily, [two smaller subsets](http
 * **Requires down-sampling**: yes
 * **Network creation**: to be created from co-appearing ingredients or from recipes
 
+Resources:
+* <http://pic2recipe.csail.mit.edu/>
+* <http://im2recipe.csail.mit.edu/dataset/download/> (requires free registration prior download)
+
 ## Genetics
 By Benjamin
 
@@ -420,12 +420,6 @@ The dataset for the NTDS project can be found [here](https://drive.switch.ch/ind
 * apply graph signal processing approaches,
 * discover new relations between the genome, protein expressions in tissues and phenotypes (optional but that would be great!)
 
-Resources:
-* [EPFL mediacom article](https://actu.epfl.ch/news/a-big-data-tool-begins-new-era-for-biology-and-per/)
-* [Info on the BXD mice](https://www.biorxiv.org/content/10.1101/672097v3.full)
-* [dataset official Website](http://www.genenetwork.org/)
-* [Dataset link](https://drive.switch.ch/index.php/s/mtQ2F0dYc7dHOtQ)
-
 |          | Description                                                  |         Amount |
 | -------- | ------------------------------------------------------------ | -------------: |
 | nodes    | mice                                                         |      100 - 200 |
@@ -433,18 +427,18 @@ Resources:
 | features | genes, protein expressions in tissues, or phenotypes         |          1000s |
 | labels   | depends: a particular gene, phenotype, or protein expression |            N/A |
 
+Resources:
+* [EPFL mediacom article](https://actu.epfl.ch/news/a-big-data-tool-begins-new-era-for-biology-and-per/)
+* [Info on the BXD mice](https://www.biorxiv.org/content/10.1101/672097v3.full)
+* [dataset official Website](http://www.genenetwork.org/)
+* [Dataset link](https://drive.switch.ch/index.php/s/mtQ2F0dYc7dHOtQ)
+
 ## Movielens 100k
 By Clément
 
 Movielens is a personalized movie recommendation system. Several datasets have been built using this database, the smallest being Movielens 100k. It contains 100,000 ratings from 1000 users on 1700 movies. Various information is available about the users (Age, Gender, Occupation, Zip code) and the movies (Release date, genre). Given that the movie title are available, additional features can be added as well. Two graphs can be built out of this dataset, and they can be connected using the ratings.
 
 The main purpose of this data is to build a recommender system, which can be formulated as a semi-supervised learning problem: given a user, can you predict the ratings that he/she will give to a new movie? Graph neural networks can be used for this purpose, but other graph based approaches can be explored as well.
-
-Resources:
-* [Data](<https://grouplens.org/datasets/movielens/>)
-* Papers using graph neural networks:
-  * [Geometric Matrix Completion with Recurrent Multi-Graph Neural Networks](https://arxiv.org/abs/1704.06803)
-  * [Graph Convolutional Matrix Completion](https://arxiv.org/abs/1706.02263)
 
 | Users graph | Description                       |                         Amount |
 | ----------- | --------------------------------- | -----------------------------: |
@@ -463,6 +457,12 @@ Resources:
 * **Data acquisition**: already collected and packaged
 * **Requires down-sampling**: no
 * **Network creation**: needs to be built from features
+
+Resources:
+* [Data](<https://grouplens.org/datasets/movielens/>)
+* Papers using graph neural networks:
+  * [Geometric Matrix Completion with Recurrent Multi-Graph Neural Networks](https://arxiv.org/abs/1704.06803)
+  * [Graph Convolutional Matrix Completion](https://arxiv.org/abs/1706.02263)
 
 ## Past projects
 
