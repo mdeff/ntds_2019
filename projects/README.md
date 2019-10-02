@@ -340,7 +340,7 @@ In order for the students to get started more easily, [two smaller subsets](http
 
 * **Data acquisition**: already collected and packaged
 * **Requires down-sampling**: yes
-* **Network creation**: to be created from co-appearing ingredients or from recipes.
+* **Network creation**: to be created from co-appearing ingredients or from recipes
 
 ## Genetics
 By Benjamin
@@ -375,35 +375,33 @@ Resources:
 | features | genes, protein expressions in tissues, or phenotypes         |          1000s |
 | labels   | depends: a particular gene, phenotype, or protein expression |            N/A |
 
-
 ## Movielens 100k
-By Clément 
+By Clément
 
-Movielens is a personalized movie recommendation system. Several datasets have been built using this database, the smallest being Movielens 100k. It contains 100,000 ratings from 1000 users on 1700 movies. Various information is available about the users (Age, Gender, Occupation, Zip code) and the movies (Release date, genre). Given that the movie title are available, additional features can be added as well. Two graphs can be built out of this dataset, and they can be connected using the ratings.  
+Movielens is a personalized movie recommendation system. Several datasets have been built using this database, the smallest being Movielens 100k. It contains 100,000 ratings from 1000 users on 1700 movies. Various information is available about the users (Age, Gender, Occupation, Zip code) and the movies (Release date, genre). Given that the movie title are available, additional features can be added as well. Two graphs can be built out of this dataset, and they can be connected using the ratings.
 
 The main purpose of this data is to build a recommender system, which can be formulated as a semi-supervised learning problem: given a user, can you predict the ratings that he/she will give to a new movie? Graph neural networks can be used for this purpose, but other graph based approaches can be explored as well.
 
 Resources:
 * [Data](<https://grouplens.org/datasets/movielens/>)
-* 2 papers using graph neural networks:  
-  * <https://papers.nips.cc/paper/6960-geometric-matrix-completion-with-recurrent-multi-graph-neural-networks.pdf>
-  * <https://arxiv.org/pdf/1706.02263.pdf>
+* Papers using graph neural networks:
+  * [Geometric Matrix Completion with Recurrent Multi-Graph Neural Networks](https://arxiv.org/abs/1704.06803)
+  * [Graph Convolutional Matrix Completion](https://arxiv.org/abs/1706.02263)
 
+| Users graph | Description                       |                         Amount |
+| ----------- | --------------------------------- | -----------------------------: |
+| nodes       | users                             |                           1000 |
+| edges       | similar features                  | depends how the graph is built |
+| features    | age, gender, occupation, zip code |                              4 |
+| labels      | ratings of the movies             |                           100k |
 
-|Users graph| Description                                 |                         Amount |
-| --------- | ------------------------------------------- | -----------------------------: |
-| nodes     | users                                       |                           1000 |
-| edges     | similar features                            | depends how the graph is built |
-| features  | age, gender, occupation, zip code           |                              4 |
-| labels    | ratings of the movies                       |                           100k |
-
-|Movies graph| Description                                 |                         Amount |
-| ---------- | ------------------------------------------- | -----------------------------: |
-| nodes      | movies                                      |                           1700 |
-| edges      | similar features                            | depends how the graph is built |
-| features   | name, release date, genre                   |                  2 + 19 genres |
-| labels     | ratings given by users.                     |                           100k |
+| Movies graph | Description               |                         Amount |
+| ------------ | ------------------------- | -----------------------------: |
+| nodes        | movies                    |                           1700 |
+| edges        | similar features          | depends how the graph is built |
+| features     | name, release date, genre |                  2 + 19 genres |
+| labels       | ratings given by users    |                           100k |
 
 * **Data acquisition**: already collected and packaged
 * **Requires down-sampling**: no
-* **Network creation**: needs to be built from features.
+* **Network creation**: needs to be built from features
