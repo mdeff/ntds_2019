@@ -192,7 +192,7 @@ by Eda
 
 The dataset contains 5.6 million users, which are described by 4 features; "user id", "gender", "age group", "spammer label". There are 7 different type of relations between the users indicating the action between them such as profile view, message, poke, etc., which may lead to 7 different directed graph. In total, there are 858 million link between the users. The original task associated with this dataset is to identify the spammers based on their features and links in the network.
 
-Since this dataset is very big, it requires subsampling even during the loading the data and cleaning the network accordingly.
+Since this dataset is very big, it requires subsampling even during the loading of the data and cleaning the network accordingly. We warn the students that the size of the dataset add more difficulties (for example you can't create a 5.6x5.6 million adjacency matrix). So be sure you can make a smaller, meaningful subset for the project if you choose it.
 
 Resources:
 * <https://linqs.soe.ucsc.edu/node/236>
@@ -243,6 +243,8 @@ The second dataset is designed for the classification of the relationships betwe
 As the goal is the classification of links, we will here build the [line graph](https://en.wikipedia.org/wiki/Line_graph) of the social network between terrorists.
 That is, instead of having terrorists as nodes and relationships between them as edges, relationships will be nodes and terrorists will be edges.
 
+We warn the students that the 106 features given in this dataset are undocumented so that it can not be used for interpreting the data or doing anything meaningful. The students who choose this project will have to increase the dataset by collecting data from other source of information about terrorism.
+ 
 Resources:
 * <https://linqs.soe.ucsc.edu/node/236>
 * <http://www.cs.umd.edu/~sen/lbc-proj/LBC.html>
@@ -390,3 +392,11 @@ Resources
 * [Info on the BXD mice](https://www.biorxiv.org/content/10.1101/672097v3.full)
 * [dataset official Website](http://www.genenetwork.org/)
 * [Dataset link](https://drive.switch.ch/index.php/s/mtQ2F0dYc7dHOtQ)
+
+
+|          | Description                                 | Amount          |
+| -------- | ------------------------------------------- | --------------: |
+| nodes    | mice    		                             |       100 - 200 |
+| edges    | similar genes, protein expressions or phenotypes|  O(10) per node |
+| features | genes, protein expressions in tissues or phenotypes|  1000s   |
+| labels   | depends: a particular gene, a phenotype, a protein expression |  N/A |
