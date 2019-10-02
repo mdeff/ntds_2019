@@ -30,7 +30,6 @@ Keep in mind that the amount of work generally trades with flexibility: well pac
 * [Researchers on Twitter](#researchers-on-twitter)
 * [Scientific co-Authorship](#scientific-co-authorship)
 * [Spammers on Social Networks](#spammers-on-social-networks)
-* [Citation Network](#citation-network)
 * [Terrorist Attacks and Relations](#terrorist-attacks-and-relations)
 * [IMDb Films and Crew](#imdb-films-and-crew)
 * [Flight Routes](#flight-routes)
@@ -210,28 +209,6 @@ Resources:
 
 * **Data acquisition**: already collected and packaged
 * **Requires down-sampling**: yes
-* **Network creation**: network is given as a list of edges
-
-## Citation Network
-by Eda
-
-CORA citation network is a graph containing 2708 vertices representing papers and 5429 edges representing citations. Each paper is described by a 1433-dimensional bag-of-words feature vector and belongs to seven classes (the field of the study). The feature vectors contain 0/1 values indicating the absence/presence of the corresponding word from the dictionary consisting of 1433 unique words. The asscoiated task with this dataset is usually label prediction.
-
-Resources:
-* <https://linqs.soe.ucsc.edu/node/236>
-* <https://relational.fit.cvut.cz/dataset/CORA>
-* Paper: <http://www.aaai.org/Papers/ICML/2003/ICML03-066.pdf>
-* Data: <https://linqs-data.soe.ucsc.edu/public/lbc/cora.tgz>
-
-|          | Description                                     | Amount |
-| -------- | ------------------------------------------------| ------:|
-| nodes    | scientific publications                         |  2,708 |
-| edges    | a paper cites another paper                     |  5,429 |
-| features | vector indicating the absence/presence of words |  1,433 |
-| labels   | scientific field                                |      7 |
-
-* **Data acquisition**: already collected and packaged
-* **Requires down-sampling**: no
 * **Network creation**: network is given as a list of edges
 
 ## Terrorist Attacks and Relations
