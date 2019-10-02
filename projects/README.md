@@ -37,10 +37,11 @@ Keep in mind that the amount of work generally trades with flexibility: well pac
 * [Genetics](#genetics)
 * [Movielens 100k](#movielens-100k)
 
-In addition to the above list, we allow teams to work on their own data and ideas.
+In addition to the above list, look at [past NTDS projects](#past-projects).
+We also encourage teams to work on their own data and ideas.
 That is especially relevant to PhD students who want to apply the knowledge acquired in this course to their own problems.
 The network can either exist in the data, either be constructed from features.
-Look at the below descriptions and discuss with the TAs for guidance.
+Look at the below descriptions for examples and discuss with the TAs for guidance.
 
 ## Free Music Archive
 By Michaël
@@ -463,6 +464,85 @@ Resources:
 * **Requires down-sampling**: no
 * **Network creation**: needs to be built from features
 
+## Past projects
+
+Projects from NTDS'18:
+* [[report][r01], [slides][s01], [code][c01]] A Network Analysis of Movie Popularity
+* [[report][r02], [slides][s02], [code][c02]] Learning US Senate voting behavior from bill sponsorship profiles
+* [[report][r03], [slides][s03], [code][c03]] Retrieving the continent labels from the air routes structure
+* [[report][r04], [slides][s04], [code][c04]] Evolution of the movie industry
+* [[report][r05], [slides][s05], [code][c05]] A network tour to flight delay in the US
+* [[report][r06], [slides][s06], [code][c06]] Flight network and airline alliances
+* [[report][r07], [slides][s07], [code][c07]] Vote prediction of US Senators from graph properties
+* [[report][r08], [slides][s08], [code][c08]] Spreading disease through the air
+* [[report][r09], [slides][s09], [code][c09]] A Network Analysis of the 2018 FIFA World Cup
+* [[report][r10], [slides][s10], [code][c10]] History of Movie Success through GSP
+* [[report][r11], [slides][s11], [code][c11]] Music Genre Recognition
+* [[report][r12], [slides][s12], [code][c12]] Finding Continents from a Flight Routes Network
+* [[report][r13], [slides][s13], [code][c13]] Conversation starter using Wikipedia
+* [[report][r14], [slides][s14], [code][c14]] Smooth Radio: Automatic playlist generation using signal graph processing
+* [[report][r15], [slides][s15], [code][c15]] Movie Grossing Success Prediction with Convolutional Neural Networks on Graphs
+* [[report][r16], [slides][s16], [code][c16]] How to invest in movies?
+* [[report][r17], [slides][s17], [code][c17]] A Netflix Tour of Data Science — Film suggestion by diffusion on graphs
+* [[report][r18], [slides][s18], [code][c18]] U.S. Senators: A Voting Pattern Study
+* [[report][r19], [slides][s19], [code][c19]] A Data Study of Terrorism and its Tendencies
+* [[report][r20], [slides][s20], [code][c20]] Spammer… Catch me if you can
+* [[report][r21], [slides][s21], [code][c21]] Exposing the True Terrorist Network
+* [[report][r22], [slides][s22], [code][c22]] Small Components' Analysis and Flight Delay Prediction
+* [[report][r23], [slides][s23], [code][c23]] Minipedia
+* [[report][r24], [slides][s24], [code][c24]] Wikipedia Analysis Using Keyword Based Graphs
+* [[report][r25], [slides][s25], [code][c25]] Finding the Authors of a Terrorist Attack
+* [[report][r27], [slides][s27], [code][c27]] How to beat terrorism efficiently: identification of set of key players in terrorist networks
+* [[report][r28], [slides][s28], [code][c28]] A Network Topology Analysis of the Airline Industry
+* [[report][r29], [slides][s29], [code][c29]] Predicting Terror Attacks — A Data Story
+* [[report][r30], [slides][s30], [code][c30]] Free Music Alternative Playlists
+* [[report][r31], [slides][s31], [code][c31], [proposal][p31]] Feminism in Hollywood
+* [[report][r32], [slides][s32], [code][c32]] Genre Classification: A Transductive, Inductive and Deep Approach
+* [[report][r33], [slides][s33], [code][c33]] Friends Will Be Friends: A Network Tour of Musical Friendship
+* [[report][r34], [slides][s34], [code][c34]] Predicting the nature of terrorist attacks
+* [[report][r36], [slides][s36], [code][c36]] Transitional playlists for new musical discoveries
+* [[report][r37], [slides][s37], [code][c37]] A Wikipedia Tour of Death — or how University College Boat Club became popular
+* [[report][r38], [slides][s38], [code][c38]] Tempering the Spread of Epidemics on Aerial Networks
+* [[report][r40], [slides][s40], [code][c40]] Can we estimate the earnings of a movie?
+* [[report][r42], [slides][s42], [code][c42]] Re-balancing flight routes inequalities
+* [[report][r44], [slides][s44], [code][c44], [proposal][p44]] Voting patterns in the Swiss National Council
+* [[report][r47], [slides][s47], [code][c47]] An overviews of intercontinental flight route connections
+* [[report][r49], [slides][s49], [code][c49]] A Network Tour of Millenial Movies
+* [[report][r50], [slides][s50], [code][c50]] Identifying Spammers on Social Networks
+* [[report][r51], [slides][s51], [code][c51], [proposal][p51]] An exploratory study on the brain dysconnectome
+* [[report][r52], [slides][s52], [code][c52]] Mood Changing Playlist Generator
+* [[report][r54], [slides][s54], [code][c54]] Fight Against Terrorism
+
+Projects from NTDS'17:
+* [[proposal][01p], [analysis][01r], [slides][01s]] American Basketball Players
+* [[proposal][02p], [analysis][02r], [slides][02s]] Graph-based Nutrition Guide
+* [[proposal][03p], [analysis][03r], [slides][03s]] What Impacts the Success of a Movie?
+* [[proposal][04p], [analysis][04r], [slides][04s]] Exploring the Crunchbase Dataset to Detect High Potential Startups
+* [[proposal][05p], [analysis][05r], [slides][05s]] Beer Suggester
+* [[proposal][06p], [analysis][06r], [slides][06s]] Swiss Political Survey
+* [[proposal][07p], [analysis][07r], [slides][07s]] A StackOverflow Recommender System
+* [[proposal][08p], [analysis][08r], [slides][08s]] Analysis of World Development Indicators as Predictors
+* [[proposal][09p], [analysis][09r], [slides][09s]] Satellites Characterization – Clustering using Orbital Characteristics
+* [[proposal][10p], [analysis][10r], [slides][10s]] Amazon Electronic Products – Network Analysis
+* [[proposal][11p], [analysis][11r], [slides][11s]] GSP on the Digital Reconstruction of the Brain
+* [[proposal][12p], [analysis][12r], [slides][12s]] Movie Recommendation
+* [[proposal][13p], [analysis][13r], [slides][13s]] GraphLang
+* [[proposal][14p], [analysis][14r], [slides][14s]] Buda + Pest = Budapest
+* [[proposal][15p], [analysis][15r], [slides][15s]] Manifold Learning of Face Data
+* [[proposal][16p], [analysis][16r], [slides][16s]] A Network Tour of the Tunisian and Egyptian Springs
+* [[proposal][17p], [analysis][17r], [slides][17s]] StackOverflow Survey
+* [[proposal][18p], [analysis][18r], [slides][18s]] Speech Recognition Challenge
+* [[proposal][19p], [analysis][19r], [slides][19s]] Analysis of the Elite Football Transfer Market
+* [[proposal][20p], [analysis][20r], [slides][20s]] Titanic
+* [[proposal][21p], [analysis][21r], [slides][21s]] This is My Jam
+* [[proposal][22p], [analysis][22r], [slides][22s]] A Network Tour of StackOverflow
+* [[proposal][23p], [analysis][23r], [slides][23s]] Course Suggester
+* [[proposal][24p], [analysis][24r], [slides][24s]] Spectral Analysis of 5000 Movies Network
+* [[proposal][25p], [analysis][25r], [slides][25s]] Community Detection on the Wikipedia Hyperlink Graph
+* [[proposal][26p], [analysis][26r], [slides][26s]] 3D Meshes of Facial Expression
+* [[proposal][27p], [analysis][27r], [slides][27s]] Terrorist Attacks
+* [[proposal][28p], [analysis][28r], [slides][28s]] Community Detection and Labelling in an Instagram Network
+* [[proposal][29p], [analysis][29r], [slides][29s]] Graph-based Recommendation for lastFM
 
 [p31]: https://github.com/mdeff/ntds_2018/blob/master/projects/proposals/team_31.pdf
 [p44]: https://github.com/mdeff/ntds_2018/blob/master/projects/proposals/team_44.pdf
@@ -605,3 +685,93 @@ Resources:
 [c51]: https://github.com/emullier/NTDS_team51_BrainNetworks
 [c52]: https://github.com/rezaho/NetworkTour-of-DataScience
 [c54]: https://github.com/mouadhhamdi/NTDS_Project
+
+[01p]: https://github.com/mdeff/ntds_2017/blob/master/projects/proposals/basketball_players.pdf
+[02p]: https://github.com/mdeff/ntds_2017/blob/master/projects/proposals/nutrition_guide.pdf
+[03p]: https://github.com/mdeff/ntds_2017/blob/master/projects/proposals/movie_success.pdf
+[04p]: https://github.com/mdeff/ntds_2017/blob/master/projects/proposals/crunchbase_startups.pdf
+[05p]: https://github.com/mdeff/ntds_2017/blob/master/projects/proposals/beer_suggester.pdf
+[06p]: https://github.com/mdeff/ntds_2017/blob/master/projects/proposals/swiss_politics.pdf
+[07p]: https://github.com/mdeff/ntds_2017/blob/master/projects/proposals/stackoverflow_recommendation.pdf
+[08p]: https://github.com/mdeff/ntds_2017/blob/master/projects/proposals/countries_development.pdf
+[09p]: https://github.com/mdeff/ntds_2017/blob/master/projects/proposals/satellites.pdf
+[10p]: https://github.com/mdeff/ntds_2017/blob/master/projects/proposals/amazon_products.pdf
+[11p]: https://github.com/mdeff/ntds_2017/blob/master/projects/proposals/brain_network.pdf
+[12p]: https://github.com/mdeff/ntds_2017/blob/master/projects/proposals/movie_recommendation.pdf
+[13p]: https://github.com/mdeff/ntds_2017/blob/master/projects/proposals/graphlang.pdf
+[14p]: https://github.com/mdeff/ntds_2017/blob/master/projects/proposals/road_network.pdf
+[15p]: https://github.com/mdeff/ntds_2017/blob/master/projects/proposals/face_manifold.pdf
+[16p]: https://github.com/mdeff/ntds_2017/blob/master/projects/proposals/arab_springs.pdf
+[17p]: https://github.com/mdeff/ntds_2017/blob/master/projects/proposals/stackoverflow_survey.pdf
+[18p]: https://github.com/mdeff/ntds_2017/blob/master/projects/proposals/speech_recognition.pdf
+[19p]: https://github.com/mdeff/ntds_2017/blob/master/projects/proposals/football_transfers.pdf
+[20p]: https://github.com/mdeff/ntds_2017/blob/master/projects/proposals/titanic.pdf
+[21p]: https://github.com/mdeff/ntds_2017/blob/master/projects/proposals/jam.pdf
+[22p]: https://github.com/mdeff/ntds_2017/blob/master/projects/proposals/stackoverflow_network.pdf
+[23p]: https://github.com/mdeff/ntds_2017/blob/master/projects/proposals/course_suggester.pdf
+[24p]: https://github.com/mdeff/ntds_2017/blob/master/projects/proposals/movie_network.pdf
+[25p]: https://github.com/mdeff/ntds_2017/blob/master/projects/proposals/wikipedia_hyperlink.pdf
+[26p]: https://github.com/mdeff/ntds_2017/blob/master/projects/proposals/facial_expression.pdf
+[27p]: https://github.com/mdeff/ntds_2017/blob/master/projects/proposals/terrorist_attacks.pdf
+[28p]: https://github.com/mdeff/ntds_2017/blob/master/projects/proposals/instagram_community.pdf
+[29p]: https://github.com/mdeff/ntds_2017/blob/master/projects/proposals/lastfm_recommendation.pdf
+
+[01s]: https://github.com/mdeff/ntds_2017/blob/master/projects/slides/basketball_players.pdf
+[02s]: https://github.com/mdeff/ntds_2017/blob/master/projects/slides/nutrition_guide.pdf
+[03s]: https://github.com/mdeff/ntds_2017/blob/master/projects/slides/movie_success.pdf
+[04s]: https://github.com/mdeff/ntds_2017/blob/master/projects/slides/crunchbase_startups.pdf
+[05s]: https://github.com/mdeff/ntds_2017/blob/master/projects/slides/beer_suggester.pdf
+[06s]: https://github.com/mdeff/ntds_2017/blob/master/projects/slides/swiss_politics.pdf
+[07s]: https://github.com/mdeff/ntds_2017/blob/master/projects/slides/stackoverflow_recommendation.pdf
+[08s]: https://github.com/mdeff/ntds_2017/blob/master/projects/slides/countries_development.pdf
+[09s]: https://github.com/mdeff/ntds_2017/blob/master/projects/slides/satellites.pdf
+[10s]: https://github.com/mdeff/ntds_2017/blob/master/projects/slides/amazon_products.pdf
+[11s]: https://github.com/mdeff/ntds_2017/blob/master/projects/slides/brain_network.pdf
+[12s]: https://github.com/mdeff/ntds_2017/blob/master/projects/slides/movie_recommendation.pdf
+[13s]: https://github.com/mdeff/ntds_2017/blob/master/projects/slides/graphlang.pdf
+[14s]: https://github.com/mdeff/ntds_2017/blob/master/projects/slides/road_network.pdf
+[15s]: https://github.com/mdeff/ntds_2017/blob/master/projects/slides/face_manifold.pdf
+[16s]: https://github.com/mdeff/ntds_2017/blob/master/projects/slides/arab_springs.pdf
+[17s]: https://github.com/mdeff/ntds_2017/blob/master/projects/slides/stackoverflow_survey.pdf
+[18s]: https://github.com/mdeff/ntds_2017/blob/master/projects/slides/speech_recognition.pdf
+[19s]: https://github.com/mdeff/ntds_2017/blob/master/projects/slides/football_transfers.pdf
+[20s]: https://github.com/mdeff/ntds_2017/blob/master/projects/slides/titanic.pdf
+[21s]: https://github.com/mdeff/ntds_2017/blob/master/projects/slides/jam.pdf
+[22s]: https://github.com/mdeff/ntds_2017/blob/master/projects/slides/stackoverflow_network.pdf
+[23s]: https://github.com/mdeff/ntds_2017/blob/master/projects/slides/course_suggester.pdf
+[24s]: https://github.com/mdeff/ntds_2017/blob/master/projects/slides/movie_network.pdf
+[25s]: https://github.com/mdeff/ntds_2017/blob/master/projects/slides/wikipedia_hyperlink.pdf
+[26s]: https://github.com/mdeff/ntds_2017/blob/master/projects/slides/facial_expression.pdf
+[27s]: https://github.com/mdeff/ntds_2017/blob/master/projects/slides/terrorist_attacks.pdf
+[28s]: https://github.com/mdeff/ntds_2017/blob/master/projects/slides/instagram_community.pdf
+[29s]: https://github.com/mdeff/ntds_2017/blob/master/projects/slides/lastfm_recommendation.pdf
+
+[01r]: https://github.com/mdeff/ntds_2017/blob/master/projects/reports/basketball_players
+[02r]: https://github.com/mdeff/ntds_2017/blob/master/projects/reports/nutrition_guide
+[03r]: https://github.com/mdeff/ntds_2017/blob/master/projects/reports/movie_success
+[04r]: https://github.com/mdeff/ntds_2017/blob/master/projects/reports/crunchbase_startups
+[05r]: https://github.com/mdeff/ntds_2017/blob/master/projects/reports/beer_suggester
+[06r]: https://github.com/mdeff/ntds_2017/blob/master/projects/reports/swiss_politics
+[07r]: https://github.com/mdeff/ntds_2017/blob/master/projects/reports/stackoverflow_recommendation
+[08r]: https://github.com/mdeff/ntds_2017/blob/master/projects/reports/countries_development
+[09r]: https://github.com/mdeff/ntds_2017/blob/master/projects/reports/satellites
+[10r]: https://github.com/mdeff/ntds_2017/blob/master/projects/reports/amazon_products
+[11r]: https://github.com/mdeff/ntds_2017/blob/master/projects/reports/brain_network
+[12r]: https://github.com/mdeff/ntds_2017/blob/master/projects/reports/movie_recommendation
+[13r]: https://github.com/mdeff/ntds_2017/blob/master/projects/reports/graphlang
+[14r]: https://github.com/mdeff/ntds_2017/blob/master/projects/reports/road_network
+[15r]: https://github.com/mdeff/ntds_2017/blob/master/projects/reports/face_manifold
+[16r]: https://github.com/mdeff/ntds_2017/blob/master/projects/reports/arab_springs
+[17r]: https://github.com/mdeff/ntds_2017/blob/master/projects/reports/stackoverflow_survey
+[18r]: https://github.com/mdeff/ntds_2017/blob/master/projects/reports/speech_recognition
+[19r]: https://github.com/mdeff/ntds_2017/blob/master/projects/reports/football_transfers
+[20r]: https://github.com/zifeo/Titanic
+[21r]: https://github.com/mdeff/ntds_2017/blob/master/projects/reports/jam
+[22r]: https://github.com/mdeff/ntds_2017/blob/master/projects/reports/stackoverflow_network
+[23r]: https://github.com/mdeff/ntds_2017/blob/master/projects/reports/course_suggester
+[24r]: https://github.com/mdeff/ntds_2017/blob/master/projects/reports/movie_network
+[25r]: https://github.com/mdeff/ntds_2017/blob/master/projects/reports/wikipedia_hyperlink
+[26r]: https://github.com/mdeff/ntds_2017/blob/master/projects/reports/facial_expression
+[27r]: https://github.com/mdeff/ntds_2017/blob/master/projects/reports/terrorist_attacks
+[28r]: https://github.com/mdeff/ntds_2017/blob/master/projects/reports/instagram_community
+[29r]: https://github.com/mdeff/ntds_2017/blob/master/projects/reports/lastfm_recommendation
