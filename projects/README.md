@@ -129,40 +129,33 @@ Projects from NTDS'18:
 * [[report][r18], [slides][s18], [code][c18]] U.S. Senators: A Voting Pattern Study
 
 ## Wikipedia
-By Benjamin
+By Benjamin and Nicolas
 
 Wikipedia is an enormous source of information visited dayly by millions on users. We can understand more about the human behavior by looking at how it is build and how it is accessed. In this project you will investigate the Wikipedia structure and learn more about our use, as human, of the largest encyclopedia ever.
-Pages, with their hyperlinks, can be seen as a network, connecting related or similar pages. We will use graph algorithms taught in the course to analyze the graph and gather relevant pages together. Label propagation and community detection will help to group and categorize pages.
-In a second step, the number of visits per page (for one month) will be added to analyze the popularity of the articles and check if it influences the popularity of the neighbor pages. The project is open and students can also have access to the evolution in time of the number of visits (visits per hour or per day). Depending on the students progress and motivation, the time series could be analyzed to get interesting information on Wikipedia.
-
-There will be two steps in the project. In the first part, the teams will investigate a small dataset in order to focus on the graph techniques and not spend too much time on the preprocessing and handling of the data. we will use the dataset available here:
-[SNAP repository](https://snap.stanford.edu/data/wikispeedia.html)
-The file of interest is the path and graph file: wikispeedia_paths-and-graph.tar.gz
-The archive provides the articles titles (articles.tsv), their categories (categories.tsv) and the hyperlinks connecting the pages (links.tsv).
-The first goal will be to create the graph of articles from the data and study it (apply the techniques learned during the course).
-
-In the second step, to allow more freedom and creativity, the students will have access to a graph database where the full wikipedia graph has been stored, along with categories (work in progress within the LTS2 lab, do not look for it on the internet). In addition, the number visits per hour will be available (for one month). Since the graph is enormous (14 millions articles for the english Wikipedia), the goal for the teams will be to focus on a few categories (that they choose freely) and investigate this smaller subgraph. They will have the possibility to answer questions such as how the categories are connected, what are the central articles within categories, what are the articles that bridge categories... Looking at the number of visits, can we detect particular events that triggered an increase in the number of visits? Which pages are involved? It should also be possible to study the graph of articles for different languages and compare the differences.
+Using the [Wikipedia API](https://pypi.org/project/Wikipedia-API/), a network can be built where pages are nodes and hyperlinks are edges. The students exploring this dataset can focus on a (or several) particular subset(s) of pages (the entire wikipedia is too large for a NTDS project and can not be retrieved from the API).
+In addition, numerous information about the pages can be retrieved through the API. For example, similarly to the Cora dataset, from the text of the page one can build a feature vector for each page related to the keywords it contains. The category of a page can be a label. Furthermore, the number of visits per page per day can be obtain from the [pageview API](https://wikitech.wikimedia.org/wiki/Analytics/AQS/Pageviews). It gives the possibility to the students of analyzing the popularity of the articles over time and for example, checking if it influences the popularity of the neighbor pages or if the popularity of a group of pages is related to a particular event.
+It is also possible to study and compare pages, networks and features in different languages. This dataset is rich, be creative!
 
 Dataset:
 
-Wikipedia dump + Wikipedia data on the number of visits per pages
-
-A reduced dataset, extracted from the links above, will be provided to the students.
+A reduced dataset, extracted from the API, will be collected by the students. We suggest to build a graph having 100 to 1000 nodes.
 
 |          | Description                                |  Amount |
 | -------- | ------------------------------------------ | -------:|
-| nodes    | Wikipedia pages                            | ~10,000 |
+| nodes    | Wikipedia pages                            | 100 to 1000 |
 | edges    | hyperlinks                                 |     N/A |
-| features | number of visits for one month             |       1 |
+| features | number of visits per day, keywords in the text |   >10 |
 | labels   | category                                   |     3-5 |
 
-* **Data acquisition**: already collected and packaged
+* **Data acquisition**: to be collected from the Wikipedia API
 * **Requires down-sampling**: no
 * **Network creation**: given
 
 Resources:
-* <https://en.wikipedia.org/wiki/Wikipedia:Database_download>
-* <https://dumps.wikimedia.org/other/pagecounts-ez>
+* [Wikipedia API](https://pypi.org/project/Wikipedia-API/)
+* [Wikipedia API, python module](https://wikipedia.readthedocs.io/en/latest/)
+* [pageview](https://wikitech.wikimedia.org/wiki/Analytics/AQS/Pageviews)
+* [pageview API, Python module](https://pypi.org/project/pageviewapi/)
 
 Projects from NTDS'18:
 * [[report][r09], [slides][s09], [code][c09]] A Network Analysis of the 2018 FIFA World Cup
