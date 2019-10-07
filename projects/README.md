@@ -131,31 +131,30 @@ Projects from NTDS'18:
 ## Wikipedia
 By Benjamin and Nicolas
 
-Wikipedia is an enormous source of information visited dayly by millions on users. We can understand more about the human behavior by looking at how it is build and how it is accessed. In this project you will investigate the Wikipedia structure and learn more about our use, as human, of the largest encyclopedia ever.
-Using the [Wikipedia API](https://pypi.org/project/Wikipedia-API/), a network can be built where pages are nodes and hyperlinks are edges. The students exploring this dataset can focus on a (or several) particular subset(s) of pages (the entire wikipedia is too large for a NTDS project and can not be retrieved from the API).
-In addition, numerous information about the pages can be retrieved through the API. For example, similarly to the Cora dataset, from the text of the page one can build a feature vector for each page related to the keywords it contains. The category of a page can be a label. Furthermore, the number of visits per page per day can be obtain from the [pageview API](https://wikitech.wikimedia.org/wiki/Analytics/AQS/Pageviews). It gives the possibility to the students of analyzing the popularity of the articles over time and for example, checking if it influences the popularity of the neighbor pages or if the popularity of a group of pages is related to a particular event.
+Wikipedia is an enormous source of information visited daily by millions of users. We can understand human behavior by looking at how it is built and accessed. In this project you will investigate the Wikipedia structure and learn more about our use, as humans, of the largest encyclopedia ever.
+Using the [Wikipedia API], a network can be built where pages are nodes and hyperlinks are edges. The students exploring this dataset can focus on a (or several) particular subset(s) of pages. (The entire Wikipedia is too large for a NTDS project and cannot be retrieved from the API.)
+In addition, numerous attributes about the pages can be retrieved through the API. For example, similarly to the Cora dataset, from the text of the page one can build a feature vector for each page related to the keywords it contains. The category of a page can be a label. Furthermore, the number of visits per page per day can be obtained from the [Pageview API]. It gives the possibility to the students of analyzing the popularity of the articles over time. For example, one can check if the popularity of a page influences the popularity of the neighboring pages or if the popularity of a group of pages is related to a particular event.
 It is also possible to study and compare pages, networks and features in different languages. This dataset is rich, be creative!
-
-Dataset:
-
 A reduced dataset, extracted from the API, will be collected by the students. We suggest to build a graph having 100 to 1000 nodes.
 
-|          | Description                                |  Amount |
-| -------- | ------------------------------------------ | -------:|
-| nodes    | Wikipedia pages                            | 100 to 1000 |
-| edges    | hyperlinks                                 |     N/A |
-| features | number of visits per day, keywords in the text |   >10 |
-| labels   | category                                   |     3-5 |
+|          | Description                                    |      Amount |
+| -------- | ---------------------------------------------- | -----------:|
+| nodes    | Wikipedia pages                                | 100 to 1000 |
+| edges    | hyperlinks                                     |         N/A |
+| features | number of visits per day, keywords in the text |         >10 |
+| labels   | category                                       |         3-5 |
 
 * **Data acquisition**: to be collected from the Wikipedia API
-* **Requires down-sampling**: no
+* **Requires down-sampling**: yes, during collection
 * **Network creation**: given
 
 Resources:
-* [Wikipedia API](https://pypi.org/project/Wikipedia-API/)
-* [Wikipedia API, python module](https://wikipedia.readthedocs.io/en/latest/)
-* [pageview](https://wikitech.wikimedia.org/wiki/Analytics/AQS/Pageviews)
-* [pageview API, Python module](https://pypi.org/project/pageviewapi/)
+* [Wikipedia API]
+* [Pageview API]
+* Python packages to access the APIs: [`wikipedia`](https://pypi.org/project/wikipedia), [`Wikipedia-API`](https://pypi.org/project/Wikipedia-API), [`pageviewapi`](https://pypi.org/project/pageviewapi)
+
+[Wikipedia API]: https://www.mediawiki.org/wiki/API:Main_page
+[Pageview API]: https://wikitech.wikimedia.org/wiki/Analytics/AQS/Pageviews
 
 Projects from NTDS'18:
 * [[report][r09], [slides][s09], [code][c09]] A Network Analysis of the 2018 FIFA World Cup
