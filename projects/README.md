@@ -277,7 +277,7 @@ Projects from NTDS'18:
 * [[report][r54], [slides][s54], [code][c54]] Fight Against Terrorism
 
 ## IMDb Films and Crew
-By Rodrigo
+By Rodrigo, taken over by Nikolaos
 
 The IMDb datasets contain information such as crew, rating, and genre for every entertainment product in its database. The Kaggle dataset linked above is a smaller, but similar dataset, and could be used instead of the IMDb one, which is much larger. The goal of this project is to analyze this database in graph form, and attempt to recover missing information from data on cast/crew co-appearance in movies. The graphical analysis requires network creation, for which two possible paths are possible, according to which instances one wishes to consider as the nodes of the network.
 
@@ -321,7 +321,7 @@ Projects from NTDS'18:
 * [[report][r49], [slides][s49], [code][c49]] A Network Tour of Millenial Movies
 
 ## Flight Routes
-By Rodrigo
+By Rodrigo, taken over by Guillermo
 
 This OpenFlights/Airline Route Mapper Route Database contains 67,663 routes (EDGES) between 3,321 airports (NODES) on 548 airlines spanning the globe.
 
