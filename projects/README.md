@@ -22,6 +22,26 @@ So if you're a beginner and don't feel confident, choose a project that requires
 If you feel confident, be adventurous!
 Keep in mind that the amount of work generally trades with flexibility: well packaged data usually serves a single task and may restrict your creativity.
 
+## Dataset Selection
+
+We encourage teams to choose a dataset and the task, which they are interested in. You can also work on your own data. That is especially relevant to PhD students who want to apply the knowledge acquired in this course to their own problems.
+
+#### Where to find a dataset?
+Luckily, there are plenty of sources accros the internet to search for data. Here are some links:
+* https://www.kaggle.com/datasets
+* https://toolbox.google.com/datasetsearch
+* http://networkrepository.com/
+* https://github.com/awesomedata/awesome-public-datasets
+* https://opendata.swiss/en/
+
+#### What are the requirements for the dataset?
+You need to choose a dataset that can be represented by a network.
+The network can either be given by a list of connections or it can be constructed from features.
+Examine the proposed datasets for different network representations and discuss with the TAs for guidance.
+
+#### How to determine the main task of the project?
+The project does not end by the network creation and giving some statistical facts about it. You should determine a task which is usually based on the inference of a latent information. You can address it by some fundemental problems in network science such as community detection or by machine learning problems such as classification or semi-supervised learning. In that case, be careful if you can justify your results with a groundtruth data or any other way such as qualitative or visual assessments. The main task depends on the information provided by the dataset such as features, labels, signals etc. Hence, some datasets may present their own challenge. You can check [Kaggle](https://www.kaggle.com/datasets) for such kind of network datasets. Do not hestitate to manifest some creative ideas on the project, check [the ones in last years](#past-projects).
+
 ## Proposed datasets
 
 * [Free Music Archive](#free-music-archive)
@@ -37,11 +57,6 @@ Keep in mind that the amount of work generally trades with flexibility: well pac
 * [Genetics](#genetics)
 * [Movielens 100k](#movielens-100k)
 
-In addition to the above list, look at [past NTDS projects](#past-projects).
-We also encourage teams to work on their own data and ideas.
-That is especially relevant to PhD students who want to apply the knowledge acquired in this course to their own problems.
-The network can either exist in the data, either be constructed from features.
-Look at the below descriptions for examples and discuss with the TAs for guidance.
 
 ## Free Music Archive
 By Michaël
