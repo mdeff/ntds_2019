@@ -1,8 +1,8 @@
 # Dataset and project ideas for NTDS'19
 
-## A word on preparing the data
+## A word on data preparation
 
-For all projects, some degree of pre-processing is needed before obtaining usable data.
+For all datasets, some degree of pre-processing is needed before obtaining usable data.
 That is inherent to the work of a data scientist, and will mostly involve the following steps.
 
 1. **Data acquisition.**
@@ -10,37 +10,48 @@ That is inherent to the work of a data scientist, and will mostly involve the fo
 2. **Data importation.**
    Raw data needs to be imported in a pandas DataFrame, where rows will be nodes of the network, and columns will be features (or characteristics or attributes) of those nodes.
 3. **Data cleaning.**
-   This step varies a lot from projects to projects.
+   This step varies a lot from dataset to dataset.
    In the context of the course, it will mostly consist in reducing the size of the network so that it can be processed in a reasonable amount of time.
    The less packaged the raw data, the more cleaning will be necessary.
 4. **Network creation.**
    The network structure may either be (i) given to you as an adjacency matrix, (ii) given to you as an edge list, or (iii) inferred from raw data.
 
-While those steps are necessary for every project, the amount of pre-processing will however vary.
-If the project requires raw data to be collected or the network to be created, that will be indicated in the project description.
-So if you're a beginner and don't feel confident, choose a project that requires little pre-processing.
+While those steps are necessary for every dataset, the amount of pre-processing will however vary.
+If a dataset requires raw data to be collected or the network to be created, that will be indicated in the datset description.
+So if you are a beginner and do not feel confident, choose a dataset that requires little pre-processing.
 If you feel confident, be adventurous!
 Keep in mind that the amount of work generally trades with flexibility: well packaged data usually serves a single task and may restrict your creativity.
 
-## Dataset Selection
+## Selecting a dataset
 
-We encourage teams to choose a dataset and the task, which they are interested in. You can also work on your own data. That is especially relevant to PhD students who want to apply the knowledge acquired in this course to their own problems.
+We encourage teams to choose a dataset and problematic that inspire them.
+While we provide a [list of datasets](#proposed-datasets), we encourage motivated teams to look for their own data.
+That is especially relevant to PhD students who want to apply the knowledge acquired in this course to their research problems.
 
-#### Where to find a dataset?
-Luckily, there are plenty of sources accros the internet to search for data. Here are some links:
-* https://www.kaggle.com/datasets
-* https://toolbox.google.com/datasetsearch
-* http://networkrepository.com/
-* https://github.com/awesomedata/awesome-public-datasets
-* https://opendata.swiss/en/
+### Where to find (network) datasets?
 
-#### What are the requirements for the dataset?
+There are plenty of sources to search for data. Here are some links:
+* <https://www.kaggle.com/datasets>
+* <https://toolbox.google.com/datasetsearch>
+* <https://networkrepository.com>
+* <https://github.com/awesomedata/awesome-public-datasets>
+* <https://opendata.swiss/en>
+
+### What are the requirements for the dataset?
+
 You need to choose a dataset that can be represented by a network.
-The network can either be given by a list of connections or it can be constructed from features.
-Examine the proposed datasets for different network representations and discuss with the TAs for guidance.
+The network structure can either be given or can be constructed from features.
+To give you an idea of network representations, go through the [list of proposed datasets](#proposed-datasets).
+Please discuss with the TAs during lab sessions for guidance.
 
-#### How to determine the main task of the project?
-The project does not end by the network creation and giving some statistical facts about it. You should determine a task which is usually based on the inference of a latent information. You can address it by some fundemental problems in network science such as community detection or by machine learning problems such as classification or semi-supervised learning. In that case, be careful if you can justify your results with a groundtruth data or any other way such as qualitative or visual assessments. The main task depends on the information provided by the dataset such as features, labels, signals etc. Hence, some datasets may present their own challenge. You can check [Kaggle](https://www.kaggle.com/datasets) for such kind of network datasets. Do not hestitate to manifest some creative ideas on the project, check [the ones in last years](#past-projects).
+### How to determine the task to be addressed?
+
+Keep in mind that while necessary, it is not enough to create a network and give some statistical facts about it.
+You should determine a task, which is usually based on the inference of latent information.
+You can address it with network science tools, such as community detection, or by machine learning tools, such as classification or semi-supervised learning.
+Check beforehand if you can justify your results with a ground-truth, or alternatively, with a qualitative or visual assessment.
+The tasks that can be addressed depend on the information provided by the dataset such as features, labels, signals, etc.
+Some datasets, like the ones on [Kaggle](https://www.kaggle.com/datasets), were created to address one such task.
 
 ## Proposed datasets
 
@@ -57,11 +68,12 @@ The project does not end by the network creation and giving some statistical fac
 * [Genetics](#genetics)
 * [Movielens 100k](#movielens-100k)
 
+Look also at the list of [past NTDS projects](#past-projects).
 
 ## Free Music Archive
 By Michaël
 
-The [Free Music Archive](http://freemusicarchive.org/) (FMA) is a free and open library directed by [WFMU](https://wfmu.org/), the longest-running freeform radio station in the United States.
+The [Free Music Archive](https://freemusicarchive.org/) (FMA) is a free and open library directed by [WFMU](https://wfmu.org/), the longest-running freeform radio station in the United States.
 Inspired by [Creative Commons](https://creativecommons.org/) and the open-source software movement, the FMA provides a platform for curators, artists, and listeners to harness the potential of music sharing.
 The website provides a large catalog of artists and tracks, hand-picked by established audio curators. Each track is legally free to download as artists decided to release their works under permissive licenses.
 
@@ -77,14 +89,11 @@ Metadata exists at the level of tracks (e.g., title, creation date), albums (e.g
 A full-length audio recording is available for each track.
 Additionally, a fixed length feature vector (audio descriptors computed from the waveform) describes the track.
 Relations between tracks can be studied by constructing a similarity graph.
-The similarity graph should at first be computed from audio features only.
-Later, motivated students will explore and merge other sources of information, at the level of tracks, albums, or artists.
-For the first part of the project (milestones 1 to 4), we recommend students to work with tracks that belong to the Hip-Hop and Rock genres of the dataset "FMA small".
-That will create a subset of 2,000 tracks.
+The similarity graph can be computed from audio features and metadata (at the level of tracks, albums, or artists).
+A subset of 2,000 tracks can be built by choosing tracks that belong to the Hip-Hop and Rock genres of the dataset "FMA small".
 
 It is also feasible to work with other graphs, such as relations between artists or listeners.
 The latter requires to scrap the website.
-We don't recommend exploring those options before having completed the milestones.
 
 |          | Description                                | Amount |
 | -------- | ------------------------------------------ | ------:|
@@ -136,7 +145,7 @@ Going further, similarity might be measured from the other features, such as bil
 
 Resources:
 * [ProPublica Congress API](https://projects.propublica.org/api-docs/congress-api/)
-* [Blog post on using the API](http://www.storybench.org/use-propublicas-congress-api-see-senators-stand-issues/)
+* [Blog post on using the API](https://www.storybench.org/use-propublicas-congress-api-see-senators-stand-issues/)
 
 Projects from NTDS'18:
 * [[report][r02], [slides][s02], [code][c02]] Learning US Senate voting behavior from bill sponsorship profiles
@@ -181,8 +190,15 @@ Projects from NTDS'18:
 ## Researchers on Twitter
 by Ersi
 
-The goal of this project is to analyze the interactions of a sub-network of Twitter. The Twitter accounts in this project are Computer Science reasearchers or other accounts "related" to Computer Science.
-The [dataset](https://github.com/l3s/twitter-researcher) used consists of the activity of 52678 Twitter users. Of those 170 are Twitter screen names of 98 Computer Science Conferences. These 170 Twitter accounts are set as seeds and more Twitter nodes have been collected if they are i) following a seed or ii) being followed by a seed or iii) have re-tweeted a seed's tweet. Out of the 52678 Twitter users the 9191 are verified to be researchers (they have been matched to a DBLP author profile). 22 features are given for each Twitter user, including for instance a boolean feature demonstrating if the bio description includes words that are usually being used to describe researchers. You can find a detailed description of the data in [this paper](https://dl.acm.org/citation.cfm?doid=2615569.2615676)
+The goal of this project is to analyze the interactions of a sub-network of Twitter.
+The Twitter accounts in this project are Computer Science researchers or other accounts "related" to Computer Science.
+The [dataset](https://github.com/l3s/twitter-researcher) consists of the activity of 52,678 Twitter users.
+Of those, 170 are Twitter screen names of 98 Computer Science Conferences.
+These 170 Twitter accounts are set as seeds and more Twitter nodes have been collected if they are (i) following a seed, (ii) being followed by a seed, or (iii) have re-tweeted a seed's tweet.
+Out of the 52,678 Twitter users, 9,191 are verified to be researchers (they have been matched to a DBLP author profile).
+22 features are given for each Twitter user, including for instance a boolean feature demonstrating if the bio description includes words that are usually being used to describe researchers.
+You can find a detailed description of the data in [this paper](https://dx.doi.org/10.1145/2615569.2615676).
+Keep in mind that the labels for this project are noisy as they are the results of classification.
 
 |          | Description                                                | Amount |
 | -------- | ---------------------------------------------------------- | ------:|
@@ -193,7 +209,13 @@ The [dataset](https://github.com/l3s/twitter-researcher) used consists of the ac
 
 * **Data acquisition**: already collected and packaged (load tsv files). Some data cleaning will be needed.
 * **Requires down-sampling**: up to the students
-* **Network creation**: If you chose to create a similarity graph between the Twitter users, it needs to be built from features. If you chose to build a graph with the connections between users, you must collect information using the Twitter API (Tweepy). As this can be time consuming, we recommend to build a feature graph for the milestones and to explore the connections graph at the last part of the course. Keep in mind that you might need to build different feature graphs for the different milestones. Also, keep in mind that the labels for this project are noisy. They are the results of the classification of [the paper](https://dl.acm.org/citation.cfm?doid=2615569.2615676) mentioned before.
+* **Network creation**: If you chose to create a similarity graph between the Twitter users, it needs to be built from features.
+  If you chose to build a graph with the connections between users, you must collect information using the Twitter API (with [tweepy](https://github.com/tweepy/tweepy)).
+  As this can be time consuming, we recommend to build a feature graph first, and to explore the connections graph later.
+
+Resources:
+* Paper: <https://dx.doi.org/10.1145/2615569.2615676>
+* Data: <https://github.com/l3s/twitter-researcher>
 
 ## Scientific co-Authorship
 by Ersi
@@ -237,7 +259,7 @@ Since this dataset is very big, it requires subsampling even during the loading 
 Resources:
 * <https://linqs.soe.ucsc.edu/node/236>
 * <https://linqs-data.soe.ucsc.edu/public/social_spammer>
-* Paper: <http://www.cs.umd.edu/~shobeir/papers/fakhraei_kdd_2015.pdf>
+* Paper: <https://www.cs.umd.edu/~shobeir/papers/fakhraei_kdd_2015.pdf>
 * Code: <https://github.com/shobeir/fakhraei_kdd2015>
 * Data: <https://linqs-data.soe.ucsc.edu/public/social_spammer/usersdata.csv.gz>, <https://linqs-data.soe.ucsc.edu/public/social_spammer/relations.csv.gz>
 
@@ -276,7 +298,7 @@ We warn the students that the 106 features given in this dataset are undocumente
 
 Resources:
 * <https://linqs.soe.ucsc.edu/node/236>
-* <http://www.cs.umd.edu/~sen/lbc-proj/LBC.html>
+* <https://www.cs.umd.edu/~sen/lbc-proj/LBC.html>
 * Paper: <https://pdfs.semanticscholar.org/c047/f91ece3e9ec74bf42b8f69f375e27498a54a.pdf>
 * Data: <https://linqs-data.soe.ucsc.edu/public/lbc/TerrorAttack.tgz>
 * Data: <https://linqs-data.soe.ucsc.edu/public/lbc/TerroristRel.tgz>
@@ -371,33 +393,33 @@ Projects from NTDS'18:
 ## Recipes 1M
 By Nicolas
 
-This database contains ca. 1 million cooking recipes retrieved from several websites, along with one or more images for each recipe (13 million images available).
-Its original use is to train models to perform a "im2recipe" (i.e. get a recipe instructins from an image).
+This database contains circa 1 million cooking recipes retrieved from several websites, along with one or more images for each recipe (13 million images available).
+Its original use is to train models to perform a "im2recipe", i.e., get recipe instructions from an image.
 For every recipe in this dataset, you can retrieve the full-text of instructions, ingredients contained in the file available under the "layers" link (and after you unpack the file, in the "layer1.json" file).
 For each ingredient line inside a recipe, the name of the ingredient has been extracted ("ingredient detection" link).
-Ingredient name detection from text is a non-trivial task, expect the results to be noisy.
+Ingredient name detection from text is a non-trivial task, so expect the results to be noisy.
 Quantity detection has not been performed, but might be an interesting feature to study (requires extra work).
-If you intend to work with images, they require more than 100 GB of download and a matching storage space, be careful !
+If you intend to work with images, they require more than 100 GB of download and a matching storage space.
 
 You can, for instance, construct an ingredient graph (linking ingredients when they appear simultaneously in a recipe).
 
-|          | Description                                 |          Amount |
-| -------- | ------------------------------------------- | --------------: |
-| nodes    | ingredients                                 |           18253 |
-| edges    | connect co-appearing ingredients            |  O(10) per node |
-| features | recipes                                     |               1 |
-| labels   | N/A                                         |             N/A |
+|          | Description                      |         Amount |
+| -------- | -------------------------------- | -------------: |
+| nodes    | ingredients                      |          18253 |
+| edges    | connect co-appearing ingredients | O(10) per node |
+| features | recipes                          |              1 |
+| labels   | N/A                              |            N/A |
 
 Another approach could be to create a graph from recipes having several ingredients in common.
-Given the size of the dataset, it might be a good idea to try out a smaller subset of the dataset, for instance by filtering recipes that contain a particular ingredient (e.g. 'beef', 'vanilla', etc.).
-In order for the students to get started more easily, [two smaller subsets](https://drive.switch.ch/index.php/s/fjjqqaRznah6PKp) (with ca. 10k and 23k recipes) are supplied.
+Given the size of the dataset, it might be a good idea to try out a smaller subset of the dataset, for instance by filtering recipes that contain a particular ingredient (e.g., 'beef', 'vanilla', etc.).
+In order for the students to get started more easily, [two smaller subsets](https://drive.switch.ch/index.php/s/fjjqqaRznah6PKp) (with circa 10,000 and 23,000 recipes) are supplied.
 
-|          | Description                                 |                         Amount |
-| -------- | ------------------------------------------- | -----------------------------: |
-| nodes    | recipes                                     |                             1M |
-| edges    | connect recipes with common ingredients     | depends how the graph is built |
-| features | images / ingredient quantities              |                           1-10 |
-| labels   | N/A                                         |                            N/A |
+|          | Description                             |                         Amount |
+| -------- | --------------------------------------- | -----------------------------: |
+| nodes    | recipes                                 |                             1M |
+| edges    | connect recipes with common ingredients | depends how the graph is built |
+| features | images / ingredient quantities          |                           1-10 |
+| labels   | N/A                                     |                            N/A |
 
 * **Data acquisition**: already collected and packaged
 * **Requires down-sampling**: yes
@@ -406,26 +428,38 @@ In order for the students to get started more easily, [two smaller subsets](http
 Resources:
 * <http://pic2recipe.csail.mit.edu/>
 * <http://im2recipe.csail.mit.edu/dataset/download/> (requires free registration prior download)
+* subsets: <https://drive.switch.ch/index.php/s/fjjqqaRznah6PKp>
 
 ## Genetics
 By Benjamin
 
-This dataset contains genes, protein expressions and phenotypes of a "family" of mice. It is a subset of the open dataset available at [genenetwork.org](http://www.genenetwork.org/). The goal is to explore the data using graphs and discover connections between genes, protein expression and / or phenotypes. This data has been collected by different labs all over the world during several decades. The LISP from EPFL is part of the group. More details about the project and dataset can be found on this [EPFL mediacom article](https://actu.epfl.ch/news/a-big-data-tool-begins-new-era-for-biology-and-per/).
+This dataset contains genes, protein expressions and phenotypes of a "family" of mice.
+It is a subset of the open dataset available at <http://www.genenetwork.org>.
+The goal is to explore the data using graphs and discover connections between genes, protein expression, and phenotypes.
+This data has been collected by different laboratories all over the world during several decades.
+The [EPFL's LISP](https://www.epfl.ch/labs/auwerx-lab) is part of the group.
+More details about the project and dataset can be found on this [EPFL mediacom article](https://actu.epfl.ch/news/a-big-data-tool-begins-new-era-for-biology-and-per/).
 
-This dataset is a collection of matrices. Each column is a single BXD strain (a mouse) whose genome is a unique combination of the C57BL/6J and DBA/2J parental strains. They have been saved as csv files (with extention 'txt').
-The `genotype_BXD.txt` file is a binary matrix that describes the contribution of each of the parental strains for a list of selected genes (rows). Each row of the genotype data indicates whether a certain position in the genome is inherited from the C57BL/6J or DBA/2J parent.
+This dataset is a collection of matrices.
+Each column is a single BXD strain (a mouse) whose genome is a unique combination of the C57BL/6J and DBA/2J parental strains.
+They have been saved as CSV files (with a `txt` extension).
+The `genotype_BXD.txt` file is a binary matrix that describes the contribution of each of the parental strains for a list of selected genes (rows).
+Each row of the genotype data indicates whether a certain position in the genome is inherited from the C57BL/6J or DBA/2J parent.
 Phenotype data contained in `Phenotype.txt` are also matrices indicating the values of each phenotype for each strain.
-In addition, multiomic molecular phenotypes from different mouse organs are represented as one matrix per organ (e.g. brain, bone, muscle, liver...), in the folder `expression_data`.
+In addition, multiomic molecular phenotypes from different mouse organs are represented as one matrix per organ (e.g., brain, bone, muscle, liver, etc.), in the `expression_data` folder.
 
-It is important to note that protein or phenotype information is not available for all the mice. Depending on the research team gathering the data or the protocols, only subset of mice have been tested for each phenotype, or different organs have been analyzed. Hence, the combination of several matrices will result in missing entries.
+It is important to note that protein or phenotype information is not available for all the mice.
+Depending on the research team gathering the data or the protocols, only a subset of mice have been tested for each phenotype, or different organs have been analyzed.
+Hence, the combination of several matrices will result in missing entries.
 These missing entries, along with the variety of the data, are a real challenge for a data science approach, but mimic the real life situation encountered with human medical records.
 
-The dataset for the NTDS project can be found [here](https://drive.switch.ch/index.php/s/mtQ2F0dYc7dHOtQ). The students are expected to:
+The dataset for the NTDS project can be found [here](https://drive.switch.ch/index.php/s/mtQ2F0dYc7dHOtQ).
+The students are expected to:
 * use the different matrices of data to build one or more graphs (for example a graph of mice),
 * explore these graphs,
 * associate values to the nodes of the graphs using the other matrices,
 * apply graph signal processing approaches,
-* discover new relations between the genome, protein expressions in tissues and phenotypes (optional but that would be great!)
+* discover new relations between the genome, protein expressions in tissues and phenotypes (optional but that would be great!).
 
 |          | Description                                                  |         Amount |
 | -------- | ------------------------------------------------------------ | -------------: |
@@ -437,15 +471,21 @@ The dataset for the NTDS project can be found [here](https://drive.switch.ch/ind
 Resources:
 * [EPFL mediacom article](https://actu.epfl.ch/news/a-big-data-tool-begins-new-era-for-biology-and-per/)
 * [Info on the BXD mice](https://www.biorxiv.org/content/10.1101/672097v3.full)
-* [dataset official Website](http://www.genenetwork.org/)
-* [Dataset link](https://drive.switch.ch/index.php/s/mtQ2F0dYc7dHOtQ)
+* [Official dataset website](http://www.genenetwork.org/)
+* [Subset for NTDS](https://drive.switch.ch/index.php/s/mtQ2F0dYc7dHOtQ)
 
 ## Movielens 100k
 By Clément
 
-Movielens is a personalized movie recommendation system. Several datasets have been built using this database, the smallest being Movielens 100k. It contains 100,000 ratings from 1000 users on 1700 movies. Various information is available about the users (Age, Gender, Occupation, Zip code) and the movies (Release date, genre). Given that the movie title are available, additional features can be added as well. Two graphs can be built out of this dataset, and they can be connected using the ratings.
+[Movielens](https://movielens.org) is a personalized movie recommendation system.
+Several datasets have been built using this database, the smallest being Movielens 100k.
+It contains 100,000 ratings from 1000 users on 1700 movies.
+Various information is available about the users (e.g., age, gender, occupation, zip code) and the movies (e.g., release date, genre).
+Additional features can be retrieved as movie titles are available.
+Two graphs can be built out of this dataset, and they can be connected using the ratings.
 
-The main purpose of this data is to build a recommender system, which can be formulated as a semi-supervised learning problem: given a user, can you predict the ratings that he/she will give to a new movie? Graph neural networks can be used for this purpose, but other graph based approaches can be explored as well.
+The main purpose of this data is to build a recommender system that can be formulated as a semi-supervised learning problem: given a user, can you predict the ratings that they will give to a new movie?
+Graph neural networks can be used for this purpose, but other graph based approaches can be explored as well.
 
 | Users graph | Description                       |                         Amount |
 | ----------- | --------------------------------- | -----------------------------: |
@@ -466,7 +506,7 @@ The main purpose of this data is to build a recommender system, which can be for
 * **Network creation**: needs to be built from features
 
 Resources:
-* [Data](<https://grouplens.org/datasets/movielens/>)
+* [Data](https://grouplens.org/datasets/movielens/)
 * Papers using graph neural networks:
   * [Geometric Matrix Completion with Recurrent Multi-Graph Neural Networks](https://arxiv.org/abs/1704.06803)
   * [Graph Convolutional Matrix Completion](https://arxiv.org/abs/1706.02263)
