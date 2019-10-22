@@ -1,4 +1,4 @@
-from mnist import MNIST
+from sklearn.datasets import fetch_openml
 import numpy as np
 
 def __subsample_mnist(images, labels, n):
@@ -19,9 +19,11 @@ def __subsample_mnist(images, labels, n):
 
 def load_mnist(path='./data/mnist/'):
     # Load dataset
-    mndata = MNIST(path)
-    images, labels = mndata.load_testing()
-
+    
+    mnist = fetch_openml('mnist_784')
+    images =  mnist['data'][:10000]
+    labels = np.array(list(map(int, mnist['target'][:10000])))
+    
     classes = np.unique(labels)
     n_clusters_mnist = len(classes)
     keep_per_class = 300
