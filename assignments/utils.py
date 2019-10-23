@@ -18,8 +18,8 @@ def _subsample_mnist(images, labels, n):
     return X, Y
 
 
-def load_mnist(path='./data/mnist/'):
-    # Load dataset
+def load_mnist():
+    """Load the MNIST dataset."""
 
     mnist = fetch_openml('mnist_784')
     images =  mnist['data'][:10000]
