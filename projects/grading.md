@@ -5,6 +5,7 @@
 * motivation: why answer this question or develop that product?
 * consistency between the chosen goal, data, and tools
 	* Can the data answer the question or support the product? Are the chosen tools relevant?
+	* In case none of the chosen tools hasn't helped to find an answer. Why it didn't work? What could be changed to make it work?
 
 ### 2. Acquisition (10%)
 
@@ -33,3 +34,5 @@
 * report: structure, content (contains all necessary information without superfluous text), well written
 * oral: presentation skills (organization, clarity)
 * github repository: README, LICENSE, documented, organization (notebooks and python modules), reproducible, good coding practice (comments, docstrings)
+* visualization published on GitHub pages
+
