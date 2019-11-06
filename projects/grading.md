@@ -23,6 +23,15 @@
 ### 4. Exploitation (30%)
 
 * use at least one tool from the class (define tool => make a list)
+* list of tools encountered in lectures: 
+	- clustering (spectral clustering, k-means)
+	- graph fourier transform
+	- regularization (graph Tikhonov, graph total variation)
+	- dimensionality reduction (PCA, MDS, LLE, ISOMAP, Laplacian Eigenmaps, t-SNE)
+	- graph filters (Chebyshev, ARMA)
+	- graph convnets
+	
+	
 * bonus: multiple tools
 * bonus: more than what was seen in class
 * critical evaluation of the results
