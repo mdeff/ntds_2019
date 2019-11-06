@@ -22,7 +22,7 @@ Both are practiced and evaluated through [two assignments](#assignments) and a [
 Below are slides about the organization of the course.
 
 1. [Course organization][practical_info]
-1. Project expectations
+1. [Projects][projects]
 1. Concluding remarks
 
 [epfl]: https://edu.epfl.ch/coursebook/en/a-network-tour-of-data-science-EE-558
