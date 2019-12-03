@@ -44,17 +44,18 @@ Below is the teaching material you'll find in this repository (tentative).
 1. [Building graphs from features][t03]
 1. [Manipulating graphs with NetworkX][t04]
 1. [Machine learning with scikit-learn][t05]
+1. [Interactive graph visualization with gephi][t06]
 1. Learning on graphs with pytorch
 1. Sparse matrices with scipy
 1. Linear algebra for graphs and networkx
 1. Graph signal processing with pygsp
-1. Interactive graph visualization with gephi
 
 [t01]: https://nbviewer.jupyter.org/github/mdeff/ntds_2019/blob/outputs/tutorials/01_introduction.ipynb
 [t02]: https://nbviewer.jupyter.org/github/mdeff/ntds_2019/blob/outputs/tutorials/02_graph_from_edge_list.ipynb
 [t03]: https://nbviewer.jupyter.org/github/mdeff/ntds_2019/blob/outputs/tutorials/03_graph_from_features.ipynb
 [t04]: https://nbviewer.jupyter.org/github/mdeff/ntds_2019/blob/outputs/tutorials/04_networkx.ipynb
 [t05]: https://nbviewer.jupyter.org/github/mdeff/ntds_2019/blob/outputs/tutorials/05_scikit_learn.ipynb
+[t06]: https://nbviewer.jupyter.org/github/mdeff/ntds_2019/blob/outputs/tutorials/06_data_visualization
 
 For this course, you'll use the following tools:
 [conda] & [anaconda], [python], [jupyter], [git], [numpy], [scipy], [matplotlib], [pandas], [networkx], [graph-tool], [pygsp], [gephi], [scikit-learn], [pytorch].
