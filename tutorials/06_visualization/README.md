@@ -1,11 +1,11 @@
-# Gephi tutorials
+# [NTDS'19] tutorial 6: graph visualization with gephi
+[ntds'19]: https://github.com/mdeff/ntds_2019
 
-Gephi tutorials for the lecture on data visualization.
+[Volodymyr Miz](http://miz.space), [EPFL LTS2](https://lts2.epfl.ch).
 
-[EE-558 A Network Tour of Data Science](https://edu.epfl.ch/coursebook/en/a-network-tour-of-data-science-EE-558) 2019 Fall semester.
+## Tutorials
 
-### List of tutorials
-1. [Layouts and attributes. Graph exploration](https://github.com/mizvol/gephi-tutorials/tree/master/Layouts)
-2. [SigmaJS exporter. Publish your graph online and host it on GitHub pages](https://github.com/mizvol/gephi-tutorials/tree/master/SigmaJS%20exporter)
+1. [Layouts, attributes, and graph exploration.](layout)
+2. [Publish an interactive visualization of your graph.](publish)
 
-![Plugins](https://raw.githubusercontent.com/mizvol/gephi-tutorials/master/net.png)
+![Plugins](net.png)
