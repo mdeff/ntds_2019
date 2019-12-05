@@ -82,11 +82,13 @@ The following assignments were designed to evaluate the theoretical understandin
 As a Data Science course, those activities are realized on real data and networks.
 
 1. Network science: [assignment][a1q], [solution][a1s].
-1. Learning with graphs: [assignment][a2q], solution, feedback.
+1. Learning with graphs: [assignment][a2q], [solution][a2s], [feedback][a2f].
 
 [a1q]: https://nbviewer.jupyter.org/github/mdeff/ntds_2019/blob/outputs/assignments/1_network_science.ipynb
 [a1s]: https://nbviewer.jupyter.org/github/mdeff/ntds_2019/blob/outputs/assignments/1_network_science_solution.ipynb
 [a2q]: https://nbviewer.jupyter.org/github/mdeff/ntds_2019/blob/outputs/assignments/2_learning_with_graphs.ipynb
+[a2s]: https://nbviewer.jupyter.org/github/mdeff/ntds_2019/blob/outputs/assignments/2_learning_with_graphs_solution.ipynb
+[a2f]: https://nbviewer.jupyter.org/github/mdeff/ntds_2019/blob/outputs/assignments/2_learning_with_graphs_feedback.ipynb
 
 ## Projects
 
