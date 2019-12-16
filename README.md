@@ -150,7 +150,7 @@ Every time you want to work, do the following:
 
 ## Team
 
-* Instructors:
+* Lecturers:
 [Pierre Vandergheynst](https://people.epfl.ch/pierre.vandergheynst),
 [Pascal Frossard](https://people.epfl.ch/pascal.frossard),
 [Andreas Loukas](https://andreasloukas.blog),
