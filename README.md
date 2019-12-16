@@ -45,10 +45,7 @@ Below is the teaching material you'll find in this repository (tentative).
 1. [Manipulating graphs with NetworkX][t04]
 1. [Machine learning with scikit-learn][t05]
 1. [Interactive graph visualization with gephi][t06]
-1. Learning on graphs with pytorch
-1. Sparse matrices with scipy
-1. Linear algebra for graphs and networkx
-1. Graph signal processing with pygsp
+1. [Graph signal processing with pygsp][t07]
 
 [t01]: https://nbviewer.jupyter.org/github/mdeff/ntds_2019/blob/outputs/tutorials/01_introduction.ipynb
 [t02]: https://nbviewer.jupyter.org/github/mdeff/ntds_2019/blob/outputs/tutorials/02_graph_from_edge_list.ipynb
@@ -56,6 +53,7 @@ Below is the teaching material you'll find in this repository (tentative).
 [t04]: https://nbviewer.jupyter.org/github/mdeff/ntds_2019/blob/outputs/tutorials/04_networkx.ipynb
 [t05]: https://nbviewer.jupyter.org/github/mdeff/ntds_2019/blob/outputs/tutorials/05_scikit_learn.ipynb
 [t06]: tutorials/06_visualization
+[t07]: https://nbviewer.jupyter.org/github/mdeff/ntds_2019/blob/outputs/tutorials/07_pygsp.ipynb
 
 For this course, you'll use the following tools:
 [conda] & [anaconda], [python], [jupyter], [git], [numpy], [scipy], [matplotlib], [pandas], [networkx], [graph-tool], [pygsp], [gephi], [scikit-learn], [pytorch].
