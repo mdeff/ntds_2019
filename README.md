@@ -96,10 +96,188 @@ Students review each other's work to receive intermediate feedback and internali
 Those data projects are meant to jointly practice and evaluate their theoretical network analysis skills and practical Data Science skills.
 Below is the work of the 137 students enrolled that year.
 
-* [report, slides, code] Project Title
+* [[proposal][p01], [report][r01], [slides][s01], [code][c01]] Guessing Students Gender by their Course Plan
+* [[proposal][p02], [report][r02], [slides][s02], [code][c02]] Wikipedia Query Engine
+* [[proposal][p03], [report][r03], [slides][s03], [code][c03]] Would Humanity Survive a Spanish-Flu Pandemic Today?
+* [[proposal][p04], [report][r04], [slides][s04], [code][c04]] Detection of Spammers in a Social Network
+* [[proposal][p05], [report][r05], [slides][s05], [code][c05]] Network based prediction of movie Nomination to the Oscars and the Golden Globes
+* [[proposal][p06], [report][r06], [slides][s06], [code][c06]] Movinder: A Movie Recommendation System for Groups
+* [[proposal][p07], [report][r07], [slides][s07], [code][c07]] Movie Recommendation Using Graph Neural Networks
+* [[proposal][p08], [report][r08], [slides][s08], [code][c08]] Actors Tour of Data Science
+* [[proposal][p09], [report][r09], [slides][s09], [code][c09]] Aggregation Phenomena in Movie Industry
+* [[proposal][p10], [report][r10], [slides][s10], [code][c10]] An exploration of recipes
+* [[proposal][p11], [report][r11], [slides][s11], [code][c11]] A dive into the music industry
+* [[proposal][p12], [report][r12], [slides][s12], [code][c12]] A network based recommendation system
+* [[proposal][p13], [report][r13], [slides][s13], [code][c13]] Science and religion
+* [[proposal][p14], [report][r14], [slides][s14], [code][c14]] N/A
+* [[proposal][p15], [report][r15], [slides][s15], [code][c15]] Movie Recommender Exploration
+* [[proposal][p16], [report][r16], [slides][s16], [code][c16]] Movie recommendation system
+* [[proposal][p17], [report][r17], [slides][s17], [code][c17]] A Hybrid Matrix Factorization via Graph Signal Processing
+* [[proposal][p18], [report][r18], [slides][s18], [code][c18]] A Network Approach to Genetic and Expression based Phenotype Prediction on Mouse
+* [[proposal][p19], [report][r19], [slides][s19], [code][c19]] Discovering Communities in Global Flight Route Graph
+* [[proposal][p20], [report][r20], [slides][s20], [code][c20]] Strategic Recipes
+* [[proposal][p21], [report][r21], [slides][s21], [code][c21]] Will my new videogame be successful?
+* [[proposal][p22], [report][r22], [slides][s22], [code][c22]] A Network Tour of Inter-county Migration in the US
+* [[proposal][p23], [report][r23], [slides][s23], [code][c23]] A Network Tour of Football Transfer Market
+* [[proposal][p24], [report][r24], [slides][s24], [code][c24]] Analysis of delays on the New Jersey railway
+* [[proposal][p25], [report][r25], [slides][s25], [code][c25]] A Network Tour of Kitchen Science: Graph-Based Ingredient Suggestion and Replacement
+* [[proposal][p26], [report][r26], [slides][s26], [code][c26]] A Network Tour of NIPS Conference Papers
+* [[proposal][p27], [report][r27], [slides][s27], [code][c27]] Airbnb price prediction from an host point of view
+* [[proposal][p28], [report][r28], [slides][s28], [code][c28]] A Growing Network of Characters in Marvel and DC Universes
+* [[proposal][p29], [report][r29], [slides][s29], [code][c29]] Movie recommender system using signal diffusion
+* [[proposal][p30], [report][r30], [slides][s30], [code][c30]] Genetically determined susceptibility to malaria
+* [[proposal][p32], [report][r32], [slides][s32], [code][c32]] N/A
+* [[proposal][p33], [report][r33], [slides][s33], [code][c33]] Graph-based Recommender System
+* [[proposal][p35], [report][r35], [slides][s35], [code][c35]] A Network Tour of Cooking
+* [[proposal][p36], [report][r36], [slides][s36], [code][c36]] A Culinary Tour of Data Science
+* [[proposal][p49], [report][r49], [slides][s49], [code][c49]] Understanding Negotiated-Congestion Routing for FPGAs
 
 As each team stored their code in a github repository, all their code can conveniently be downloaded with `git clone --recurse-submodules https://github.com/mdeff/ntds_2019`.
 One folder per team will be populated in `projects/code`.
+
+[p01]: projects/proposals/team_01.pdf
+[p02]: projects/proposals/team_02.pdf
+[p03]: projects/proposals/team_03.pdf
+[p04]: projects/proposals/team_04.pdf
+[p05]: projects/proposals/team_05.pdf
+[p06]: projects/proposals/team_06.pdf
+[p07]: projects/proposals/team_07.pdf
+[p08]: projects/proposals/team_08.pdf
+[p09]: projects/proposals/team_09.pdf
+[p10]: projects/proposals/team_10.pdf
+[p11]: projects/proposals/team_11.pdf
+[p12]: projects/proposals/team_12.pdf
+[p13]: projects/proposals/team_13.pdf
+[p14]: projects/proposals/team_14.pdf
+[p15]: projects/proposals/team_15.pdf
+[p16]: projects/proposals/team_16.pdf
+[p17]: projects/proposals/team_17.pdf
+[p18]: projects/proposals/team_18.pdf
+[p19]: projects/proposals/team_19.pdf
+[p20]: projects/proposals/team_20.pdf
+[p21]: projects/proposals/team_21.pdf
+[p22]: projects/proposals/team_22.pdf
+[p23]: projects/proposals/team_23.pdf
+[p24]: projects/proposals/team_24.pdf
+[p25]: projects/proposals/team_25.pdf
+[p26]: projects/proposals/team_26.pdf
+[p27]: projects/proposals/team_27.pdf
+[p28]: projects/proposals/team_28.pdf
+[p29]: projects/proposals/team_29.pdf
+[p30]: projects/proposals/team_30.pdf
+[p32]: projects/proposals/team_32.pdf
+[p33]: projects/proposals/team_33.pdf
+[p35]: projects/proposals/team_35.pdf
+[p36]: projects/proposals/team_36.pdf
+[p49]: projects/proposals/team_49.pdf
+
+[r01]: projects/reports/team_01.pdf
+[r02]: projects/reports/team_02.pdf
+[r03]: projects/reports/team_03.pdf
+[r04]: projects/reports/team_04.pdf
+[r05]: projects/reports/team_05.pdf
+[r06]: projects/reports/team_06.pdf
+[r07]: projects/reports/team_07.pdf
+[r08]: projects/reports/team_08.pdf
+[r09]: projects/reports/team_09.pdf
+[r10]: projects/reports/team_10.pdf
+[r11]: projects/reports/team_11.pdf
+[r12]: projects/reports/team_12.pdf
+[r13]: projects/reports/team_13.pdf
+[r14]: projects/reports/team_14.pdf
+[r15]: projects/reports/team_15.pdf
+[r16]: projects/reports/team_16.pdf
+[r17]: projects/reports/team_17.pdf
+[r18]: projects/reports/team_18.pdf
+[r19]: projects/reports/team_19.pdf
+[r20]: projects/reports/team_20.pdf
+[r21]: projects/reports/team_21.pdf
+[r22]: projects/reports/team_22.pdf
+[r23]: projects/reports/team_23.pdf
+[r24]: projects/reports/team_24.pdf
+[r25]: projects/reports/team_25.pdf
+[r26]: projects/reports/team_26.pdf
+[r27]: projects/reports/team_27.pdf
+[r28]: projects/reports/team_28.pdf
+[r29]: projects/reports/team_29.pdf
+[r30]: projects/reports/team_30.pdf
+[r32]: projects/reports/team_32.pdf
+[r33]: projects/reports/team_33.pdf
+[r35]: projects/reports/team_35.pdf
+[r36]: projects/reports/team_36.pdf
+[r49]: projects/reports/team_49.pdf
+
+[s01]: projects/slides/team_01.pdf
+[s02]: projects/slides/team_02.pdf
+[s03]: projects/slides/team_03.pdf
+[s04]: projects/slides/team_04.pdf
+[s05]: projects/slides/team_05.pdf
+[s06]: projects/slides/team_06.pdf
+[s07]: projects/slides/team_07.pdf
+[s08]: projects/slides/team_08.pdf
+[s09]: projects/slides/team_09.pdf
+[s10]: projects/slides/team_10.pdf
+[s11]: projects/slides/team_11.pdf
+[s12]: projects/slides/team_12.pdf
+[s13]: projects/slides/team_13.pdf
+[s14]: projects/slides/team_14.pdf
+[s15]: projects/slides/team_15.pdf
+[s16]: projects/slides/team_16.pdf
+[s17]: projects/slides/team_17.pdf
+[s18]: projects/slides/team_18.pdf
+[s19]: projects/slides/team_19.pdf
+[s20]: projects/slides/team_20.pdf
+[s21]: projects/slides/team_21.pdf
+[s22]: projects/slides/team_22.pdf
+[s23]: projects/slides/team_23.pdf
+[s24]: projects/slides/team_24.pdf
+[s25]: projects/slides/team_25.pdf
+[s26]: projects/slides/team_26.pdf
+[s27]: projects/slides/team_27.pdf
+[s28]: projects/slides/team_28.pdf
+[s29]: projects/slides/team_29.pdf
+[s30]: projects/slides/team_30.pdf
+[s32]: projects/slides/team_32.pdf
+[s33]: projects/slides/team_33.pdf
+[s35]: projects/slides/team_35.pdf
+[s36]: projects/slides/team_36.pdf
+[s49]: projects/slides/team_49.pdf
+
+[c01]: https://github.com/jm-x-1/NTDS_2019_PROJECT_TEAM_1
+[c02]: https://github.com/FredBaos/Ntds_project_team02
+[c03]: https://github.com/jonathan-doenz/spanish_flu_on_airports
+[c04]: https://github.com/alielabridi/NTDS_2019
+[c05]: https://github.com/carparel/NTDS
+[c06]: https://github.com/Movinder/movielens-imdb-exploration
+[c07]: https://github.com/dinotuku/ntds-2019-project-team-7
+[c08]: https://github.com/eliasmpw/EE-558-ntds/tree/master/projects/project_ntds_2019
+[c09]: https://github.com/EPFLEXCLT/NTDS2019_team9
+[c10]: https://github.com/alex-mocanu/A-Network-Tour-of-DS-Homework/tree/master/Project
+[c11]: https://github.com/SachaLeblanc/NTDS_final
+[c12]: https://github.com/Lambo97/MovieRecommendation
+[c13]: https://github.com/aaag97/ntds-projects/tree/master/Project
+[c14]: https://github.com/TheUser0571/NTDS_assignments/tree/master/Project
+[c15]: https://github.com/arthurbabey/DeepMovieRecommender
+[c16]: https://github.com/aurkinet/Group-16
+[c17]: https://github.com/blagojce95/ntds_project
+[c18]: https://github.com/raphaelreis/Network_tour_of_mice_genetics
+[c19]: https://github.com/lchenbb/NTDS2019_Project
+[c20]: https://github.com/raphstrebel/ntds_project
+[c21]: https://github.com/michaelhodara/ntds_2019_team21
+[c22]: https://github.com/zxyzz/ntds_project
+[c23]: https://github.com/Saibo-creator/ntds_project
+[c24]: https://github.com/linahcharif/NTDS-Team24
+[c25]: https://github.com/misterw97/ntds_kitchen_science
+[c26]: https://github.com/sting1000/ntds_project
+[c27]: https://github.com/sfurter/Project_NTDS_Group_27
+[c28]: https://github.com/ahmedkooli/ntds_comics
+[c29]: https://github.com/jlabhard/ntds_project_movielens
+[c30]: https://github.com/arturs68/ntds-genetic-malaria-susceptibility
+[c32]: https://github.com/albornet/ntds_2019_team_32
+[c33]: https://github.com/YuxuanLongBeyond/Graph-based-Recommendation-System
+[c35]: https://github.com/gaumuel/ntds2019_project
+[c36]: https://github.com/Davit98/NTDS-Project
+[c49]: https://github.com/m-asiatici/ntds-2019-team-49-fpga
 
 ## Installation
 
