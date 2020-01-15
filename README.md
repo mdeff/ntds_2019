@@ -255,7 +255,7 @@ One folder per team will be populated in `projects/code`.
 [c10]: https://github.com/alex-mocanu/A-Network-Tour-of-DS-Homework/tree/master/Project
 [c11]: https://github.com/SachaLeblanc/NTDS_final
 [c12]: https://github.com/Lambo97/MovieRecommendation
-[c13]: https://github.com/aaag97/ntds-projects/tree/master/Project
+[c13]: https://github.com/aaag97/ntds-projects
 [c14]: https://github.com/TheUser0571/NTDS_assignments/tree/master/Project
 [c15]: https://github.com/arthurbabey/DeepMovieRecommender
 [c16]: https://github.com/aurkinet/Group-16
