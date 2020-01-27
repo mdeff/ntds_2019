@@ -98,35 +98,35 @@ Below is the work of the 137 students enrolled that year.
 
 * [[proposal][p01], [report][r01], [slides][s01], [code][c01]] Guessing Students Gender by their Course Plan
 * [[proposal][p02], [report][r02], [slides][s02], [code][c02]] Wikipedia Query Engine
-* [[proposal][p03], [report][r03], [slides][s03], [code][c03]] Would Humanity Survive a Spanish-Flu Pandemic Today?
+* [[proposal][p03], [report][r03], [slides][s03], [code][c03]] Would humanity survive a Spanish flu pandemic today?
 * [[proposal][p04], [report][r04], [slides][s04], [code][c04]] Detection of Spammers in a Social Network
-* [[proposal][p05], [report][r05], [slides][s05], [code][c05]] Network based prediction of movie Nomination to the Oscars and the Golden Globes
+* [[proposal][p05], [report][r05], [slides][s05], [code][c05]] Will this Movie be Successful? A network based prediction of Award nomination
 * [[proposal][p06], [report][r06], [slides][s06], [code][c06]] Movinder: A Movie Recommendation System for Groups
 * [[proposal][p07], [report][r07], [slides][s07], [code][c07]] Movie Recommendation Using Graph Neural Networks
 * [[proposal][p08], [report][r08], [slides][s08], [code][c08]] Actors Tour of Data Science
 * [[proposal][p09], [report][r09], [slides][s09], [code][c09]] Aggregation Phenomena in Movie Industry
 * [[proposal][p10], [report][r10], [slides][s10], [code][c10]] An exploration of recipes
 * [[proposal][p11], [report][r11], [slides][s11], [code][c11]] A dive into the music industry
-* [[proposal][p12], [report][r12], [slides][s12], [code][c12]] A network based recommendation system
-* [[proposal][p13], [report][r13], [slides][s13], [code][c13]] Science and religion
-* [[proposal][p14], [report][r14], [slides][s14], [code][c14]] N/A
+* [[proposal][p12], [report][r12], [slides][s12], [code][c12]] A network-based recommendation system
+* [[proposal][p13], [report][r13], [slides][s13], [code][c13]] Science and Religion
+* [[proposal][p14], [report][r14], [slides][s14], [code][c14]] A Power Tour of Data Science
 * [[proposal][p15], [report][r15], [slides][s15], [code][c15]] Movie Recommender Exploration
-* [[proposal][p16], [report][r16], [slides][s16], [code][c16]] Movie recommendation system
+* [[proposal][p16], [report][r16], [slides][s16], [code][c16]] Movie Recommendation System
 * [[proposal][p17], [report][r17], [slides][s17], [code][c17]] A Hybrid Matrix Factorization via Graph Signal Processing
 * [[proposal][p18], [report][r18], [slides][s18], [code][c18]] A Network Approach to Genetic and Expression based Phenotype Prediction on Mouse
 * [[proposal][p19], [report][r19], [slides][s19], [code][c19]] Discovering Communities in Global Flight Route Graph
 * [[proposal][p20], [report][r20], [slides][s20], [code][c20]] Strategic Recipes
 * [[proposal][p21], [report][r21], [slides][s21], [code][c21]] Will my new videogame be successful?
-* [[proposal][p22], [report][r22], [slides][s22], [code][c22]] A Network Tour of Inter-county Migration in the US
-* [[proposal][p23], [report][r23], [slides][s23], [code][c23]] A Network Tour of Football Transfer Market
-* [[proposal][p24], [report][r24], [slides][s24], [code][c24]] Analysis of delays on the New Jersey railway
-* [[proposal][p25], [report][r25], [slides][s25], [code][c25]] A Network Tour of Kitchen Science: Graph-Based Ingredient Suggestion and Replacement
+* [[proposal][p22], [report][r22], [slides][s22], [code][c22]] A Network Tour of Inter-County Migration in the United States
+* [[proposal][p23], [report][r23], [slides][s23], [code][c23]] A Network Tour of the Football Transfer Market
+* [[proposal][p24], [report][r24], [slides][s24], [code][c24]] Analysis of delays on the New Jersey railway network
+* [[proposal][p25], [report][r25], [slides][s25], [code][c25]] A Network Tour of Kitchen Science: Ingredient Recommendation and Replacement
 * [[proposal][p26], [report][r26], [slides][s26], [code][c26]] A Network Tour of NIPS Conference Papers
 * [[proposal][p27], [report][r27], [slides][s27], [code][c27]] Airbnb price prediction from an host point of view
 * [[proposal][p28], [report][r28], [slides][s28], [code][c28]] A Growing Network of Characters in Marvel and DC Universes
-* [[proposal][p29], [report][r29], [slides][s29], [code][c29]] Movie recommender system using signal diffusion
-* [[proposal][p30], [report][r30], [slides][s30], [code][c30]] Genetically determined susceptibility to malaria
-* [[proposal][p32], [report][r32], [slides][s32], [code][c32]] N/A
+* [[proposal][p29], [report][r29], [slides][s29], [code][c29]] Movie Recommendations using Signal Diffusion
+* [[proposal][p30], [report][r30], [slides][s30], [code][c30]] Genetically Determined Susceptibility to Malaria
+* [[proposal][p32], [report][r32], [slides][s32], [code][c32]] Twitter for publication success? A computational investigation
 * [[proposal][p33], [report][r33], [slides][s33], [code][c33]] Graph-based Recommender System
 * [[proposal][p35], [report][r35], [slides][s35], [code][c35]] A Network Tour of Cooking
 * [[proposal][p36], [report][r36], [slides][s36], [code][c36]] A Culinary Tour of Data Science
