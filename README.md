@@ -96,6 +96,8 @@ Students review each other's work to receive intermediate feedback and internali
 Those data projects are meant to jointly practice and evaluate their theoretical network analysis skills and practical Data Science skills.
 Below is the work of the 137 students enrolled that year.
 
+![projects](projects/projects.jpg)
+
 * [[proposal][p01], [report][r01], [slides][s01], [code][c01]] Guessing Students Gender by their Course Plan
 * [[proposal][p02], [report][r02], [slides][s02], [code][c02]] Wikipedia Query Engine
 * [[proposal][p03], [report][r03], [slides][s03], [code][c03]] Would humanity survive a Spanish flu pandemic today?
